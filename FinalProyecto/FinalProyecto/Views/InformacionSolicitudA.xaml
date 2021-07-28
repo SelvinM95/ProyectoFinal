@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:ffimageloading="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             x:Class="FinalProyecto.Views.InformacionSolicitudA"
+             Title="Más Información">
+
+    <StackLayout BackgroundColor="#ffffff">
+
+        <Frame CornerRadius="10" Margin="15">
+            <StackLayout>
+                <Image Source="degradado1.jpg" Aspect="AspectFill"
+                         Margin="-20"
+                         HeightRequest="225"
+                         WidthRequest="100"/>
+
+                <StackLayout Padding="10,-200,10,10">
+                    <Frame Margin="0"
+                      BorderColor="White"
+                      CornerRadius="80"
+                      HeightRequest="110"
+                      WidthRequest="100"
+                      IsClippedToBounds="True"
+                      HorizontalOptions="Center"
+                     VerticalOptions="Center">
+
+                        <Image Source="perfil3.jpg"
+                        Aspect="AspectFill"
+                        Margin="-20"
+                        HeightRequest="100"
+                        WidthRequest="100" />
+                    </Frame>
+
+                    <Label Text="Jerry Isaí García Canelas" 
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="18" 
+                        HorizontalOptions="Center"
+                        VerticalOptions="CenterAndExpand" />
+
+                    <Label Text="201610040226" 
+                         TextColor="White"
+                         FontSize="16" 
+                         HorizontalOptions="Center"
+                         VerticalOptions="CenterAndExpand" />
+
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,20,0,0">
+                        <ffimageloading:SvgCachedImage
+                                         Source="idcard.svg" 
+                                         WidthRequest="30"
+                                         HeightRequest="30"/>
+
+                        <Label Text="Ing. en Computación" 
+                         TextColor="Black"
+                         FontSize="14"/>
+                    </StackLayout>
+
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                        <ffimageloading:SvgCachedImage
+                                         Source="email.svg" 
+                                         WidthRequest="30"
+                                         HeightRequest="30"/>
+
+                        <Label Text="onan_maldonado@hotmail.com"
+                        TextColor="Black"
+                        FontSize="14" />
+                    </StackLayout>
+
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                        <ffimageloading:SvgCachedImage
+                                         Source="telephone.svg" 
+                                         WidthRequest="30"
+                                         HeightRequest="30"/>
+
+                        <Label Text="+50495186544"
+                        TextColor="Black"
+                        FontSize="14" />
+                    </StackLayout>
+
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                        <ffimageloading:SvgCachedImage
+                                         Source="calendar.svg" 
+                                         WidthRequest="30"
+                                         HeightRequest="30"/>
+
+                        <Label Text="20/11/1995"
+                        TextColor="Black"
+                        FontSize="14"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button Text="Aceptar Solicitud"   BackgroundColor="#5DBEFF" CornerRadius="15"/>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>

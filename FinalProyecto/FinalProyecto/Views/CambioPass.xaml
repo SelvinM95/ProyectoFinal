@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             x:Class="FinalProyecto.Views.CambioPass"
+             Title="Cambio de Contraseña">
+
+    <StackLayout BackgroundColor="#ffffff">
+
+        <Frame CornerRadius="10" Margin="15">
+            <StackLayout>
+                <Image Source="degradado1.jpg" Aspect="AspectFill"
+                         Margin="-20"
+                         HeightRequest="225"
+                         WidthRequest="100">
+                </Image>
+
+
+
+                <StackLayout Padding="10,-200,10,10">
+                    <Frame Margin="0"
+                      BorderColor="White"
+                      CornerRadius="80"
+                      HeightRequest="110"
+                      WidthRequest="100"
+                      IsClippedToBounds="True"
+                      HorizontalOptions="Center"
+                     VerticalOptions="Center">
+
+                        <Image Source="perfil2.jpg"
+                        Aspect="AspectFill"
+                        Margin="-20"
+                        HeightRequest="100"
+                        WidthRequest="100" />
+                    </Frame>
+
+                    <Label Text="Selvin Onan Maldonado Reyes" 
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="18" 
+                        HorizontalOptions="Center"
+                        VerticalOptions="CenterAndExpand" />
+
+                    <Label Text="201610040226" 
+                         TextColor="White"
+                         FontSize="16" 
+                         HorizontalOptions="Center"
+                         VerticalOptions="CenterAndExpand" />
+
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,50,0,0">
+                        <ffimageloading:SvgCachedImage
+                                         Source="password.svg" 
+                                         WidthRequest="30"
+                                         HeightRequest="30"/>
+
+                        <Entry
+                         TextColor="Black"
+                         FontSize="14"
+                         Keyboard="Default"
+                         WidthRequest="250"
+                         Placeholder="Nueva Contraseña"/>
+                    </StackLayout>
+
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                        <ffimageloading:SvgCachedImage
+                                         Source="padlock.svg" 
+                                         WidthRequest="30"
+                                         HeightRequest="30"/>
+
+                        <Entry
+                        TextColor="Black"
+                        FontSize="14"
+                        Keyboard="Default"
+                        WidthRequest="250"
+                        Placeholder="Confirmar Contraseña"/>
+                    </StackLayout> 
+
+
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button Text="Guardar Datos"
+                            Margin="50,40,50,10"
+                            CornerRadius="10"
+                            BackgroundColor="#5DBEFF"
+                            x:Name="guardar"
+                            FontAttributes="Bold">
+                    </Button>
+                </StackLayout>
+
+
+
+
+            </StackLayout>
+
+
+
+        </Frame>
+    </StackLayout>
+</ContentPage>

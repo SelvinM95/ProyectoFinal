@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             x:Class="FinalProyecto.Views.SolicitudGrupos"
+             Title="Más Información">
+
+    <StackLayout BackgroundColor="#ffffff">
+
+        <Frame CornerRadius="1" Margin="10">
+            <StackLayout>
+                <StackLayout Padding="0,10,10,10"> 
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Programación Movil II" 
+                        TextColor="Black"
+                        FontSize="16" 
+                        HorizontalOptions="Start"
+                        VerticalOptions="CenterAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Tutor:" 
+                         TextColor="Black"
+                         FontSize="14" 
+                         FontAttributes="Italic"
+                         HorizontalOptions="Start"
+                         VerticalOptions="CenterAndExpand" />
+
+                        <Label Text="Ricardo Lagos" 
+                         TextColor="Black"
+                         FontSize="14" 
+                         FontAttributes="Italic"
+                         HorizontalOptions="Center"/>
+                    </StackLayout>
+                </StackLayout>
+ 
+                <StackLayout Orientation="Horizontal"  HorizontalOptions="Center" Margin="5">
+                    <Label Text="Listado de Integrantes" TextColor="Black" FontSize="16"></Label>
+                </StackLayout>
+
+
+                <StackLayout>
+                    <ListView ItemsSource="{Binding ListDetails}"
+                  x:Name="ListStudent"
+                  HasUnevenRows="True" 
+                  SeparatorColor="Blue"
+                  SeparatorVisibility="None"
+                  BackgroundColor="White"
+                  SelectionMode="None">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Grid Padding="5">
+                                        <Frame CornerRadius="10" HasShadow="True" HeightRequest="50">
+                                            <StackLayout Orientation="Horizontal">
+                                                <ffimageloading:SvgCachedImage
+                                                    Source="usergroup.svg"
+                                                    HorizontalOptions="Center"
+                                                    WidthRequest="35"
+                                                    HeightRequest="70"/>
+                                                <StackLayout VerticalOptions="Center">
+                                                    <Label Text="{Binding Name}"  VerticalOptions="Center" FontSize="14" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                                    <Label VerticalOptions="Center" Text="{Binding Cuenta}" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                                </StackLayout>
+                                            </StackLayout>
+                                        </Frame>
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+                
+                <Button Text="Unirme"
+                            CornerRadius="10"
+                            Margin="50,10,50,-10"
+                            BackgroundColor="#5DBEFF"
+                            x:Name="unirme"
+                            FontAttributes="Bold"
+                            Clicked="unirme_Clicked">
+                </Button>
+            
+            </StackLayout> 
+        </Frame>
+    </StackLayout>
+</ContentPage>

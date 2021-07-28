@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:ffimageloading="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             x:Class="FinalProyecto.Views.NuevoGrupo"
+             Title="Nuevo Grupo">
+
+    <StackLayout BackgroundColor="#ffffff">
+
+        <Frame CornerRadius="1" Margin="10">
+            <StackLayout>
+                <StackLayout Padding="0,0,10,2">
+
+                    <StackLayout Orientation="Horizontal">
+                        <Entry Text=""
+                               Placeholder="Nombre del Grupo"
+                               TextColor="Black"
+                               FontSize="16"   
+                               WidthRequest="300"
+                               HorizontalOptions="Start"
+                               VerticalOptions="CenterAndExpand" />
+                    </StackLayout>
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal"  HorizontalOptions="Center" Margin="2">
+                    <Label Text="Seleccionar Integrantes" TextColor="Black" FontSize="16"></Label>
+                </StackLayout>
+
+
+                <StackLayout>
+                    <ListView ItemsSource="{Binding ListDetails}"
+                  x:Name="ListStudent"
+                  HasUnevenRows="True" 
+                  SeparatorColor="Blue" 
+                  SeparatorVisibility="None"
+                  BackgroundColor="White"
+                  SelectionMode="None">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Grid Padding="5">
+                                        <Frame CornerRadius="10" HasShadow="True">
+                                            <StackLayout Orientation="Horizontal">
+                                                <CheckBox
+                                                    Color="#5DBEFF">
+                                                    
+                                                </CheckBox>
+                                                <StackLayout VerticalOptions="Center">
+                                                    <Label Text="{Binding Name}"  VerticalOptions="Center" FontSize="14" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                                    <Label VerticalOptions="Center" Text="{Binding Cuenta}" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                                </StackLayout>
+                                            </StackLayout>
+                                        </Frame>
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+ 
+                <Button Text="Crear Grupo"
+                            Margin="50,10,50,-10"
+                            CornerRadius="10"
+                            BackgroundColor="#5DBEFF"
+                            x:Name="unirme"
+                            FontAttributes="Bold">
+                </Button>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>

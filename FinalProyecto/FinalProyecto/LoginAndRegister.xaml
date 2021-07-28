@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             x:Class="FinalProyecto.LoginAndRegister"
+              BackgroundImageSource="degradado.jpg">
+
+    <ContentPage.Content>
+        <StackLayout Padding="0">
+            <Grid>
+                <StackLayout Margin="15,90,15,90">
+                    <Frame BackgroundColor="White" HasShadow="True" HeightRequest="450" HorizontalOptions="FillAndExpand" CornerRadius="20">
+                        <StackLayout>
+                            <StackLayout HorizontalOptions="CenterAndExpand">
+                                <Label Text="INICIO DE SESION" TextColor="#289FEF" FontSize="Medium" FontAttributes="Bold"/>
+                            </StackLayout>
+
+                            <StackLayout Margin="0,25,0,0">
+                                <Frame BackgroundColor="Transparent" BorderColor="Transparent" Margin="0" Padding="0" HorizontalOptions="FillAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Frame BackgroundColor="AliceBlue" CornerRadius="15" HeightRequest="35" WidthRequest="35" HorizontalOptions="Start" Margin="7" Padding="0">
+                                            <ffimageloading:SvgCachedImage
+                                         Source="exit.svg"
+                                         HorizontalOptions="Center"
+                                         WidthRequest="70"
+                                         HeightRequest="60" 
+                                         AbsoluteLayout.LayoutBounds="0,0,149,115"/>
+                                        </Frame>
+                                        <Entry Placeholder="Email" TextColor="CadetBlue" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                                    </StackLayout>
+                                </Frame>
+                                <Frame BackgroundColor="Transparent" BorderColor="Transparent" Margin="0,20,0,0" Padding="0"   HorizontalOptions="FillAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Frame BackgroundColor="AliceBlue" CornerRadius="15" HeightRequest="35" WidthRequest="35" HorizontalOptions="Start" Margin="7" Padding="0">
+                                            <ffimageloading:SvgCachedImage
+                                         Source="password.svg"
+                                         HorizontalOptions="Center"
+                                         WidthRequest="70"
+                                         HeightRequest="60" 
+                                         AbsoluteLayout.LayoutBounds="0,0,149,115"/>
+                                        </Frame>
+                                        <Entry Placeholder="Password" IsPassword="True"  TextColor="CadetBlue" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+
+                                <Label Text="Recuperar Contraseña" 
+                                       HorizontalTextAlignment="End" 
+                                       TextColor="#289FEF" FontAttributes="Bold"
+                                       HorizontalOptions="EndAndExpand" VerticalOptions="Center">
+
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer NumberOfTapsRequired ="1" x:Name="RecuperarPass" Tapped="RecuperarPass_Tapped"/>
+                                    </Label.GestureRecognizers>
+
+                                </Label>
+                            </StackLayout>
+
+                            <Button Text="INICIAR" BackgroundColor="#5DBEFF" TextColor="White" FontAttributes="Bold" CornerRadius="25" x:Name="InicioSesion" Clicked="InicioSesion_Clicked"/>
+
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="10">
+                                <Label Text="Aún no tienes cuenta ?" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                                <Label Text="Registrate Ahora" HorizontalTextAlignment="Center" TextColor="#289FEF " FontAttributes="Bold" VerticalTextAlignment="Center">
+
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer NumberOfTapsRequired ="1" x:Name="RegistroCuenta" Tapped="RegistroCuenta_Tapped"/>
+                                    </Label.GestureRecognizers>
+
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+
+                    </Frame>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

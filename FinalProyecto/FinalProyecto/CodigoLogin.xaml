@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalProyecto.CodigoLogin"
+             Title="Verificación"
+             BackgroundImageSource="degradado.jpg">
+
+    <StackLayout>
+
+        <StackLayout Orientation="Horizontal" Margin="20,100,0,0">
+            <Label Text="Codigo de Acceso"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   TextColor="White"/>
+        </StackLayout>
+
+
+        <StackLayout Orientation="Horizontal" Margin="20,5,0,0">
+            <Label Text="Se ha enviado un codigo de Verificación a su correo electrónico, ingreselo en la siguiente caja de texto"
+                   FontSize="14" 
+                   TextColor="White"/>
+        </StackLayout>
+
+
+        <StackLayout Orientation="Horizontal" Margin="48,50,0,0">
+            <Entry Placeholder="Ingrese el Codigo"
+                   WidthRequest="300" 
+                   Keyboard="Email"
+                   PlaceholderColor="White"
+                   FontSize="16" 
+                   TextColor="White"/>
+        </StackLayout>
+
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"  >
+            <Button Text="Enviar"
+                            Margin="40,50,50,0"
+                            CornerRadius="10"
+                            WidthRequest="300"
+                            BackgroundColor="#4780C5"
+                            x:Name="EnviarCorreo"
+                            FontAttributes="Bold">
+            </Button>
+        </StackLayout>
+    </StackLayout>
+
+
+
+</ContentPage>

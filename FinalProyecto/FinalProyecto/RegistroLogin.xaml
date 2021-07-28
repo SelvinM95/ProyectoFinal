@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             x:Class="FinalProyecto.RegistroLogin"
+             BackgroundImageSource="degradado.jpg"
+             Title="Registro">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Agregar Foto" 
+                     x:Name="AddFoto" >
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout>
+        <Frame CornerRadius="10" Margin="15"> 
+            <StackLayout>
+                <StackLayout Padding="10,-10,10,10">
+
+
+                    <Frame Margin="0"
+                      BorderColor="White"
+                      CornerRadius="10"
+                      HeightRequest="110"
+                      WidthRequest="100"
+                      IsClippedToBounds="True"
+                      HorizontalOptions="Center"
+                     VerticalOptions="Center">
+
+                        <Image Source="perfil2.jpg"
+                        Aspect="AspectFill"
+                        Margin="-20"
+                        HeightRequest="100"
+                        WidthRequest="100" >
+ 
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer NumberOfTapsRequired="1" x:Name="EditFtos">
+                                </TapGestureRecognizer>
+                            </Image.GestureRecognizers>
+
+                        </Image> 
+                    </Frame>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                        <ffimageloading:SvgCachedImage
+                                         Source="idcard.svg" 
+                                         WidthRequest="30"
+                                         HeightRequest="30"/>
+
+                        <Entry
+                         TextColor="Black"
+                         FontSize="14"
+                         Keyboard="Text"
+                         WidthRequest="250"
+                         Placeholder="Nombre Completo"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                        <ffimageloading:SvgCachedImage
+                                         Source="idcard.svg" 
+                                         WidthRequest="30"
+                                         HeightRequest="30"/>
+
+                        <Entry
+                         TextColor="Black"
+                         FontSize="14"
+                         Keyboard="Numeric"
+                         WidthRequest="250"
+                         Placeholder="Número de Cuenta"/>
+                    </StackLayout>
+
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                        <ffimageloading:SvgCachedImage
+                                         Source="idcard.svg" 
+                                         WidthRequest="30"
+                                         HeightRequest="30"/>
+
+                        <Entry
+                         TextColor="Black"
+                         FontSize="14"
+                         Keyboard="Text"
+                         WidthRequest="250"
+                         Placeholder="Carrera"/>
+                    </StackLayout>
+
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                        <ffimageloading:SvgCachedImage
+                                         Source="email.svg" 
+                                         WidthRequest="30"
+                                         HeightRequest="30"/>
+
+                        <Entry
+                        TextColor="Black"
+                        FontSize="14"
+                        Keyboard="Email"
+                        WidthRequest="250"
+                         Placeholder="Correo Electronico"/>
+                    </StackLayout>
+
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                        <ffimageloading:SvgCachedImage
+                                         Source="telephone.svg" 
+                                         WidthRequest="30"
+                                         HeightRequest="30"/>
+
+                        <Entry
+                        TextColor="Black"
+                        FontSize="14"
+                            Keyboard="Telephone"
+                         WidthRequest="250"
+                         Placeholder="Telefono"/>
+                    </StackLayout>
+
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                        <ffimageloading:SvgCachedImage
+                                         Source="calendar.svg" 
+                                         WidthRequest="30"
+                                         HeightRequest="30"/>
+
+                        <DatePicker
+                         TextColor="Black"
+                         FontSize="14"
+                         WidthRequest="250"/>
+                    </StackLayout>
+
+
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button Text="Guardar Datos"
+                            Margin="50,0,50,-10"
+                            CornerRadius="10"
+                            BackgroundColor="#5DBEFF"
+                            x:Name="guardar"
+                            Clicked="guardar_Clicked"
+                            FontAttributes="Bold">
+                    </Button>
+                </StackLayout>
+
+
+
+
+            </StackLayout>
+
+
+
+        </Frame>
+    </StackLayout>
+</ContentPage>
