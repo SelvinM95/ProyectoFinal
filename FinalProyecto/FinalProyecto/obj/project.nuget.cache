@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nHVVCpnfq8Dwx9l6tNhq86r7yZKN+UDkR2EgeD5ZasLZvOTIU2Qxacaw7PW/PE3KfWzQyo7tfvlnVXwQC9yJQw==",
+  "dgSpecHash": "gzPOnQCgNJx87yVNuf0XxwLRDkS8ul65h95l4IoUlYQ81XnyzyDFzx3ypxKt4mk2X92IWm9cWov+HLKivJL8ww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SelvinM95\\source\\repos\\FinalProyecto\\FinalProyecto\\FinalProyecto\\FinalProyecto.csproj",
+  "projectFilePath": "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto\\FinalProyecto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SelvinM95\\.nuget\\packages\\intelliabb.xamarin.controls\\1.0.148\\intelliabb.xamarin.controls.1.0.148.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

@@ -2993,11 +2993,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SelvinM95\\source\\repos\\FinalProyecto\\FinalProyecto\\FinalProyecto.Android\\FinalProyecto.Android.csproj",
+      "projectUniqueName": "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto.Android\\FinalProyecto.Android.csproj",
       "projectName": "FinalProyecto.Android",
-      "projectPath": "C:\\Users\\SelvinM95\\source\\repos\\FinalProyecto\\FinalProyecto\\FinalProyecto.Android\\FinalProyecto.Android.csproj",
+      "projectPath": "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto.Android\\FinalProyecto.Android.csproj",
       "packagesPath": "C:\\Users\\SelvinM95\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SelvinM95\\source\\repos\\FinalProyecto\\FinalProyecto\\FinalProyecto.Android\\obj\\",
+      "outputPath": "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3018,8 +3018,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\SelvinM95\\source\\repos\\FinalProyecto\\FinalProyecto\\FinalProyecto\\FinalProyecto.csproj": {
-              "projectPath": "C:\\Users\\SelvinM95\\source\\repos\\FinalProyecto\\FinalProyecto\\FinalProyecto\\FinalProyecto.csproj"
+            "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto\\FinalProyecto.csproj": {
+              "projectPath": "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto\\FinalProyecto.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tz5PBzmJsuayqinWD247QBuv1mNA/wkjYYm1JE5qwYb81QnlFox/5IOrbn+VSms3EexMEh7pXCohD7zHcXDEhA==",
+  "dgSpecHash": "L42hhv0L6pWX8hjs+xqx13/Zl8s/rFpDK0OOPA5bs2Z2pV31ioIxNwbxNoeHXdNdjCZwKvaeXx/+9/3T9YwD0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SelvinM95\\source\\repos\\FinalProyecto\\FinalProyecto\\FinalProyecto.Android\\FinalProyecto.Android.csproj",
+  "projectFilePath": "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto.Android\\FinalProyecto.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SelvinM95\\.nuget\\packages\\intelliabb.xamarin.controls\\1.0.148\\intelliabb.xamarin.controls.1.0.148.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\skiasharp\\2.80.2\\skiasharp.2.80.2.nupkg.sha512",
