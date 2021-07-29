@@ -48,6 +48,7 @@
                          VerticalOptions="CenterAndExpand" />
 
 
+                    <StackLayout Orientation="Vertical" Margin="-30,5,-30,0">
                     <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,50,0,0">
                         <ffimageloading:SvgCachedImage
                                          Source="password.svg" 
@@ -76,6 +77,7 @@
                         WidthRequest="250"
                         Placeholder="Confirmar Contraseña"/>
                     </StackLayout> 
+                    </StackLayout>
 
 
                 </StackLayout>
