@@ -62,8 +62,9 @@
                          HorizontalOptions="Center"
                          VerticalOptions="CenterAndExpand" />
 
-
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                    <ScrollView Orientation="Vertical"> 
+                    <StackLayout Orientation="Vertical"> 
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
                         <ffimageloading:SvgCachedImage
                                          Source="idcard.svg" 
                                          WidthRequest="30"
@@ -80,7 +81,7 @@
                     </StackLayout>
 
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
                         <ffimageloading:SvgCachedImage
                                          Source="email.svg" 
                                          WidthRequest="30"
@@ -95,7 +96,7 @@
                     </StackLayout>
 
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
                         <ffimageloading:SvgCachedImage
                                          Source="telephone.svg" 
                                          WidthRequest="30"
@@ -110,7 +111,7 @@
                     </StackLayout>
 
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
                         <ffimageloading:SvgCachedImage
                                          Source="calendar.svg" 
                                          WidthRequest="30"
@@ -121,6 +122,9 @@
                          FontSize="14"
                          WidthRequest="250"/>
                     </StackLayout>
+
+                    </StackLayout>
+                    </ScrollView>
 
 
                 </StackLayout>
