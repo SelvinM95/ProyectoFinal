@@ -10,12 +10,10 @@
              x:Class="FinalProyecto.Views.MisArchivos">
 
     <StackLayout>
-        
 
+        <ScrollView Orientation="Horizontal">  
         <AbsoluteLayout x:Name="page_google_pixel_5___1_ek1"
-				 AbsoluteLayout.LayoutBounds="0,0,393,851">
-
-
+				 AbsoluteLayout.LayoutBounds="0,0,393,851"> 
                 <!-- Audios -->
                 <AbsoluteLayout x:Name="light_____card__1__container_a__elevated"
 					 AbsoluteLayout.LayoutBounds="7,20,149,138" HorizontalOptions="CenterAndExpand" >
@@ -55,8 +53,7 @@
 					AbsoluteLayout.LayoutBounds="45,80,70,41"
 					Text="Audios"/>
 
-
-
+ 
                 <!-- Archivos -->
                 <AbsoluteLayout x:Name="light_____card__1__container_a__elevated_ek1"
 					 AbsoluteLayout.LayoutBounds="118,20,149,138" >
@@ -185,8 +182,9 @@
 					AbsoluteLayout.LayoutBounds="325,80,70,41"
 					Text="Videos" />
         </AbsoluteLayout>
+        </ScrollView>
 
-        <StackLayout Orientation="Horizontal"  HorizontalOptions="Start" Margin="20,-50,0,0">
+        <StackLayout Orientation="Horizontal"  HorizontalOptions="Start" Margin="20,10,0,0">
             <Label Text="Archivos Recientes" TextColor="Black" FontSize="18"></Label>
         </StackLayout> 
 
