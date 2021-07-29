@@ -1,2 +1,2 @@
-AdbTarget=-s M4VDU17C16002966
+AdbTarget=-s emulator-5554
 AdbOptions=
