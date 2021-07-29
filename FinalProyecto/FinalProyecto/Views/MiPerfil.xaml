@@ -51,7 +51,10 @@
                          HorizontalOptions="Center"
                          VerticalOptions="CenterAndExpand" />
 
-
+                    <ScrollView> 
+                    <StackLayout Orientation="Vertical"  Margin="0,8,0,0">
+                        
+                   
                     <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
                         <ffimageloading:SvgCachedImage
                                          Source="idcard.svg" 
@@ -88,7 +91,7 @@
                     </StackLayout>
 
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,10">
                         <ffimageloading:SvgCachedImage
                                          Source="calendar.svg" 
                                          WidthRequest="30"
@@ -97,7 +100,9 @@
                         <Label Text="20/11/1995"
                         TextColor="Black"
                         FontSize="14"/>
+                    </StackLayout> 
                     </StackLayout>
+                    </ScrollView>
 
 
                 </StackLayout>
