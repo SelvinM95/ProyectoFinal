@@ -41,7 +41,9 @@
                         </Image> 
                     </Frame>
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                    <ScrollView Orientation="Vertical">
+                    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand"> 
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
                         <ffimageloading:SvgCachedImage
                                          Source="idcard.svg" 
                                          WidthRequest="30"
@@ -51,11 +53,11 @@
                          TextColor="Black"
                          FontSize="14"
                          Keyboard="Text"
-                         WidthRequest="250"
+                         WidthRequest="220"
                          Placeholder="Nombre Completo"/>
                     </StackLayout>
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
                         <ffimageloading:SvgCachedImage
                                          Source="idcard.svg" 
                                          WidthRequest="30"
@@ -65,12 +67,12 @@
                          TextColor="Black"
                          FontSize="14"
                          Keyboard="Numeric"
-                         WidthRequest="250"
+                         WidthRequest="220"
                          Placeholder="Número de Cuenta"/>
                     </StackLayout>
 
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
                         <ffimageloading:SvgCachedImage
                                          Source="idcard.svg" 
                                          WidthRequest="30"
@@ -80,12 +82,12 @@
                          TextColor="Black"
                          FontSize="14"
                          Keyboard="Text"
-                         WidthRequest="250"
+                         WidthRequest="220"
                          Placeholder="Carrera"/>
                     </StackLayout>
 
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
                         <ffimageloading:SvgCachedImage
                                          Source="email.svg" 
                                          WidthRequest="30"
@@ -95,12 +97,12 @@
                         TextColor="Black"
                         FontSize="14"
                         Keyboard="Email"
-                        WidthRequest="250"
+                        WidthRequest="220"
                          Placeholder="Correo Electronico"/>
                     </StackLayout>
 
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
                         <ffimageloading:SvgCachedImage
                                          Source="telephone.svg" 
                                          WidthRequest="30"
@@ -110,12 +112,12 @@
                         TextColor="Black"
                         FontSize="14"
                             Keyboard="Telephone"
-                         WidthRequest="250"
+                         WidthRequest="220"
                          Placeholder="Telefono"/>
                     </StackLayout>
 
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
                         <ffimageloading:SvgCachedImage
                                          Source="calendar.svg" 
                                          WidthRequest="30"
@@ -124,8 +126,10 @@
                         <DatePicker
                          TextColor="Black"
                          FontSize="14"
-                         WidthRequest="250"/>
-                    </StackLayout>
+                         WidthRequest="220"/>
+                    </StackLayout> 
+                    </StackLayout> 
+                    </ScrollView>
 
 
                 </StackLayout>
