@@ -22,7 +22,7 @@
         </StackLayout>
 
 
-        <StackLayout Orientation="Horizontal" Margin="48,50,0,0">
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,50,0,0" >
             <Entry Placeholder="Ingrese el Codigo"
                    WidthRequest="300" 
                    Keyboard="Email"
@@ -32,9 +32,9 @@
         </StackLayout>
 
 
-        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"  >
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
             <Button Text="Enviar"
-                            Margin="40,50,50,0"
+                            Margin="0,50,0,0"
                             CornerRadius="10"
                             WidthRequest="300"
                             BackgroundColor="#4780C5"
