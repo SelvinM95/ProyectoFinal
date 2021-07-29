@@ -48,8 +48,8 @@
                          VerticalOptions="CenterAndExpand" />
 
 
-                    <StackLayout Orientation="Vertical" Margin="-30,5,-30,0">
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,50,0,0">
+                    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand"  Margin="0,40,0,0">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" >
                         <ffimageloading:SvgCachedImage
                                          Source="password.svg" 
                                          WidthRequest="30"
@@ -59,12 +59,12 @@
                          TextColor="Black"
                          FontSize="14"
                          Keyboard="Default"
-                         WidthRequest="250"
+                         WidthRequest="230"
                          Placeholder="Nueva Contraseña"/>
                     </StackLayout>
 
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                         <ffimageloading:SvgCachedImage
                                          Source="padlock.svg" 
                                          WidthRequest="30"
@@ -74,7 +74,7 @@
                         TextColor="Black"
                         FontSize="14"
                         Keyboard="Default"
-                        WidthRequest="250"
+                        WidthRequest="230"
                         Placeholder="Confirmar Contraseña"/>
                     </StackLayout> 
                     </StackLayout>
