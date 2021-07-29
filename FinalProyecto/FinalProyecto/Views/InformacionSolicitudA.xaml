@@ -34,18 +34,18 @@
                     <Label Text="Jerry Isaí García Canelas" 
                         TextColor="White"
                         FontAttributes="Bold"
-                        FontSize="18" 
+                        FontSize="14" 
                         HorizontalOptions="Center"
                         VerticalOptions="CenterAndExpand" />
 
                     <Label Text="201610040226" 
                          TextColor="White"
-                         FontSize="16" 
+                         FontSize="14" 
                          HorizontalOptions="Center"
                          VerticalOptions="CenterAndExpand" />
 
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,20,0,0">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,30,0,0">
                         <ffimageloading:SvgCachedImage
                                          Source="idcard.svg" 
                                          WidthRequest="30"
