@@ -26,6 +26,7 @@
             <Entry Placeholder="Correo Electrónico"
                    WidthRequest="300" 
                    Keyboard="Email"
+                   x:Name="mail"
                    PlaceholderColor="White"
                    FontSize="16" 
                    TextColor="White"/>
@@ -39,6 +40,7 @@
                             WidthRequest="300"
                             BackgroundColor="#4780C5"
                             x:Name="EnviarCorreo"
+                            Clicked="EnviarCorreo_Clicked"
                             FontAttributes="Bold">
             </Button>
         </StackLayout>

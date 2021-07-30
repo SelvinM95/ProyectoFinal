@@ -31,21 +31,24 @@
                       HorizontalOptions="Center"
                      VerticalOptions="Center">
 
-                        <Image Source="perfil2.jpg"
+                        <Image
                         Aspect="AspectFill"
                         Margin="-20"
+                        x:Name="profile"
                         HeightRequest="100"
                         WidthRequest="100" />
                     </Frame>
 
-                    <Label Text="Selvin Onan Maldonado Reyes" 
+                    <Label
                         TextColor="White"
                         FontAttributes="Bold"
-                        FontSize="18" 
+                        FontSize="18"
+                        x:Name="nombre"
                         HorizontalOptions="Center"
                         VerticalOptions="CenterAndExpand" />
 
-                    <Label Text="201610040226" 
+                    <Label
+                         x:Name="cuenta"
                          TextColor="White"
                          FontSize="16" 
                          HorizontalOptions="Center"
@@ -61,7 +64,8 @@
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
-                        <Label Text="Ing. en Computación" 
+                        <Label 
+                         x:Name="carrera"
                          TextColor="Black"
                          FontSize="14"/>
                     </StackLayout>
@@ -73,7 +77,8 @@
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
-                        <Label Text="onan_maldonado@hotmail.com"
+                        <Label 
+                        x:Name="correo"
                         TextColor="Black"
                         FontSize="14" />
                     </StackLayout>
@@ -85,7 +90,8 @@
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
-                        <Label Text="+50495186544"
+                        <Label
+                        x:Name="telefono"
                         TextColor="Black"
                         FontSize="14" />
                     </StackLayout>
@@ -97,7 +103,8 @@
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
-                        <Label Text="20/11/1995"
+                        <Label 
+                        x:Name="fecha"
                         TextColor="Black"
                         FontSize="14"/>
                     </StackLayout> 

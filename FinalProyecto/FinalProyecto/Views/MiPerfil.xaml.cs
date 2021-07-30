@@ -16,6 +16,18 @@ namespace FinalProyecto.Views
         {
             InitializeComponent();
         }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            nombre.Text = App.Current.Properties["Name"].ToString();
+            profile.Source = "http://192.168.1.36/WSXamarin/" + App.Current.Properties["Path"].ToString();
+            cuenta.Text = App.Current.Properties["Account"].ToString();
+            carrera.Text = App.Current.Properties["Carrera"].ToString();
+            telefono.Text = App.Current.Properties["Telephone"].ToString();
+            correo.Text = App.Current.Properties["Email"].ToString();
+            fecha.Text = App.Current.Properties["Birthday"].ToString();
+        }
 
         private async void imageEditar_Tapped(object sender, EventArgs e)
         {
@@ -49,7 +61,7 @@ namespace FinalProyecto.Views
 
         private void CerrarSesion_Clicked(object sender, EventArgs e)
         {
-
+            App.Current.Logout();
         }
     }
 }

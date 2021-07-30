@@ -1,6 +1,10 @@
-﻿using System;
+﻿using Plugin.Media;
+using Plugin.Media.Abstractions;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,6 +16,8 @@ namespace FinalProyecto
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class RegistroLogin : ContentPage
     {
+        byte[] image;
+
         public RegistroLogin()
         {
             InitializeComponent();
@@ -19,7 +25,80 @@ namespace FinalProyecto
 
         private async void guardar_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new CodigoLogin());
+            Random r = new Random();
+            int randNum = r.Next(1000000);
+            String sixDigitNumber = randNum.ToString("D6");
+
+            String TempPassword = GeneratePassword(10);
+            String base64 = Convert.ToBase64String(image);
+            String name = nombre.Text;
+            String ncount = ncuenta.Text;
+            String tel = telefono.Text;
+            String email = correo.Text;
+            String birtdate = date.Date.ToShortDateString();
+            String carrera = Carrera.Text;
+
+            HttpClient client = new HttpClient();
+            client.BaseAddress = new Uri("http://192.168.1.36");
+            string url = string.Format("/WSXamarin/users/verification/{0}/{1}/{2}", email, sixDigitNumber, TempPassword);
+            var response = await client.GetAsync(url);
+
+            await Navigation.PushAsync(new CodigoLogin(TempPassword, sixDigitNumber, base64, name, ncount, tel, email, birtdate, carrera));
+        }
+
+        private async void AddFoto_Clicked(object sender, EventArgs e)
+        {
+            if (CrossMedia.Current.IsTakePhotoSupported)
+            {
+                var imagen = await CrossMedia.Current.PickPhotoAsync();
+
+                image = GetImageBytes(imagen);
+
+                if (imagen != null)
+                {
+                    profile.Source = ImageSource.FromStream(() =>
+                    {
+                        var stream = imagen.GetStream();
+                        imagen.Dispose();
+                        return stream;
+                    });
+                }
+            }
+        }
+
+        private byte[] GetImageBytes(MediaFile file)
+        {
+            byte[] ImageBytes;
+            using (var memoryStream = new MemoryStream())
+            {
+                file.GetStream().CopyTo(memoryStream);
+                ImageBytes = memoryStream.ToArray();
+            }
+            return ImageBytes;
+        }
+
+        public static string GeneratePassword(int longitud)
+        {
+            string contraseña = string.Empty;
+            string[] letras = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "ñ", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",
+                                "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+            Random EleccionAleatoria = new Random();
+
+            for (int i = 0; i < longitud; i++)
+            {
+                int LetraAleatoria = EleccionAleatoria.Next(0, 100);
+                int NumeroAleatorio = EleccionAleatoria.Next(0, 9);
+
+                if (LetraAleatoria < letras.Length)
+                {
+                    contraseña += letras[LetraAleatoria];
+                }
+                else
+                {
+                    contraseña += NumeroAleatorio.ToString();
+                }
+            }
+            return contraseña;
         }
     }
 }

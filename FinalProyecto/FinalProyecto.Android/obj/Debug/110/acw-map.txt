@@ -31,6 +31,9 @@ ffimageloading.cache.LRUCache;crc64b75d9ddab39d6c30.LRUCache
 FFImageLoading.Cross.MvxSvgCachedImageView, FFImageLoading.Svg.Platform;ffimageloading.cross.MvxSvgCachedImageView
 FFImageLoading.Cross.MvxSvgCachedImageView;ffimageloading.cross.MvxSvgCachedImageView
 ffimageloading.cross.MvxSvgCachedImageView;ffimageloading.cross.MvxSvgCachedImageView
+Plugin.Media.MediaPickerActivity, Plugin.Media;crc646957603ea1820544.MediaPickerActivity
+Plugin.Media.MediaPickerActivity;crc646957603ea1820544.MediaPickerActivity
+plugin.media.MediaPickerActivity;crc646957603ea1820544.MediaPickerActivity
 SkiaSharp.Views.Android.GLTextureView, SkiaSharp.Views.Android;crc648e35430423bd4943.GLTextureView
 SkiaSharp.Views.Android.GLTextureView;crc648e35430423bd4943.GLTextureView
 skiasharp.views.android.GLTextureView;crc648e35430423bd4943.GLTextureView

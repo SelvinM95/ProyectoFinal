@@ -55,6 +55,6 @@
     <Import Project="$(NuGetPackageRoot)xamarin.androidx.legacy.support.v4\1.0.0.7\buildTransitive\monoandroid9.0\Xamarin.AndroidX.Legacy.Support.V4.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.androidx.legacy.support.v4\1.0.0.7\buildTransitive\monoandroid9.0\Xamarin.AndroidX.Legacy.Support.V4.targets')" />
     <Import Project="$(NuGetPackageRoot)xamarin.androidx.browser\1.3.0.5\buildTransitive\monoandroid9.0\Xamarin.AndroidX.Browser.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.androidx.browser\1.3.0.5\buildTransitive\monoandroid9.0\Xamarin.AndroidX.Browser.targets')" />
     <Import Project="$(NuGetPackageRoot)xamarin.forms\5.0.0.2083\buildTransitive\Xamarin.Forms.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\5.0.0.2083\buildTransitive\Xamarin.Forms.targets')" />
-    <Import Project="$(NuGetPackageRoot)skiasharp\2.80.2\buildTransitive\monoandroid1.0\SkiaSharp.targets" Condition="Exists('$(NuGetPackageRoot)skiasharp\2.80.2\buildTransitive\monoandroid1.0\SkiaSharp.targets')" />
+    <Import Project="$(NuGetPackageRoot)skiasharp\2.80.3\buildTransitive\monoandroid1.0\SkiaSharp.targets" Condition="Exists('$(NuGetPackageRoot)skiasharp\2.80.3\buildTransitive\monoandroid1.0\SkiaSharp.targets')" />
   </ImportGroup>
 </Project>

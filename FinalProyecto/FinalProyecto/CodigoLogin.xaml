@@ -25,7 +25,8 @@
         <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,50,0,0" >
             <Entry Placeholder="Ingrese el Codigo"
                    WidthRequest="300" 
-                   Keyboard="Email"
+                   x:Name="code"
+                   Keyboard="Numeric"
                    PlaceholderColor="White"
                    FontSize="16" 
                    TextColor="White"/>
@@ -39,6 +40,7 @@
                             WidthRequest="300"
                             BackgroundColor="#4780C5"
                             x:Name="EnviarCorreo"
+                            Clicked="EnviarCorreo_Clicked"
                             FontAttributes="Bold">
             </Button>
         </StackLayout>

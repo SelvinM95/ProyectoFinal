@@ -4,10 +4,10 @@ FFImageLoading.Svg.Forms.dll
 FFImageLoading.Svg.Platform.dll
 FormsViewGroup.dll
 IntelliAbb.Xamarin.Controls.dll
+Plugin.Media.dll
 SkiaSharp.dll
 SkiaSharp.Views.Android.dll
 SkiaSharp.Views.Forms.dll
-SQLitePCLRaw.lib.e_sqlite3.android.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
 Xamarin.AndroidX.Annotation.Experimental.dll

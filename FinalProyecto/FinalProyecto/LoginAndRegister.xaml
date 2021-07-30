@@ -26,7 +26,7 @@
                                          HeightRequest="60" 
                                          AbsoluteLayout.LayoutBounds="0,0,149,115"/>
                                         </Frame>
-                                        <Entry Placeholder="Email" TextColor="CadetBlue" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                                        <Entry Placeholder="Número de Cuenta" x:Name="userName" Keyboard="Numeric" TextColor="CadetBlue" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
                                     </StackLayout>
                                 </Frame>
                                 <Frame BackgroundColor="Transparent" BorderColor="Transparent" Margin="0,20,0,0" Padding="0"   HorizontalOptions="FillAndExpand">
@@ -39,7 +39,7 @@
                                          HeightRequest="60" 
                                          AbsoluteLayout.LayoutBounds="0,0,149,115"/>
                                         </Frame>
-                                        <Entry Placeholder="Password" IsPassword="True"  TextColor="CadetBlue" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                                        <Entry Placeholder="Password" IsPassword="True" x:Name="userPassword" TextColor="CadetBlue" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
                                     </StackLayout>
                                 </Frame>
                             </StackLayout>

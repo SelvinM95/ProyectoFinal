@@ -8,7 +8,7 @@
 
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Agregar Foto" 
-                     x:Name="AddFoto" >
+                     x:Name="AddFoto" Clicked="AddFoto_Clicked">
         </ToolbarItem>
     </ContentPage.ToolbarItems>
 
@@ -27,9 +27,10 @@
                       HorizontalOptions="Center"
                      VerticalOptions="Center">
 
-                        <Image Source="perfil2.jpg"
+                        <Image
                         Aspect="AspectFill"
                         Margin="-20"
+                        x:Name="profile"
                         HeightRequest="100"
                         WidthRequest="100" >
  
@@ -53,6 +54,7 @@
                          TextColor="Black"
                          FontSize="14"
                          Keyboard="Text"
+                         x:Name="nombre"
                          WidthRequest="220"
                          Placeholder="Nombre Completo"/>
                     </StackLayout>
@@ -67,6 +69,7 @@
                          TextColor="Black"
                          FontSize="14"
                          Keyboard="Numeric"
+                         x:Name="ncuenta"
                          WidthRequest="220"
                          Placeholder="Número de Cuenta"/>
                     </StackLayout>
@@ -82,6 +85,7 @@
                          TextColor="Black"
                          FontSize="14"
                          Keyboard="Text"
+                         x:Name="Carrera"
                          WidthRequest="220"
                          Placeholder="Carrera"/>
                     </StackLayout>
@@ -97,6 +101,7 @@
                         TextColor="Black"
                         FontSize="14"
                         Keyboard="Email"
+                        x:Name="correo"
                         WidthRequest="220"
                          Placeholder="Correo Electronico"/>
                     </StackLayout>
@@ -111,6 +116,7 @@
                         <Entry
                         TextColor="Black"
                         FontSize="14"
+                        x:Name="telefono"
                             Keyboard="Telephone"
                          WidthRequest="220"
                          Placeholder="Telefono"/>
@@ -126,6 +132,7 @@
                         <DatePicker
                          TextColor="Black"
                          FontSize="14"
+                         x:Name="date"
                          WidthRequest="220"/>
                     </StackLayout> 
                     </StackLayout> 
