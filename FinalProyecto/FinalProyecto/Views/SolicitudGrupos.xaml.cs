@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FinalProyecto.Classes;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -13,30 +14,25 @@ namespace FinalProyecto.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SolicitudGrupos : ContentPage
     {
-        public ObservableCollection<Card> ListDetails { get; set; }
-        public SolicitudGrupos()
+        string Id;
+        public SolicitudGrupos(string id)
         {
             InitializeComponent();
-            ListDetails = new ObservableCollection<Card>
+            Id = id;
+        }
+
+        protected async override void OnAppearing()
+        {
+            string url = string.Format("http://192.168.1.42/WSXamarin/groups/members/"+Id);
+            ConsultManager manager = new ConsultManager();
+            var res = await manager.getUsers(url);
+
+            if (res != null)
             {
-                new Card{  Name= "Selvin Onan Maldonado Reyes", Correo = "correo@gmail.com", Cuenta = "201610040226"},
-                 new Card{  Name= "Jerry Isai Garcia Galeas", Correo = "correo@gmail.com", Cuenta = "201610040226"},
-                  new Card{  Name= "Aldenis Eduardo Miranda Cisnado", Correo = "correo@gmail.com", Cuenta = "201610040226"},
-                  new Card{  Name= "Marvin Alberto Pineda Trosty", Correo = "correo@gmail.com", Cuenta = "201610040226"}
-            };
-            BindingContext = this;
+                ListStudent.ItemsSource = res;
+            }
         }
 
-        public class Card
-        { 
-            public string Name { get; set; }
-
-            public string Correo { get; set; }
-
-            public string Cuenta { get; set; }
-
-        }
- 
 
         private async void unirme_Clicked(object sender, EventArgs e)
         {

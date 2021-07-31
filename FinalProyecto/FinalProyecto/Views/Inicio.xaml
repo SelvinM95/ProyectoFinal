@@ -11,7 +11,7 @@
         </Frame>
             
           
-        <ListView ItemsSource="{Binding ListDetails}"
+        <ListView 
                   x:Name="ListStudent"
                   HasUnevenRows="True" 
                   SeparatorColor="Blue"

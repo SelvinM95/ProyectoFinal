@@ -9,10 +9,10 @@
 
         <Frame CornerRadius="1" Margin="10">
             <StackLayout>
-                <StackLayout Padding="0,10,10,10"> 
+                <StackLayout Padding="0,10,10,10">
 
                     <StackLayout Orientation="Horizontal">
-                        <Label Text="Programación Movil II" 
+                        <Label Text="{Binding teamName}" 
                         TextColor="Black"
                         FontSize="16" 
                         HorizontalOptions="Start"
@@ -27,7 +27,7 @@
                          HorizontalOptions="Start"
                          VerticalOptions="CenterAndExpand" />
 
-                        <Label Text="Ricardo Lagos" 
+                        <Label Text="{Binding teamCoordi}" 
                          TextColor="Black"
                          FontSize="14" 
                          FontAttributes="Italic"
@@ -41,7 +41,7 @@
 
 
                 <StackLayout>
-                    <ListView ItemsSource="{Binding ListDetails}"
+                    <ListView 
                   x:Name="ListStudent"
                   HasUnevenRows="True" 
                   SeparatorColor="Blue"
@@ -60,8 +60,8 @@
                                                     WidthRequest="35"
                                                     HeightRequest="70"/>
                                                 <StackLayout VerticalOptions="Center">
-                                                    <Label Text="{Binding Name}"  VerticalOptions="Center" FontSize="14" TextColor="Black"  Margin="10,0,0,0"></Label>
-                                                    <Label VerticalOptions="Center" Text="{Binding Cuenta}" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                                    <Label Text="{Binding NameUser}"  VerticalOptions="Center" FontSize="14" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                                    <Label VerticalOptions="Center" Text="{Binding nCountUser}" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
                                                 </StackLayout>
                                             </StackLayout>
                                         </Frame>

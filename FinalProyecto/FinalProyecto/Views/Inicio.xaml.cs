@@ -32,6 +32,7 @@ namespace FinalProyecto.Views
                 ListStudent.ItemsSource = res;
             }
         } 
+
         private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
 

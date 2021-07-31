@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FinalProyecto.Classes;
+using FinalProyecto.Models;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -13,32 +15,24 @@ namespace FinalProyecto.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Grupos : ContentPage
     {
-        public ObservableCollection<Card> ListDetails { get; set; }
         public Grupos()
         {
             InitializeComponent();
-            ListDetails = new ObservableCollection<Card>
-            {
-                new Card{ Name= "Programación Movil II", Tutor = "Ing. Ricardo Lagos"},
-                 new Card{  Name= "Computación Grafica-Visual", Tutor = "Ing. Cristian Escobar" },
-                  new Card{  Name= "Internet de las Cosas (IoT)", Tutor = "Ing. Aramis Diaz" },
-                  new Card{  Name= "Ecuaciones Diferenciales", Tutor = "Ing. Karla Paz" }
-            };
-            BindingContext = this;
         }
 
-        public class Card
-        { 
-            public string Name { get; set; }
-
-            public string Tutor { get; set; } 
-
-        }
-
-        private async  void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        protected async override void OnAppearing()
         {
-            await Navigation.PushAsync(new SolicitudGrupos());
+            string url = string.Format("http://192.168.1.42/WSXamarin/groups/all");
+            ConsultManager manager = new ConsultManager();
+            var res = await manager.getGroups(url);
+
+            if (res != null)
+            {
+                ListGroup.ItemsSource = res;
+            }
         }
+
+ 
 
         private void ToolbarItem_Clicked(object sender, EventArgs e)
         {
@@ -48,6 +42,26 @@ namespace FinalProyecto.Views
         private async void ToolbarGrupos_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MisGrupos());
+        }
+
+        private async void ListGroup_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var obj = (Groups)e.Item;
+
+            if (!string.IsNullOrEmpty(obj.idTeam.ToString()))
+            {
+
+                var datos = new Groups
+                {
+                    idTeam = obj.idTeam,
+                    teamName = obj.teamName,
+                    teamCoordi = obj.teamCoordi
+                };
+
+                var detalles = new SolicitudGrupos(obj.idTeam.ToString());
+                detalles.BindingContext = datos;
+                await Navigation.PushAsync(detalles);
+            } 
         }
     }
 }
