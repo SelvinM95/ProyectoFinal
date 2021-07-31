@@ -21,7 +21,7 @@ namespace FinalProyecto.Views
             base.OnAppearing();
 
             nombre.Text = App.Current.Properties["Name"].ToString();
-            profile.Source = "http://192.168.1.42/WSXamarin/" + App.Current.Properties["Path"].ToString();
+            profile.Source = App.Current.Properties["Path"].ToString();
             cuenta.Text = App.Current.Properties["Account"].ToString();
             carrera.Text = App.Current.Properties["Carrera"].ToString();
             telefono.Text = App.Current.Properties["Telephone"].ToString();

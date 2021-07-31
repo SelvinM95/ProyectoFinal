@@ -30,15 +30,15 @@
                                         <StackLayout >
                                             <Image Aspect="AspectFill"
                                             Margin="-20"
-                                            Source="perfil4.jpg"
+                                            Source="{Binding fotoUser}" 
                                             HeightRequest="52"
                                             WidthRequest="50"/>
                                         </StackLayout>
                                     </Frame>
 
                                     <StackLayout VerticalOptions="Center">
-                                        <Label Text="{Binding Name}"  VerticalOptions="Center" FontSize="14" TextColor="Black"  Margin="10,0,0,0"></Label>
-                                        <Label    VerticalOptions="Center" Text="{Binding Cuenta}" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                        <Label Text="{Binding NameUser}"  VerticalOptions="Center" FontSize="14" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                        <Label    VerticalOptions="Center" Text="{Binding nCountUser}" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
                                     </StackLayout>
  
                                     <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">

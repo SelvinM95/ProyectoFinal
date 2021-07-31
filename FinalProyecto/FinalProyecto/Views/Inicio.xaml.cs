@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FinalProyecto.Classes;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -12,30 +13,24 @@ namespace FinalProyecto.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Inicio : ContentPage
-    {
-        public ObservableCollection<Card> ListDetails { get; set; }
+    { 
         public Inicio()
         {
-            InitializeComponent();
-            ListDetails = new ObservableCollection<Card>
+            InitializeComponent(); 
+        }
+
+
+        protected async override void OnAppearing()
+        {
+            string url = string.Format("http://192.168.1.42/WSXamarin/users/all/{0}", App.Current.Properties["Id"].ToString());
+            ConsultManager manager = new ConsultManager();
+            var res = await manager.getUsers(url);
+
+            if (res != null)
             {
-                new Card{ Name= "Selvin Onan Maldonado Reyes", Correo = "correo@gmail.com", Cuenta = "201610040226"},
-                 new Card{ Name= "Jerry Isaí Garcia Canelas", Correo = "correo@gmail.com", Cuenta = "201610040226"},
-                  new Card{ Name= "Aldenis Eduardo Miranda Cisnado", Correo = "correo@gmail.com", Cuenta = "201610040226"}
-            };
-            BindingContext = this;
-        }
-
-        public class Card
-        {  
-            public string Name { get; set; }
-
-            public string Correo { get; set; }
-
-            public string Cuenta { get; set; }
-
-        }
-
+                ListStudent.ItemsSource = res;
+            }
+        } 
         private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
 
