@@ -1,4 +1,5 @@
 ﻿using FinalProyecto.Classes;
+using FinalProyecto.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -43,7 +44,27 @@ namespace FinalProyecto.Views
 
         private async void ListStudent_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            await Navigation.PushAsync(new SolicitudAlumnos());
+            var obj = (User)e.Item; 
+
+            if (!string.IsNullOrEmpty(obj.idUser.ToString()))
+            {
+
+                var datos = new User
+                {
+                    idUser = obj.idUser,
+                    NameUser = obj.NameUser,
+                    nCountUser = obj.nCountUser,
+                    carreraUser = obj.carreraUser,
+                    emailUser = obj.emailUser,
+                    telUser = obj.telUser,
+                    birthdateUser = obj.birthdateUser,
+                    fotoUser = obj.fotoUser
+                };
+
+                var detalles = new SolicitudAlumnos();
+                detalles.BindingContext = datos;
+                await Navigation.PushAsync(detalles);
+            }
         }
     }
 }
