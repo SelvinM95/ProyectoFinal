@@ -63,5 +63,34 @@ namespace FinalProyecto.Views
                 await Navigation.PushAsync(detalles);
             } 
         }
+
+        private async void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (search.Text == "")
+            {
+                String URL = "http://192.168.1.42/WSXamarin/groups/all";
+
+                ConsultManager manager = new ConsultManager();
+                var res = await manager.getGroups(URL);
+
+                if (res != null)
+                {
+                    ListGroup.ItemsSource = res;
+                }
+            }
+            else
+            {
+
+                String URL = "http://192.168.1.42/WSXamarin/groups/searchgroup/" + search.Text;
+
+                ConsultManager manager = new ConsultManager();
+                var res = await manager.getGroups(URL);
+
+                if (res != null)
+                {
+                    ListGroup.ItemsSource = res;
+                }
+            }
+        }
     }
 }

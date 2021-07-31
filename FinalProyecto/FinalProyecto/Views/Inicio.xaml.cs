@@ -67,5 +67,33 @@ namespace FinalProyecto.Views
                 await Navigation.PushAsync(detalles);
             }
         }
+
+        private async void search_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (search.Text == "")
+            {
+                string url = string.Format("http://192.168.1.42/WSXamarin/users/all/{0}", App.Current.Properties["Id"].ToString());
+
+                ConsultManager manager = new ConsultManager();
+                var res = await manager.getUsers(url);
+
+                if (res != null)
+                {
+                    ListStudent.ItemsSource = res;
+                }
+            }
+            else
+            {
+                string url = string.Format("http://192.168.1.42/WSXamarin/users/searchuser/{0}", search.Text);
+
+                ConsultManager manager = new ConsultManager();
+                var res = await manager.getUsers(url);
+
+                if (res != null)
+                {
+                    ListStudent.ItemsSource = res;
+                }
+            }
+        }
     }
 }
