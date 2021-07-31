@@ -39,7 +39,7 @@ namespace FinalProyecto
             String carrera = Carrera.Text;
 
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://192.168.1.44");
+            client.BaseAddress = new Uri("http://192.168.1.42");
             string url = string.Format("/WSXamarin/users/verification/{0}/{1}/{2}", email, sixDigitNumber, TempPassword);
             var response = await client.GetAsync(url);
 

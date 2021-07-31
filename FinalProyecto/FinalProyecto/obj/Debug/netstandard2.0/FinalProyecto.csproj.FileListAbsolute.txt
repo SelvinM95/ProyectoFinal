@@ -124,3 +124,45 @@ C:\Users\SelvinM95\Documents\GitHub\ProyectoFinal\FinalProyecto\FinalProyecto\ob
 C:\Users\SelvinM95\Documents\GitHub\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\FinalProyecto.dll
 C:\Users\SelvinM95\Documents\GitHub\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\ref\FinalProyecto.dll
 C:\Users\SelvinM95\Documents\GitHub\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\FinalProyecto.pdb
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\bin\Debug\netstandard2.0\FinalProyecto.deps.json
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\bin\Debug\netstandard2.0\FinalProyecto.dll
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\bin\Debug\netstandard2.0\ref\FinalProyecto.dll
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\bin\Debug\netstandard2.0\FinalProyecto.pdb
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\FinalProyecto.csproj.AssemblyReference.cache
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\CodigoLogin.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\LoginAndRegister.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\RecuperarPassLogin.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\RegistroLogin.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\ArchivosGrupos.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\CambioPass.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\EditarPerfil.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\GrupoArchivosList.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\GrupoAudiosList.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\GrupoImagenesList.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\Grupos.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\GrupoVideoList.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\InformacionAmistad.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\InformacionSolicitudA.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\Inicio.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\ListaAmigos.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\MiPerfil.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\MisArchivos.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\MisArchivosGeneralList.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\MisArchivosList.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\MisAudiosList.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\MisGrupos.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\MisImagenesList.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\MisSolicitudes.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\MisVideosList.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\NuevoGrupo.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\SolicitudAlumnos.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\SolicitudGrupos.xaml.g.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\FinalProyecto.AssemblyInfoInputs.cache
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\FinalProyecto.AssemblyInfo.cs
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\FinalProyecto.csproj.CoreCompileInputs.cache
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\FinalProyecto.dll
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\ref\FinalProyecto.dll
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\FinalProyecto.pdb

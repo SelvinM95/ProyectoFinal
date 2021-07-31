@@ -50,7 +50,7 @@ namespace FinalProyecto
                 };
 
                 var request = new HttpRequestMessage();
-                Uri RequestUri = new Uri("http://192.168.1.44/WSXamarin/users/add");
+                Uri RequestUri = new Uri("http://192.168.1.42/WSXamarin/users/add");
 
                 var client = new HttpClient();
                 var json = JsonConvert.SerializeObject(user);
