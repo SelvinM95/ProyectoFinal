@@ -20,7 +20,6 @@ namespace FinalProyecto.Views
             InitializeComponent(); 
         }
 
-
         protected async override void OnAppearing()
         {
             string url = string.Format("http://192.168.1.35/WSXamarin/users/all/{0}", App.Current.Properties["Id"].ToString());
@@ -45,6 +44,8 @@ namespace FinalProyecto.Views
 
         private async void ListStudent_ItemTapped(object sender, ItemTappedEventArgs e)
         {
+            search.Text = "";
+
             var obj = (User)e.Item; 
 
             if (!string.IsNullOrEmpty(obj.idUser.ToString()))
@@ -84,7 +85,7 @@ namespace FinalProyecto.Views
             }
             else
             {
-                string url = string.Format("http://192.168.1.35/WSXamarin/users/searchuser/{0}", search.Text);
+                string url = string.Format("http://192.168.1.35/WSXamarin/users/searchuser/{0}/{1}", search.Text, App.Current.Properties["Id"].ToString());
 
                 ConsultManager manager = new ConsultManager();
                 var res = await manager.getUsers(url);

@@ -24,6 +24,7 @@ namespace FinalProyecto.Views
         public EditarPerfil()
         {
             InitializeComponent();
+
             nombre.Text = App.Current.Properties["Name"].ToString();
             profile.Source = App.Current.Properties["Path"].ToString();
             cuenta.Text = App.Current.Properties["Account"].ToString();
@@ -98,7 +99,7 @@ namespace FinalProyecto.Views
             var contentJSON = new StringContent(json, Encoding.UTF8, "application/json");
             var response = await client.PostAsync(RequestUri, contentJSON);
             var result = response.Content.ReadAsStringAsync().Result;
-            
+
             if (response.StatusCode == HttpStatusCode.OK)
             {
                 var res = JsonConvert.DeserializeObject<User>(result);

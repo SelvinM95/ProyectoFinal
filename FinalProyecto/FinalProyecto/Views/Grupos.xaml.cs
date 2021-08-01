@@ -46,6 +46,8 @@ namespace FinalProyecto.Views
 
         private async void ListGroup_ItemTapped(object sender, ItemTappedEventArgs e)
         {
+            search.Text = "";
+
             var obj = (Groups)e.Item;
 
             if (!string.IsNullOrEmpty(obj.idTeam.ToString()))

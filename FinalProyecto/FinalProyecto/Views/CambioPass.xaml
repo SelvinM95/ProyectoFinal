@@ -27,21 +27,21 @@
                       HorizontalOptions="Center"
                      VerticalOptions="Center">
 
-                        <Image Source="perfil2.jpg"
+                        <Image x:Name="profile"
                         Aspect="AspectFill"
                         Margin="-20"
                         HeightRequest="100"
                         WidthRequest="100" />
                     </Frame>
 
-                    <Label Text="Selvin Onan Maldonado Reyes" 
+                    <Label x:Name="nombre" 
                         TextColor="White"
                         FontAttributes="Bold"
                         FontSize="18" 
                         HorizontalOptions="Center"
                         VerticalOptions="CenterAndExpand" />
 
-                    <Label Text="201610040226" 
+                    <Label x:Name="cuenta"
                          TextColor="White"
                          FontSize="16" 
                          HorizontalOptions="Center"
@@ -58,6 +58,8 @@
                         <Entry
                          TextColor="Black"
                          FontSize="14"
+                         x:Name="npass"
+                         IsPassword="True"
                          Keyboard="Default"
                          WidthRequest="230"
                          Placeholder="Nueva Contraseña"/>
@@ -74,6 +76,8 @@
                         TextColor="Black"
                         FontSize="14"
                         Keyboard="Default"
+                        IsPassword="True"
+                        x:Name="cpass"
                         WidthRequest="230"
                         Placeholder="Confirmar Contraseña"/>
                     </StackLayout> 
@@ -89,6 +93,7 @@
                             CornerRadius="10"
                             BackgroundColor="#5DBEFF"
                             x:Name="guardar"
+                            Clicked="guardar_Clicked"
                             FontAttributes="Bold">
                     </Button>
                 </StackLayout>
