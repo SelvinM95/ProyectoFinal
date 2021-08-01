@@ -15,6 +15,7 @@ namespace FinalProyecto.Views
     public partial class SolicitudGrupos : ContentPage
     {
         string Id;
+
         public SolicitudGrupos(string id)
         {
             InitializeComponent();
@@ -23,7 +24,7 @@ namespace FinalProyecto.Views
 
         protected async override void OnAppearing()
         {
-            string url = string.Format("http://192.168.1.42/WSXamarin/groups/members/"+Id);
+            string url = string.Format("http://192.168.1.35/WSXamarin/groups/members/"+Id);
             ConsultManager manager = new ConsultManager();
             var res = await manager.getUsers(url);
 

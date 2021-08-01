@@ -39,7 +39,7 @@ namespace FinalProyecto
             String carrera = Carrera.Text;
 
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://192.168.1.42");
+            client.BaseAddress = new Uri("http://192.168.1.35");
             string url = string.Format("/WSXamarin/users/verification/{0}/{1}/{2}", email, sixDigitNumber, TempPassword);
             var response = await client.GetAsync(url);
 
@@ -50,7 +50,13 @@ namespace FinalProyecto
         {
             if (CrossMedia.Current.IsTakePhotoSupported)
             {
-                var imagen = await CrossMedia.Current.PickPhotoAsync();
+                var mediaOption = new PickMediaOptions()
+                {
+                    PhotoSize = PhotoSize.Large,
+                    CompressionQuality = 75,
+                };
+
+                var imagen = await CrossMedia.Current.PickPhotoAsync(mediaOption);
 
                 image = GetImageBytes(imagen);
 

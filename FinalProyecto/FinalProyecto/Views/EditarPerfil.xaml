@@ -42,21 +42,21 @@
                       HorizontalOptions="Center"
                      VerticalOptions="Center">
 
-                        <Image Source="perfil2.jpg"
+                        <Image x:Name="profile"
                         Aspect="AspectFill"
                         Margin="-20"
                         HeightRequest="100"
                         WidthRequest="100" />
                     </Frame>
 
-                    <Label Text="Selvin Onan Maldonado Reyes" 
+                    <Label x:Name="nombre"
                         TextColor="White"
                         FontAttributes="Bold"
                         FontSize="18" 
                         HorizontalOptions="Center"
                         VerticalOptions="CenterAndExpand" />
 
-                    <Label Text="201610040226" 
+                    <Label x:Name="cuenta"
                          TextColor="White"
                          FontSize="16" 
                          HorizontalOptions="Center"
@@ -71,7 +71,7 @@
                                          HeightRequest="30"/>
 
                         <Entry
-                         Text="Ing.Computación"
+                         x:Name="carrera"
                          IsEnabled="False"
                          TextColor="Black"
                          FontSize="14"
@@ -88,6 +88,7 @@
                                          HeightRequest="30"/>
 
                         <Entry
+                        x:Name="correo"
                         TextColor="Black"
                         FontSize="14"
                         Keyboard="Email"
@@ -103,9 +104,10 @@
                                          HeightRequest="30"/>
 
                         <Entry
+                        x:Name="tel"
                         TextColor="Black"
+                        Keyboard="Numeric"
                         FontSize="14"
-                            Keyboard="Telephone"
                          WidthRequest="250"
                          Placeholder="Telefono"/>
                     </StackLayout>
@@ -117,10 +119,14 @@
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
-                        <DatePicker
+                        <Entry
+                         x:Name="date"
+                         IsEnabled="False"
                          TextColor="Black"
                          FontSize="14"
-                         WidthRequest="250"/>
+                         Keyboard="Text"
+                         WidthRequest="250"
+                         Placeholder="Fecha"/>
                     </StackLayout>
 
                     </StackLayout>
@@ -136,6 +142,7 @@
                             CornerRadius="10"
                             BackgroundColor="#5DBEFF"
                             x:Name="guardar"
+                            Clicked="guardar_Clicked"
                             FontAttributes="Bold">
                     </Button>
                 </StackLayout>

@@ -21,7 +21,7 @@ namespace FinalProyecto.Views
 
         protected async override void OnAppearing()
         {
-            string url = string.Format("http://192.168.1.42/WSXamarin/groups/mygroups/" + App.Current.Properties["Id"].ToString());
+            string url = string.Format("http://192.168.1.35/WSXamarin/groups/mygroups/" + App.Current.Properties["Id"].ToString());
             ConsultManager manager = new ConsultManager();
             var res = await manager.getGroups(url);
 
@@ -29,14 +29,6 @@ namespace FinalProyecto.Views
             {
                 ListStudent.ItemsSource = res;
             }
-        }
-
-        public class Card
-        { 
-            public string Name { get; set; }
-
-            public string Tutor { get; set; }
-
         }
 
         private async void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
