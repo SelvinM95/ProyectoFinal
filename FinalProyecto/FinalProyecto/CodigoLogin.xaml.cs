@@ -7,7 +7,7 @@ using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -46,7 +46,8 @@ namespace FinalProyecto
                     password = tmpPass,
                     fotoUser = base64Img,
                     birthdateUser = Birthdate,
-                    carreraUser = Carrera
+                    carreraUser = Carrera,
+                    AppIDUser = Preferences.Get("TokenApp", "")
                 };
 
                 var request = new HttpRequestMessage();

@@ -15,5 +15,7 @@ namespace FinalProyecto.Models
         public String password { get; set; }
         public String birthdateUser { get; set; }
         public String fotoUser { get; set; }
+        public String AppIDUser { get; set; }
+
     }
 }

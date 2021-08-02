@@ -94,7 +94,7 @@
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                    <Button Text="Enviar Solicitud"   BackgroundColor="#5DBEFF" CornerRadius="15"/>
+                    <Button Text="Enviar Solicitud" x:Name="send" Clicked="send_Clicked" BackgroundColor="#5DBEFF" CornerRadius="15"/>
                 </StackLayout>
             </StackLayout>
         </Frame>

@@ -14,7 +14,10 @@ namespace FinalProyecto.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Inicio : ContentPage
-    { 
+    {
+        int id;
+        String AppID;
+
         public Inicio()
         {
             InitializeComponent(); 
@@ -46,24 +49,26 @@ namespace FinalProyecto.Views
         {
             search.Text = "";
 
-            var obj = (User)e.Item; 
+            var obj = (User)e.Item;
+
+            id = obj.idUser;
+            AppID = obj.AppIDUser;
 
             if (!string.IsNullOrEmpty(obj.idUser.ToString()))
             {
 
                 var datos = new User
                 {
-                    idUser = obj.idUser,
                     NameUser = obj.NameUser,
                     nCountUser = obj.nCountUser,
                     carreraUser = obj.carreraUser,
                     emailUser = obj.emailUser,
                     telUser = obj.telUser,
                     birthdateUser = obj.birthdateUser,
-                    fotoUser = obj.fotoUser
+                    fotoUser = obj.fotoUser,
                 };
 
-                var detalles = new SolicitudAlumnos();
+                var detalles = new SolicitudAlumnos(id, AppID);
                 detalles.BindingContext = datos;
                 await Navigation.PushAsync(detalles);
             }
