@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FinalProyecto.Classes;
+using FinalProyecto.Models;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -13,32 +15,80 @@ namespace FinalProyecto.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MisSolicitudes : ContentPage
     {
-        public ObservableCollection<Card> ListDetails { get; set; }
+        String AppID;
+
         public MisSolicitudes()
         {
             InitializeComponent();
-            ListDetails = new ObservableCollection<Card>
-            {
-                new Card{ Name= "Selvin Onan Maldonado Reyes", Correo = "correo@gmail.com", Cuenta = "201610040226"},
-                 new Card{ Name= "Jerry Isaí Garcia Canelas", Correo = "correo@gmail.com", Cuenta = "201610040226"},
-                  new Card{ Name= "Aldenis Eduardo Miranda Cisnado", Correo = "correo@gmail.com", Cuenta = "201610040226"}
-            };
-            BindingContext = this;
         }
 
-        public class Card
+        protected async override void OnAppearing()
         {
-            public string Name { get; set; }
+            string url = string.Format("http://192.168.1.35/WSXamarin/users/myrequests/{0}", App.Current.Properties["Id"].ToString());
+            ConsultManager manager = new ConsultManager();
+            var res = await manager.getUsers(url);
 
-            public string Correo { get; set; }
-
-            public string Cuenta { get; set; }
-
+            if (res != null)
+            {
+                ListStudent.ItemsSource = res;
+            }
         }
 
         private async void ListStudent_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            await Navigation.PushAsync(new InformacionSolicitudA());
+            search.Text = "";
+
+            var obj = (User)e.Item;
+
+            AppID = obj.AppIDUser;
+
+            if (!string.IsNullOrEmpty(obj.idUser.ToString()))
+            {
+
+                var datos = new User
+                {
+                    idUser = obj.idUser,
+                    NameUser = obj.NameUser,
+                    nCountUser = obj.nCountUser,
+                    carreraUser = obj.carreraUser,
+                    emailUser = obj.emailUser,
+                    telUser = obj.telUser,
+                    birthdateUser = obj.birthdateUser,
+                    fotoUser = obj.fotoUser
+                };
+
+                var detalles = new InformacionSolicitudA(AppID);
+                detalles.BindingContext = datos;
+                await Navigation.PushAsync(detalles);
+            }
+        }
+
+        private async void search_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (search.Text == "")
+            {
+                string url = string.Format("http://192.168.1.35/WSXamarin/users/myrequests/{0}", App.Current.Properties["Id"].ToString());
+
+                ConsultManager manager = new ConsultManager();
+                var res = await manager.getUsers(url);
+
+                if (res != null)
+                {
+                    ListStudent.ItemsSource = res;
+                }
+            }
+            else
+            {
+                string url = string.Format("http://192.168.1.35/WSXamarin/users/searchmyrequests/{0}/{1}", search.Text, App.Current.Properties["Id"].ToString());
+
+                ConsultManager manager = new ConsultManager();
+                var res = await manager.getUsers(url);
+
+                if (res != null)
+                {
+                    ListStudent.ItemsSource = res;
+                }
+            }
         }
     }
 }

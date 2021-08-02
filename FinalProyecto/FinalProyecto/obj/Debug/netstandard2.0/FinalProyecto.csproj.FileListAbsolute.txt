@@ -165,3 +165,4 @@ D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\D
 D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\FinalProyecto.dll
 D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\ref\FinalProyecto.dll
 D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\FinalProyecto.pdb
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\FinalProyecto.csproj.AssemblyReference.cache

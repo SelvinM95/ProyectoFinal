@@ -12,9 +12,12 @@ namespace FinalProyecto.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class InformacionSolicitudA : ContentPage
     {
-        public InformacionSolicitudA()
+        String appID;
+
+        public InformacionSolicitudA(String AppID)
         {
             InitializeComponent();
+            appID = AppID;
         }
     }
 }
