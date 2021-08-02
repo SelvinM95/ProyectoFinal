@@ -22,7 +22,7 @@
         <category android:name="com.l7dynamics.finalproyecto" />
       </intent-filter>
     </receiver>
-    <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@android:drawable/ic_notification_clear_all" />
+    <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@android:drawable/ic_notification_overlay" />
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
     <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="FinalProyecto" android:theme="@style/MainTheme" android:name="crc64b9003588fdbd3764.MainActivity">
       <intent-filter>

@@ -68,8 +68,8 @@ namespace FinalProyecto.Droid
                 .SetContentTitle(pTitle)
                 .SetContentText(pBody)
                 .SetAutoCancel(true)
-                .SetLargeIcon(BitmapFactory.DecodeResource(AndroidApp.Context.Resources, Resource.Drawable.notification_bg_normal))
-                .SetSmallIcon(Resource.Drawable.notification_bg_normal)
+                .SetLargeIcon(BitmapFactory.DecodeResource(AndroidApp.Context.Resources, Resource.Drawable.notification_icon_background))
+                .SetSmallIcon(Resource.Drawable.notification_icon_background)
                 .SetDefaults((int)NotificationDefaults.Sound | (int)NotificationDefaults.Vibrate);
 
             var notification = builder.Build();

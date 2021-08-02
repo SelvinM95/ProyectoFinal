@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <SelectedDevice>Samsung SM-S327VL</SelectedDevice>
-    <ActiveDebugProfile>Samsung SM-S327VL</ActiveDebugProfile>
+    <SelectedDevice>TCL Alcatel 5085C</SelectedDevice>
+    <ActiveDebugProfile>TCL Alcatel 5085C</ActiveDebugProfile>
     <DefaultDevice>BieraHN</DefaultDevice>
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>

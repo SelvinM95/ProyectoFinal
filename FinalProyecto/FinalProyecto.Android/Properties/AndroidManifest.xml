@@ -10,7 +10,7 @@
 				<category android:name="${applicationId}" />
 			</intent-filter>
 		</receiver>
-		<meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@android:drawable/ic_notification_clear_all" />
+		<meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@android:drawable/ic_notification_overlay" />
 	</application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.INTERNET" />
