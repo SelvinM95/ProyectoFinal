@@ -24,21 +24,21 @@
                       HorizontalOptions="Center"
                      VerticalOptions="Center">
 
-                        <Image Source="perfil4.jpg"
+                        <Image Source="{Binding fotoUser}"
                         Aspect="AspectFill"
                         Margin="-20"
                         HeightRequest="100"
                         WidthRequest="100" />
                     </Frame>
 
-                    <Label Text="Aldenis Eduardo Miranda Cisnado" 
+                    <Label Text="{Binding NameUser}" 
                         TextColor="White"
                         FontAttributes="Bold"
                         FontSize="14" 
                         HorizontalOptions="Center"
                         VerticalOptions="CenterAndExpand" />
 
-                    <Label Text="201610040226" 
+                    <Label Text="{Binding nCountUser}" 
                          TextColor="White"
                          FontSize="14" 
                          HorizontalOptions="Center"
@@ -51,7 +51,7 @@
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
-                        <Label Text="Ing. en Computación" 
+                        <Label Text="{Binding carreraUser}" 
                          TextColor="Black"
                          FontSize="14"/>
                     </StackLayout>
@@ -63,7 +63,7 @@
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
-                        <Label Text="onan_maldonado@hotmail.com"
+                        <Label Text="{Binding emailUser}"
                         TextColor="Black"
                         FontSize="14" />
                     </StackLayout>
@@ -75,7 +75,7 @@
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
-                        <Label Text="+50495186544"
+                        <Label Text="{Binding telUser}"
                         TextColor="Black"
                         FontSize="14" />
                     </StackLayout>
@@ -87,7 +87,7 @@
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
-                        <Label Text="20/11/1995"
+                        <Label Text="{Binding birthdateUser}"
                         TextColor="Black"
                         FontSize="14"/>
                     </StackLayout>

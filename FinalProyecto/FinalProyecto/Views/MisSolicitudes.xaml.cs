@@ -16,6 +16,8 @@ namespace FinalProyecto.Views
     public partial class MisSolicitudes : ContentPage
     {
         String AppID;
+        int idSolicitud;
+        int id;
 
         public MisSolicitudes()
         {
@@ -41,13 +43,14 @@ namespace FinalProyecto.Views
             var obj = (User)e.Item;
 
             AppID = obj.AppIDUser;
+            idSolicitud = obj.idSolicitud;
+            id = obj.idUser;
 
             if (!string.IsNullOrEmpty(obj.idUser.ToString()))
             {
 
                 var datos = new User
                 {
-                    idUser = obj.idUser,
                     NameUser = obj.NameUser,
                     nCountUser = obj.nCountUser,
                     carreraUser = obj.carreraUser,
@@ -57,7 +60,7 @@ namespace FinalProyecto.Views
                     fotoUser = obj.fotoUser
                 };
 
-                var detalles = new InformacionSolicitudA(AppID);
+                var detalles = new InformacionSolicitudA(AppID, idSolicitud, id);
                 detalles.BindingContext = datos;
                 await Navigation.PushAsync(detalles);
             }

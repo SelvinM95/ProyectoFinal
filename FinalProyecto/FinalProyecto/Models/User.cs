@@ -7,6 +7,7 @@ namespace FinalProyecto.Models
     public class User
     {
         public int idUser { get; set; }
+        public int idSolicitud { get; set; }
         public String NameUser { get; set; }
         public String nCountUser { get; set; }
         public String carreraUser { get; set; }
