@@ -12656,40 +12656,43 @@ namespace FinalProyecto.Droid
 			public const int reproductor = 2131165388;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int telephone = 2131165389;
+			public const int sort = 2131165389;
 			
 			// aapt resource value: 0x7F0700CE
-			public const int test_custom_background = 2131165390;
+			public const int telephone = 2131165390;
 			
 			// aapt resource value: 0x7F0700CF
-			public const int tooltip_frame_dark = 2131165391;
+			public const int test_custom_background = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int tooltip_frame_light = 2131165392;
+			public const int tooltip_frame_dark = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int unnamed = 2131165393;
+			public const int tooltip_frame_light = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int upload = 2131165394;
+			public const int unnamed = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int user = 2131165395;
+			public const int upload = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int usergroup = 2131165396;
+			public const int user = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int userp = 2131165397;
+			public const int usergroup = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int users = 2131165398;
+			public const int userp = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int usersp = 2131165399;
+			public const int users = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int xamarin_logo = 2131165400;
+			public const int usersp = 2131165400;
+			
+			// aapt resource value: 0x7F0700D9
+			public const int xamarin_logo = 2131165401;
 			
 			static Drawable()
 			{

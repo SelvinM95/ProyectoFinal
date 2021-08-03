@@ -46,7 +46,7 @@
                     <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand"> 
                     <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
                         <ffimageloading:SvgCachedImage
-                                         Source="idcard.svg" 
+                                         Source="usergroup.svg" 
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
@@ -61,7 +61,7 @@
 
                     <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
                         <ffimageloading:SvgCachedImage
-                                         Source="idcard.svg" 
+                                         Source="sort.svg" 
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
