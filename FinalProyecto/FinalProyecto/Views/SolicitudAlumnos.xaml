@@ -95,6 +95,8 @@
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                     <Button Text="Enviar Solicitud" x:Name="send" Clicked="send_Clicked" BackgroundColor="#5DBEFF" CornerRadius="15"/>
+                    <Label Text="Solicitud En Proceso" IsVisible="False" x:Name="labelProceso"/>
+                    <Label Text="Usuario ya está en la lista de amigos" IsVisible="False" x:Name="labelAmistad"/>
                 </StackLayout>
             </StackLayout>
         </Frame>
