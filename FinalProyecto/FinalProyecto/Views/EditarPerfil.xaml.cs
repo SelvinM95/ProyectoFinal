@@ -41,7 +41,7 @@ namespace FinalProyecto.Views
                 var mediaOption = new PickMediaOptions()
                 {
                     PhotoSize = PhotoSize.Large,
-                    CompressionQuality = 75,
+                    CompressionQuality = 70,
                 };
 
                 var imagen = await CrossMedia.Current.PickPhotoAsync(mediaOption);

@@ -2214,13 +2214,6 @@ D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto.Andro
 D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto.Android\obj\Debug\110\res\drawable\group.png
 D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto.Android\obj\Debug\110\res\drawable\home.png
 D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto.Android\obj\Debug\110\res\drawable\user.png
-D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto.Android\obj\Debug\110\res\drawable\perfil.jpg
-D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto.Android\obj\Debug\110\res\drawable\perfil1.jpg
-D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto.Android\obj\Debug\110\res\drawable\perfil2.jpg
-D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto.Android\obj\Debug\110\res\drawable\unnamed.png
-D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto.Android\obj\Debug\110\res\drawable\perfil3.jpg
-D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto.Android\obj\Debug\110\res\drawable\perfil4.jpg
-D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto.Android\obj\Debug\110\res\drawable\perfil5.jpg
 D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto.Android\obj\Debug\110\res\drawable\friends.png
 D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto.Android\obj\Debug\110\res\drawable\download.png
 D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto.Android\obj\Debug\110\res\drawable\dto.svg
@@ -3019,3 +3012,4 @@ C:\Users\SelvinM95\Documents\GitHub\ProyectoFinal\FinalProyecto\FinalProyecto.An
 C:\Users\SelvinM95\Documents\GitHub\ProyectoFinal\FinalProyecto\FinalProyecto.Android\obj\Debug\110\android\src\mono\com\google\firebase\iid\internal\FirebaseInstanceIdInternal_NewTokenListenerImplementor.java
 C:\Users\SelvinM95\Documents\GitHub\ProyectoFinal\FinalProyecto\FinalProyecto.Android\obj\Debug\110\android\src\mono\com\google\firebase\installations\internal\FidListenerImplementor.java
 C:\Users\SelvinM95\Documents\GitHub\ProyectoFinal\FinalProyecto\FinalProyecto.Android\obj\Debug\110\res\drawable\sort.svg
+D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto.Android\obj\Debug\110\res\drawable\sort.svg

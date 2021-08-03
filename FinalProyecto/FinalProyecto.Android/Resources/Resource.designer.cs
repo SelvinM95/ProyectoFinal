@@ -12626,73 +12626,52 @@ namespace FinalProyecto.Droid
 			public const int people = 2131165378;
 			
 			// aapt resource value: 0x7F0700C3
-			public const int perfil = 2131165379;
+			public const int picture = 2131165379;
 			
 			// aapt resource value: 0x7F0700C4
-			public const int perfil1 = 2131165380;
+			public const int picturelist = 2131165380;
 			
 			// aapt resource value: 0x7F0700C5
-			public const int perfil2 = 2131165381;
+			public const int preference_list_divider_material = 2131165381;
 			
 			// aapt resource value: 0x7F0700C6
-			public const int perfil3 = 2131165382;
+			public const int reproductor = 2131165382;
 			
 			// aapt resource value: 0x7F0700C7
-			public const int perfil4 = 2131165383;
+			public const int sort = 2131165383;
 			
 			// aapt resource value: 0x7F0700C8
-			public const int perfil5 = 2131165384;
+			public const int telephone = 2131165384;
 			
 			// aapt resource value: 0x7F0700C9
-			public const int picture = 2131165385;
+			public const int test_custom_background = 2131165385;
 			
 			// aapt resource value: 0x7F0700CA
-			public const int picturelist = 2131165386;
+			public const int tooltip_frame_dark = 2131165386;
 			
 			// aapt resource value: 0x7F0700CB
-			public const int preference_list_divider_material = 2131165387;
+			public const int tooltip_frame_light = 2131165387;
 			
 			// aapt resource value: 0x7F0700CC
-			public const int reproductor = 2131165388;
+			public const int upload = 2131165388;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int sort = 2131165389;
+			public const int user = 2131165389;
 			
 			// aapt resource value: 0x7F0700CE
-			public const int telephone = 2131165390;
+			public const int usergroup = 2131165390;
 			
 			// aapt resource value: 0x7F0700CF
-			public const int test_custom_background = 2131165391;
+			public const int userp = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int tooltip_frame_dark = 2131165392;
+			public const int users = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int tooltip_frame_light = 2131165393;
+			public const int usersp = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int unnamed = 2131165394;
-			
-			// aapt resource value: 0x7F0700D3
-			public const int upload = 2131165395;
-			
-			// aapt resource value: 0x7F0700D4
-			public const int user = 2131165396;
-			
-			// aapt resource value: 0x7F0700D5
-			public const int usergroup = 2131165397;
-			
-			// aapt resource value: 0x7F0700D6
-			public const int userp = 2131165398;
-			
-			// aapt resource value: 0x7F0700D7
-			public const int users = 2131165399;
-			
-			// aapt resource value: 0x7F0700D8
-			public const int usersp = 2131165400;
-			
-			// aapt resource value: 0x7F0700D9
-			public const int xamarin_logo = 2131165401;
+			public const int xamarin_logo = 2131165394;
 			
 			static Drawable()
 			{
