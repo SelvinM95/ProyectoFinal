@@ -5,6 +5,7 @@
              x:Class="FinalProyecto.Views.InformacionSolicitudA"
              Title="Más Información">
 
+    <ScrollView Orientation="Horizontal">
     <StackLayout BackgroundColor="#ffffff">
 
         <Frame CornerRadius="10" Margin="15">
@@ -98,5 +99,6 @@
                 </StackLayout>
             </StackLayout>
         </Frame>
-    </StackLayout>
+    </StackLayout> 
+    </ScrollView>
 </ContentPage>

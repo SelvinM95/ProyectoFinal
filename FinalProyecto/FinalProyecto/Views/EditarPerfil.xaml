@@ -14,6 +14,7 @@
         </ToolbarItem>
     </ContentPage.ToolbarItems>
 
+    <ScrollView>
     <StackLayout BackgroundColor="#ffffff">
 
         <Frame CornerRadius="10" Margin="15">
@@ -62,15 +63,15 @@
                          HorizontalOptions="Center"
                          VerticalOptions="CenterAndExpand" />
 
-                    <ScrollView Orientation="Vertical"> 
-                    <StackLayout Orientation="Vertical"> 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
-                        <ffimageloading:SvgCachedImage
+                    
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
+                                <ffimageloading:SvgCachedImage
                                          Source="idcard.svg" 
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
-                        <Entry
+                                <Entry
                          x:Name="carrera"
                          IsEnabled="False"
                          TextColor="Black"
@@ -78,48 +79,48 @@
                          Keyboard="Text"
                          WidthRequest="250"
                          Placeholder="Carrera"/>
-                    </StackLayout>
+                            </StackLayout>
 
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
-                        <ffimageloading:SvgCachedImage
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
+                                <ffimageloading:SvgCachedImage
                                          Source="email.svg" 
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
-                        <Entry
+                                <Entry
                         x:Name="correo"
                         TextColor="Black"
                         FontSize="14"
                         Keyboard="Email"
                         WidthRequest="250"
                          Placeholder="Correo Electronico"/>
-                    </StackLayout>
+                            </StackLayout>
 
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
-                        <ffimageloading:SvgCachedImage
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
+                                <ffimageloading:SvgCachedImage
                                          Source="telephone.svg" 
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
-                        <Entry
+                                <Entry
                         x:Name="tel"
                         TextColor="Black"
                         Keyboard="Numeric"
                         FontSize="14"
                          WidthRequest="250"
                          Placeholder="Telefono"/>
-                    </StackLayout>
+                            </StackLayout>
 
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
-                        <ffimageloading:SvgCachedImage
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="10,10,0,0">
+                                <ffimageloading:SvgCachedImage
                                          Source="calendar.svg" 
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
-                        <Entry
+                                <Entry
                          x:Name="date"
                          IsEnabled="False"
                          TextColor="Black"
@@ -127,10 +128,9 @@
                          Keyboard="Text"
                          WidthRequest="250"
                          Placeholder="Fecha"/>
-                    </StackLayout>
+                            </StackLayout>
 
-                    </StackLayout>
-                    </ScrollView>
+                        </StackLayout>
 
 
                 </StackLayout>
@@ -156,4 +156,5 @@
 
         </Frame>
     </StackLayout>
+    </ScrollView>
 </ContentPage>

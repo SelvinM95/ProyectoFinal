@@ -5,10 +5,11 @@
              x:Class="FinalProyecto.Views.InformacionAmistad"
              Title="Más Información">
 
+    <ScrollView >
     <StackLayout BackgroundColor="#ffffff">
 
-        <Frame CornerRadius="10" Margin="15,40,15,0">
-            <StackLayout>
+            <Frame CornerRadius="10" Margin="15">
+                <StackLayout>
                 <Image Source="degradado1.jpg" Aspect="AspectFill"
                          Margin="-20"
                          HeightRequest="225"
@@ -94,5 +95,6 @@
                 </StackLayout>
             </StackLayout>
         </Frame>
-    </StackLayout>
+    </StackLayout> 
+    </ScrollView>
 </ContentPage>

@@ -5,6 +5,7 @@
              x:Class="FinalProyecto.Views.CambioPass"
              Title="Cambio de Contraseña">
 
+    <ScrollView>
     <StackLayout BackgroundColor="#ffffff">
 
         <Frame CornerRadius="10" Margin="15">
@@ -106,5 +107,6 @@
 
 
         </Frame>
-    </StackLayout>
+    </StackLayout> 
+    </ScrollView>
 </ContentPage>

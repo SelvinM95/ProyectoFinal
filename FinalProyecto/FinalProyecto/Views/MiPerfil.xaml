@@ -12,17 +12,18 @@
         </ToolbarItem>
     </ContentPage.ToolbarItems>
 
-    <StackLayout BackgroundColor="#ffffff">
+    <ScrollView >
+        <StackLayout BackgroundColor="#ffffff">
 
-        <Frame CornerRadius="10" Margin="15">
-            <StackLayout>
-                <Image Source="degradado1.jpg" Aspect="AspectFill"
+            <Frame CornerRadius="10" Margin="15">
+                <StackLayout>
+                    <Image Source="degradado1.jpg" Aspect="AspectFill"
                          Margin="-20"
                          HeightRequest="225"
                          WidthRequest="100"/>
 
-                <StackLayout Padding="10,-200,10,10">
-                    <Frame Margin="0"
+                    <StackLayout Padding="10,-200,10,10">
+                        <Frame Margin="0"
                       BorderColor="White"
                       CornerRadius="80"
                       HeightRequest="110"
@@ -31,15 +32,15 @@
                       HorizontalOptions="Center"
                      VerticalOptions="Center">
 
-                        <Image
+                            <Image
                         Aspect="AspectFill"
                         Margin="-20"
                         x:Name="profile"
                         HeightRequest="100"
                         WidthRequest="100" />
-                    </Frame>
+                        </Frame>
 
-                    <Label
+                        <Label
                         TextColor="White"
                         FontAttributes="Bold"
                         FontSize="18"
@@ -47,184 +48,184 @@
                         HorizontalOptions="Center"
                         VerticalOptions="CenterAndExpand" />
 
-                    <Label
+                        <Label
                          x:Name="cuenta"
                          TextColor="White"
                          FontSize="16" 
                          HorizontalOptions="Center"
                          VerticalOptions="CenterAndExpand" />
 
-                    <ScrollView> 
-                    <StackLayout Orientation="Vertical"  Margin="0,8,0,0">
-                        
-                   
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
-                        <ffimageloading:SvgCachedImage
+
+                        <StackLayout Orientation="Vertical"  Margin="0,8,0,0">
+
+
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                                <ffimageloading:SvgCachedImage
                                          Source="idcard.svg" 
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
-                        <Label 
+                                <Label 
                          x:Name="carrera"
                          TextColor="Black"
                          FontSize="14"/>
-                    </StackLayout>
+                            </StackLayout>
 
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
-                        <ffimageloading:SvgCachedImage
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                                <ffimageloading:SvgCachedImage
                                          Source="email.svg" 
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
-                        <Label 
+                                <Label 
                         x:Name="correo"
                         TextColor="Black"
                         FontSize="14" />
-                    </StackLayout>
+                            </StackLayout>
 
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
-                        <ffimageloading:SvgCachedImage
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,0">
+                                <ffimageloading:SvgCachedImage
                                          Source="telephone.svg" 
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
-                        <Label
+                                <Label
                         x:Name="telefono"
                         TextColor="Black"
                         FontSize="14" />
-                    </StackLayout>
+                            </StackLayout>
 
 
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,10">
-                        <ffimageloading:SvgCachedImage
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,10,0,10">
+                                <ffimageloading:SvgCachedImage
                                          Source="calendar.svg" 
                                          WidthRequest="30"
                                          HeightRequest="30"/>
 
-                        <Label 
+                                <Label 
                         x:Name="fecha"
                         TextColor="Black"
                         FontSize="14"/>
-                    </StackLayout> 
+                            </StackLayout>
+                        </StackLayout>
+
+
                     </StackLayout>
-                    </ScrollView>
 
+                    <StackLayout Orientation="Horizontal"  HorizontalOptions="Center" Margin="0,0,-15,-7">
 
-                </StackLayout>
-
-                <StackLayout Orientation="Horizontal"  HorizontalOptions="Center" Margin="0,0,-15,-7">
-
-                    <AbsoluteLayout x:Name="light_____card__1__container_a__elevated"
+                        <AbsoluteLayout x:Name="light_____card__1__container_a__elevated"
 					 AbsoluteLayout.LayoutBounds="25,70,149,138" HorizontalOptions="CenterAndExpand" >
 
-                        <Frame x:Name="container"
+                            <Frame x:Name="container"
 						CornerRadius="50"
 						BackgroundColor="#DEE8EE"
 						AbsoluteLayout.LayoutBounds="0,0,80,50" />
-                        <Frame x:Name="amigos" 
+                            <Frame x:Name="amigos" 
 						CornerRadius="50"
 						BackgroundColor="#DEE8EE"
 						AbsoluteLayout.LayoutBounds="0,0,80,50" />
 
-                        <Button x:Name="amigosButton"  
+                            <Button x:Name="amigosButton"  
                         Clicked="amigosButton_Clicked" 
 						CornerRadius="15"
 						BackgroundColor="Transparent"
 						AbsoluteLayout.LayoutBounds="0,0,80,50" />
 
-                        <ffimageloading:SvgCachedImage
+                            <ffimageloading:SvgCachedImage
                                          Source="friendsp.svg"
                                          HorizontalOptions="Center"
                                          WidthRequest="30"
                                          HeightRequest="30" 
                    AbsoluteLayout.LayoutBounds="-5,0,90,55">
 
-                            <ffimageloading:SvgCachedImage.GestureRecognizers>
-                                <TapGestureRecognizer NumberOfTapsRequired="1" x:Name="imgAmigos" Tapped="imgAmigos_Tapped"/>
-                            </ffimageloading:SvgCachedImage.GestureRecognizers>
-                        </ffimageloading:SvgCachedImage>
-                    </AbsoluteLayout>
-                    
+                                <ffimageloading:SvgCachedImage.GestureRecognizers>
+                                    <TapGestureRecognizer NumberOfTapsRequired="1" x:Name="imgAmigos" Tapped="imgAmigos_Tapped"/>
+                                </ffimageloading:SvgCachedImage.GestureRecognizers>
+                            </ffimageloading:SvgCachedImage>
+                        </AbsoluteLayout>
 
-                    <AbsoluteLayout x:Name="light_____card__2__container_a__elevated"
+
+                        <AbsoluteLayout x:Name="light_____card__2__container_a__elevated"
 					 AbsoluteLayout.LayoutBounds="25,70,149,138" HorizontalOptions="CenterAndExpand" >
 
-                        <Frame x:Name="container2"
+                            <Frame x:Name="container2"
 						CornerRadius="50"
 						BackgroundColor="#DEE8EE"
 						AbsoluteLayout.LayoutBounds="0,0,80,50" />
-                        <Frame x:Name="grupos" 
+                            <Frame x:Name="grupos" 
 						CornerRadius="50"
 						BackgroundColor="#DEE8EE"
 						AbsoluteLayout.LayoutBounds="0,0,80,50" />
 
-                        <Button x:Name="GruposButton"  
+                            <Button x:Name="GruposButton"  
                         Clicked="GruposButton_Clicked"
 						CornerRadius="15"
 						BackgroundColor="Transparent"
 						AbsoluteLayout.LayoutBounds="0,0,80,50" />
 
-                        <ffimageloading:SvgCachedImage
+                            <ffimageloading:SvgCachedImage
                                          Source="usersp.svg"
                                          HorizontalOptions="Center"
                                          WidthRequest="30"
                                          HeightRequest="30" 
                    AbsoluteLayout.LayoutBounds="-5,0,90,55">
 
-                            <ffimageloading:SvgCachedImage.GestureRecognizers>
-                                <TapGestureRecognizer NumberOfTapsRequired="1" x:Name="imageGrupo" Tapped="imageGrupo_Tapped"/>
-                            </ffimageloading:SvgCachedImage.GestureRecognizers>
-                        </ffimageloading:SvgCachedImage>
-                    </AbsoluteLayout>
+                                <ffimageloading:SvgCachedImage.GestureRecognizers>
+                                    <TapGestureRecognizer NumberOfTapsRequired="1" x:Name="imageGrupo" Tapped="imageGrupo_Tapped"/>
+                                </ffimageloading:SvgCachedImage.GestureRecognizers>
+                            </ffimageloading:SvgCachedImage>
+                        </AbsoluteLayout>
 
-                    <AbsoluteLayout x:Name="light_____card__3__container_a__elevated"
+                        <AbsoluteLayout x:Name="light_____card__3__container_a__elevated"
 					 AbsoluteLayout.LayoutBounds="25,70,149,138" HorizontalOptions="CenterAndExpand" >
 
-                        <Frame x:Name="container3"
+                            <Frame x:Name="container3"
 						CornerRadius="50"
 						BackgroundColor="#DEE8EE"
 						AbsoluteLayout.LayoutBounds="0,0,80,50" />
-                        <Frame x:Name="editar" 
+                            <Frame x:Name="editar" 
 						CornerRadius="50"
 						BackgroundColor="#DEE8EE"
 						AbsoluteLayout.LayoutBounds="0,0,80,50" />
 
-                        <Button x:Name="EditarButton" 
+                            <Button x:Name="EditarButton" 
                         Clicked="EditarButton_Clicked"
 						CornerRadius="15"
 						BackgroundColor="Transparent"
 						AbsoluteLayout.LayoutBounds="0,0,80,50" />
 
-                        <ffimageloading:SvgCachedImage
+                            <ffimageloading:SvgCachedImage
                                          Source="edit2.svg"
                                          HorizontalOptions="Center"
                                          WidthRequest="30"
                                          HeightRequest="30" 
                    AbsoluteLayout.LayoutBounds="-3,0,90,50">
 
-                            <ffimageloading:SvgCachedImage.GestureRecognizers>
-                                <TapGestureRecognizer NumberOfTapsRequired="1" x:Name="imageEditar" Tapped="imageEditar_Tapped"/>
-                            </ffimageloading:SvgCachedImage.GestureRecognizers>
-                        </ffimageloading:SvgCachedImage>
-                    </AbsoluteLayout> 
-                    
+                                <ffimageloading:SvgCachedImage.GestureRecognizers>
+                                    <TapGestureRecognizer NumberOfTapsRequired="1" x:Name="imageEditar" Tapped="imageEditar_Tapped"/>
+                                </ffimageloading:SvgCachedImage.GestureRecognizers>
+                            </ffimageloading:SvgCachedImage>
+                        </AbsoluteLayout>
+
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <Label Text="Amigos" HorizontalOptions="StartAndExpand" Padding="22,0,0,0"  />
+                        <Label Text="Grupos" HorizontalOptions="CenterAndExpand" Padding="36,0,0,0" />
+                        <Label Text="Editar Perfil" Padding="28,0,0,0"/>
+                    </StackLayout>
+
+
+
+
                 </StackLayout>
-                
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                    <Label Text="Amigos" HorizontalOptions="StartAndExpand" Padding="22,0,0,0"  />
-                    <Label Text="Grupos" HorizontalOptions="CenterAndExpand" Padding="36,0,0,0" />
-                    <Label Text="Editar Perfil" Padding="28,0,0,0"/>
-                </StackLayout>
 
 
 
-
-            </StackLayout>
-           
-            
-            
-        </Frame> 
-    </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

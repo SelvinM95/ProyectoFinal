@@ -5,6 +5,7 @@
              x:Class="FinalProyecto.Views.SolicitudAlumnos" 
              Title="Información del alumno">
 
+    <ScrollView>
     <StackLayout BackgroundColor="#ffffff">
 
         <Frame CornerRadius="10" Margin="15">
@@ -100,5 +101,6 @@
                 </StackLayout>
             </StackLayout>
         </Frame>
-    </StackLayout>
+    </StackLayout> 
+    </ScrollView>
 </ContentPage>

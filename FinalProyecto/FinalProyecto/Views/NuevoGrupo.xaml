@@ -29,7 +29,7 @@
 
 
                 <StackLayout>
-                    <ListView ItemsSource="{Binding ListDetails}"
+                    <ListView
                   x:Name="ListStudent"
                   HasUnevenRows="True" 
                   SeparatorColor="Blue" 
@@ -43,12 +43,21 @@
                                         <Frame CornerRadius="10" HasShadow="True">
                                             <StackLayout Orientation="Horizontal">
                                                 <CheckBox
-                                                    Color="#5DBEFF">
-                                                    
+                                                    Color="#5DBEFF"> 
                                                 </CheckBox>
+
+                                                <Frame CornerRadius="50" Margin="0,0,0,-1">
+                                                    <StackLayout >
+                                                        <Image Aspect="AspectFill"
+                                                               Margin="-20"
+                                                               Source="{Binding fotoUser}"
+                                                               HeightRequest="52"
+                                                               WidthRequest="50"/>
+                                                    </StackLayout>
+                                                </Frame>
                                                 <StackLayout VerticalOptions="Center">
-                                                    <Label Text="{Binding Name}"  VerticalOptions="Center" FontSize="14" TextColor="Black"  Margin="10,0,0,0"></Label>
-                                                    <Label VerticalOptions="Center" Text="{Binding Cuenta}" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                                    <Label Text="{Binding NameUser}"  VerticalOptions="Center" FontSize="12" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                                    <Label VerticalOptions="Center" Text="{Binding nCountUser}" FontAttributes="Italic" FontSize="12" TextColor="Black"  Margin="10,0,0,0"></Label>
                                                 </StackLayout>
                                             </StackLayout>
                                         </Frame>

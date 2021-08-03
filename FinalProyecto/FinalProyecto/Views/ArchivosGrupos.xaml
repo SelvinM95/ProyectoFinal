@@ -140,7 +140,7 @@
 
             <!-- Videos -->
             <AbsoluteLayout x:Name="light_____card__1__container_a__elevated_ek3"
-					 AbsoluteLayout.LayoutBounds="307,20,149,138">
+					 AbsoluteLayout.LayoutBounds="307,20,100,150">
 
                 <Frame x:Name="container_ek3"
 						CornerRadius="4"
