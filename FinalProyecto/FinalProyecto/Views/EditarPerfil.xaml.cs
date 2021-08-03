@@ -92,7 +92,7 @@ namespace FinalProyecto.Views
             };
 
             var request = new HttpRequestMessage();
-            Uri RequestUri = new Uri("http://192.168.1.35/WSXamarin/users/update/" + App.Current.Properties["Id"].ToString());
+            Uri RequestUri = new Uri("http://192.168.100.77/WSXamarin/users/update/" + App.Current.Properties["Id"].ToString());
 
             var client = new HttpClient();
             var json = JsonConvert.SerializeObject(user);

@@ -22,7 +22,7 @@ namespace FinalProyecto.Views
 
         protected async override void OnAppearing()
         {
-            string url = string.Format("http://192.168.1.35/WSXamarin/groups/all");
+            string url = string.Format("http://192.168.100.77/WSXamarin/groups/all");
             ConsultManager manager = new ConsultManager();
             var res = await manager.getGroups(url);
 
@@ -70,7 +70,7 @@ namespace FinalProyecto.Views
         {
             if (search.Text == "")
             {
-                String URL = "http://192.168.1.35/WSXamarin/groups/all";
+                String URL = "http://192.168.100.77/WSXamarin/groups/all";
 
                 ConsultManager manager = new ConsultManager();
                 var res = await manager.getGroups(URL);
@@ -83,7 +83,7 @@ namespace FinalProyecto.Views
             else
             {
 
-                String URL = "http://192.168.1.35/WSXamarin/groups/searchgroup/" + search.Text;
+                String URL = "http://192.168.100.77/WSXamarin/groups/searchgroup/" + search.Text;
 
                 ConsultManager manager = new ConsultManager();
                 var res = await manager.getGroups(URL);

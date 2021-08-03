@@ -29,7 +29,7 @@ namespace FinalProyecto.Views
         private async void send_Clicked(object sender, EventArgs e)
         {
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://192.168.1.35");
+            client.BaseAddress = new Uri("http://192.168.100.77");
             string url = string.Format("/WSXamarin/users/updaterequest/{0}", IDSolicitud);
             var response = await client.GetAsync(url);
             var result = response.Content.ReadAsStringAsync().Result;

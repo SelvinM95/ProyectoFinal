@@ -21,7 +21,7 @@ namespace FinalProyecto.Views
 
         protected async override void OnAppearing()
         {
-            string url = string.Format("http://192.168.1.35/WSXamarin/groups/mygroups/" + App.Current.Properties["Id"].ToString());
+            string url = string.Format("http://192.168.100.77/WSXamarin/groups/mygroups/" + App.Current.Properties["Id"].ToString());
             ConsultManager manager = new ConsultManager();
             var res = await manager.getGroups(url);
 

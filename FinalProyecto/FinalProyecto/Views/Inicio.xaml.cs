@@ -25,7 +25,7 @@ namespace FinalProyecto.Views
 
         protected async override void OnAppearing()
         {
-            string url = string.Format("http://192.168.1.35/WSXamarin/users/all/{0}", App.Current.Properties["Id"].ToString());
+            string url = string.Format("http://192.168.100.77/WSXamarin/users/all/{0}", App.Current.Properties["Id"].ToString());
             ConsultManager manager = new ConsultManager();
             var res = await manager.getUsers(url);
 
@@ -78,7 +78,7 @@ namespace FinalProyecto.Views
         {
             if (search.Text == "")
             {
-                string url = string.Format("http://192.168.1.35/WSXamarin/users/all/{0}", App.Current.Properties["Id"].ToString());
+                string url = string.Format("http://192.168.100.77/WSXamarin/users/all/{0}", App.Current.Properties["Id"].ToString());
 
                 ConsultManager manager = new ConsultManager();
                 var res = await manager.getUsers(url);
@@ -90,7 +90,7 @@ namespace FinalProyecto.Views
             }
             else
             {
-                string url = string.Format("http://192.168.1.35/WSXamarin/users/searchuser/{0}/{1}", search.Text, App.Current.Properties["Id"].ToString());
+                string url = string.Format("http://192.168.100.77/WSXamarin/users/searchuser/{0}/{1}", search.Text, App.Current.Properties["Id"].ToString());
 
                 ConsultManager manager = new ConsultManager();
                 var res = await manager.getUsers(url);
