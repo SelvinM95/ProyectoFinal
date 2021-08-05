@@ -66,7 +66,10 @@ namespace FinalProyecto.Views
 
         private async void ListStudent_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            var obj = (User)e.Item;
+            bool answer = await DisplayAlert("Alerta", "¿Quieres agregar este usuario?", "Yes", "No");
+            if (answer == true)
+            {
+                var obj = (User)e.Item;
             usuarioid = obj.idUser.ToString();
 
             HttpClient client = new HttpClient();
@@ -83,7 +86,11 @@ namespace FinalProyecto.Views
             else
             {
                 await DisplayAlert("Success", "Usuario Agregado", "Ok");
-                await Navigation.PopAsync();
+            }
+            }
+            else
+            { 
+
             }
         }
     }

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Storage\\UTH\\Movil 2\\3 Parcial\\ProyectoFinal\\FinalProyecto\\FinalProyecto.Android\\FinalProyecto.Android.csproj": {}
+    "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto.Android\\FinalProyecto.Android.csproj": {}
   },
   "projects": {
-    "D:\\Storage\\UTH\\Movil 2\\3 Parcial\\ProyectoFinal\\FinalProyecto\\FinalProyecto.Android\\FinalProyecto.Android.csproj": {
+    "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto.Android\\FinalProyecto.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Storage\\UTH\\Movil 2\\3 Parcial\\ProyectoFinal\\FinalProyecto\\FinalProyecto.Android\\FinalProyecto.Android.csproj",
+        "projectUniqueName": "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto.Android\\FinalProyecto.Android.csproj",
         "projectName": "FinalProyecto.Android",
-        "projectPath": "D:\\Storage\\UTH\\Movil 2\\3 Parcial\\ProyectoFinal\\FinalProyecto\\FinalProyecto.Android\\FinalProyecto.Android.csproj",
-        "packagesPath": "C:\\Users\\Jerry\\.nuget\\packages\\",
-        "outputPath": "D:\\Storage\\UTH\\Movil 2\\3 Parcial\\ProyectoFinal\\FinalProyecto\\FinalProyecto.Android\\obj\\",
+        "projectPath": "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto.Android\\FinalProyecto.Android.csproj",
+        "packagesPath": "C:\\Users\\SelvinM95\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jerry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SelvinM95\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "D:\\Storage\\UTH\\Movil 2\\3 Parcial\\ProyectoFinal\\FinalProyecto\\FinalProyecto\\FinalProyecto.csproj": {
-                "projectPath": "D:\\Storage\\UTH\\Movil 2\\3 Parcial\\ProyectoFinal\\FinalProyecto\\FinalProyecto\\FinalProyecto.csproj"
+              "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto\\FinalProyecto.csproj": {
+                "projectPath": "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto\\FinalProyecto.csproj"
               }
             }
           }
@@ -94,20 +94,20 @@
         }
       }
     },
-    "D:\\Storage\\UTH\\Movil 2\\3 Parcial\\ProyectoFinal\\FinalProyecto\\FinalProyecto\\FinalProyecto.csproj": {
+    "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto\\FinalProyecto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Storage\\UTH\\Movil 2\\3 Parcial\\ProyectoFinal\\FinalProyecto\\FinalProyecto\\FinalProyecto.csproj",
+        "projectUniqueName": "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto\\FinalProyecto.csproj",
         "projectName": "FinalProyecto",
-        "projectPath": "D:\\Storage\\UTH\\Movil 2\\3 Parcial\\ProyectoFinal\\FinalProyecto\\FinalProyecto\\FinalProyecto.csproj",
-        "packagesPath": "C:\\Users\\Jerry\\.nuget\\packages\\",
-        "outputPath": "D:\\Storage\\UTH\\Movil 2\\3 Parcial\\ProyectoFinal\\FinalProyecto\\FinalProyecto\\obj\\",
+        "projectPath": "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto\\FinalProyecto.csproj",
+        "packagesPath": "C:\\Users\\SelvinM95\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jerry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SelvinM95\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

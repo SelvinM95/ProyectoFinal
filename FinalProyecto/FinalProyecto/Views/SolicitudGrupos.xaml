@@ -54,11 +54,15 @@
                                     <Grid Padding="5">
                                         <Frame CornerRadius="10" HasShadow="True" HeightRequest="50">
                                             <StackLayout Orientation="Horizontal">
-                                                <ffimageloading:SvgCachedImage
-                                                    Source="usergroup.svg"
-                                                    HorizontalOptions="Center"
-                                                    WidthRequest="35"
-                                                    HeightRequest="70"/>
+                                                <Frame CornerRadius="50" Margin="-10,0,0,-1">
+                                                    <StackLayout >
+                                                        <Image Aspect="AspectFill"
+                                                            Margin="-20"
+                                                            Source="{Binding fotoUser}"
+                                                            HeightRequest="52"
+                                                            WidthRequest="50"/>
+                                                    </StackLayout>
+                                                </Frame>
                                                 <StackLayout VerticalOptions="Center">
                                                     <Label Text="{Binding NameUser}"  VerticalOptions="Center" FontSize="14" TextColor="Black"  Margin="10,0,0,0"></Label>
                                                     <Label VerticalOptions="Center" Text="{Binding nCountUser}" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
