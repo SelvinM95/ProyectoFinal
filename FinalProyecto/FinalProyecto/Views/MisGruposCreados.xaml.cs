@@ -44,7 +44,7 @@ namespace FinalProyecto.Views
             }
             else
             {
-                bool answer = await DisplayAlert("Alerta", "Quieres guardar este nombre:"+nombre.ToString(), "Yes", "No");
+                bool answer = await DisplayAlert("Alerta", "Quieres guardar este nombre: "+nombre.ToString(), "Yes", "No");
                 
                 if ( answer == true)
                 {
