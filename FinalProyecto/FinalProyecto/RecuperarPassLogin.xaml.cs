@@ -21,7 +21,7 @@ namespace FinalProyecto
         private async void EnviarCorreo_Clicked(object sender, EventArgs e)
         {
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://192.168.100.77");
+            client.BaseAddress = new Uri("http://3.15.208.156");
             string url = string.Format("/WSXamarin/users/recover/{0}", mail.Text);
             await client.GetAsync(url);
 

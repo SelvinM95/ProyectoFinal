@@ -21,7 +21,7 @@ namespace FinalProyecto.Views
 
         protected async override void OnAppearing()
         {
-            string url = string.Format("http://192.168.100.77/WSXamarin/users/myfriends/{0}", App.Current.Properties["Id"].ToString());
+            string url = string.Format("http://3.15.208.156/WSXamarin/users/myfriends/{0}", App.Current.Properties["Id"].ToString());
             ConsultManager manager = new ConsultManager();
             var res = await manager.getUsers(url);
 

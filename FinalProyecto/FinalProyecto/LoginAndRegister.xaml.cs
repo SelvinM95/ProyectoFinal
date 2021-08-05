@@ -27,7 +27,7 @@ namespace FinalProyecto
         private  async void InicioSesion_Clicked(object sender, EventArgs e)
         {
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://192.168.100.77");
+            client.BaseAddress = new Uri("http://3.15.208.156");
             string url = string.Format("/WSXamarin/login/get/{0}/{1}", userName.Text, userPassword.Text);
             var response = await client.GetAsync(url);
             var result = response.Content.ReadAsStringAsync().Result;

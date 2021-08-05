@@ -28,7 +28,7 @@ namespace FinalProyecto.Views
             if (npass.Text == cpass.Text) 
             {
                 HttpClient client = new HttpClient();
-                client.BaseAddress = new Uri("http://192.168.100.77");
+                client.BaseAddress = new Uri("http://3.15.208.156");
                 string url = string.Format("/WSXamarin/users/updatepass/{0}/{1}", App.Current.Properties["Id"].ToString(), cpass.Text);
                 var response = await client.GetAsync(url);
                 var result = response.Content.ReadAsStringAsync().Result;
