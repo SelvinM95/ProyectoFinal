@@ -4,16 +4,16 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-
+using System.Threading.Tasks;  
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace FinalProyecto.Views
-{
+{ 
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class NuevoGrupo : ContentPage
     {
+        string result;
         public NuevoGrupo()
         {
             InitializeComponent();
@@ -31,5 +31,18 @@ namespace FinalProyecto.Views
             }
         }
 
+        private void ListStudent_ItemTapped(object sender, ItemTappedEventArgs e)
+        { 
+        } 
+        private  void checkItem_CheckedChanged(object sender, CheckedChangedEventArgs e)
+        {
+            
+        }
+
+        private void unirme_Clicked(object sender, EventArgs e)
+        {
+           
+        }
     }
-}
+
+    }

@@ -38,7 +38,7 @@ namespace FinalProyecto.Views
 
         private async void NuevoGrupo_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new NuevoGrupo());
+            await Navigation.PushAsync(new MisGruposCreados());
         } 
     }
 }

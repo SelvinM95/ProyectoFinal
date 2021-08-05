@@ -34,15 +34,17 @@
                   HasUnevenRows="True" 
                   SeparatorColor="Blue" 
                   SeparatorVisibility="None"
-                  BackgroundColor="White"
+                  BackgroundColor="White" 
+                  ItemTapped="ListStudent_ItemTapped" 
                   SelectionMode="None">
-                        <ListView.ItemTemplate>
+                        <ListView.ItemTemplate >
                             <DataTemplate>
                                 <ViewCell>
                                     <Grid Padding="5">
                                         <Frame CornerRadius="10" HasShadow="True">
                                             <StackLayout Orientation="Horizontal">
-                                                <CheckBox
+                                                <CheckBox 
+                                                    CheckedChanged="checkItem_CheckedChanged"
                                                     Color="#5DBEFF"> 
                                                 </CheckBox>
 
@@ -56,7 +58,8 @@
                                                     </StackLayout>
                                                 </Frame>
                                                 <StackLayout VerticalOptions="Center">
-                                                    <Label Text="{Binding NameUser}"  VerticalOptions="Center" FontSize="12" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                                    <Label IsVisible="false" x:Name="idTxt" Text="{Binding idUser}"/>
+                                                    <Label Text="{Binding NameUser}" x:Name="NameUser"  VerticalOptions="Center" FontSize="12" TextColor="Black"  Margin="10,0,0,0"></Label>
                                                     <Label VerticalOptions="Center" Text="{Binding nCountUser}" FontAttributes="Italic" FontSize="12" TextColor="Black"  Margin="10,0,0,0"></Label>
                                                 </StackLayout>
                                             </StackLayout>
@@ -73,6 +76,7 @@
                             CornerRadius="10"
                             BackgroundColor="#5DBEFF"
                             x:Name="unirme"
+                            Clicked="unirme_Clicked"
                             FontAttributes="Bold">
                 </Button>
             </StackLayout>
