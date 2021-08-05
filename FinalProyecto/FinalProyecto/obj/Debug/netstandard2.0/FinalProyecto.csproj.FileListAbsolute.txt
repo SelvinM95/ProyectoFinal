@@ -167,3 +167,4 @@ D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\D
 D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\FinalProyecto.pdb
 D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\FinalProyecto.csproj.AssemblyReference.cache
 C:\Users\SelvinM95\Documents\GitHub\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\MisGruposCreados.xaml.g.cs
+C:\Users\SelvinM95\Documents\GitHub\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\AgregarUsuarioGrupos.xaml.g.cs

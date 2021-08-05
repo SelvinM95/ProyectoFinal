@@ -85,5 +85,25 @@ namespace FinalProyecto.Views
                 ListStudent.ItemsSource = res;
             }
         }
+
+        private async void ListStudent_ItemTapped(object sender, ItemTappedEventArgs e)
+        { 
+            var obj = (Groups)e.Item;
+
+            if (!string.IsNullOrEmpty(obj.idTeam.ToString()))
+            {
+
+                var datos = new Groups
+                {
+                    idTeam = obj.idTeam,
+                    teamName = obj.teamName,
+                    teamCoordi = obj.teamCoordi
+                };
+
+                var detalles = new AgregarUsuarioGrupos(obj.idTeam.ToString());
+                detalles.BindingContext = datos;
+                await Navigation.PushAsync(detalles);
+            }
+        }
     }
 }

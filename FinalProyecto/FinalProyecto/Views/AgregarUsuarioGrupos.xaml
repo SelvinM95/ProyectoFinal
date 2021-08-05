@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             x:Class="FinalProyecto.Views.AgregarUsuarioGrupos"
+             Title="Agregar Usuarios">
+
+    <StackLayout BackgroundColor="#ffffff">
+
+        <Frame CornerRadius="1" Margin="10">
+            <StackLayout>
+                <StackLayout Padding="0,10,10,10">
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="{Binding teamName}" 
+                        TextColor="Black"
+                        FontSize="16" 
+                        HorizontalOptions="Start"
+                        VerticalOptions="CenterAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Tutor:" 
+                         TextColor="Black"
+                         FontSize="14" 
+                         FontAttributes="Italic"
+                         HorizontalOptions="Start"
+                         VerticalOptions="CenterAndExpand" />
+
+                        <Label Text="{Binding teamCoordi}" 
+                         TextColor="Black"
+                         FontSize="14" 
+                         FontAttributes="Italic"
+                         HorizontalOptions="Center"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"  HorizontalOptions="Center" Margin="5">
+                    <Label Text="Listado de Integrantes" TextColor="Black" FontSize="16"></Label>
+                </StackLayout>
+
+                <Frame Margin="10,10,10,10" CornerRadius="5" HeightRequest="35" >
+                    <SearchBar Placeholder="Ingrese Número de Cuenta"  x:Name="search" TextChanged="search_TextChanged"  Margin="-5,5,0,0" ></SearchBar>
+                </Frame>
+
+
+                <StackLayout>
+                    <ListView 
+                  x:Name="ListStudent"
+                  HasUnevenRows="True" 
+                  SeparatorColor="Blue"
+                  SeparatorVisibility="None"
+                  BackgroundColor="White"
+                  ItemTapped="ListStudent_ItemTapped"
+                  SelectionMode="None">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Grid Padding="5">
+                                        <Frame CornerRadius="10" HasShadow="True" HeightRequest="50">
+                                            <StackLayout Orientation="Horizontal">
+                                                <ffimageloading:SvgCachedImage
+                                                    Source="usergroup.svg"
+                                                    HorizontalOptions="Center"
+                                                    WidthRequest="35"
+                                                    HeightRequest="70"/>
+                                                <StackLayout VerticalOptions="Center">
+                                                    <Label Text="{Binding idUser}" IsVisible="false"/>
+                                                    <Label Text="{Binding NameUser}"  VerticalOptions="Center" FontSize="14" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                                    <Label VerticalOptions="Center" Text="{Binding nCountUser}" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                                </StackLayout>
+                                            </StackLayout>
+                                        </Frame>
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>
