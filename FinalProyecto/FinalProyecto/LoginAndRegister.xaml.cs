@@ -1,4 +1,5 @@
-﻿using FinalProyecto.Classes;
+﻿using Acr.UserDialogs;
+using FinalProyecto.Classes;
 using FinalProyecto.Models;
 using Newtonsoft.Json;
 using System;
@@ -38,6 +39,10 @@ namespace FinalProyecto
             }
             else
             {
+                UserDialogs.Instance.ShowLoading("Cargando");
+                
+                UserDialogs.Instance.HideLoading();
+
                 var res = JsonConvert.DeserializeObject<User>(result);
 
                 App.Current.Properties["Id"] = res.idUser;
@@ -49,8 +54,9 @@ namespace FinalProyecto
                 App.Current.Properties["Birthday"] = res.birthdateUser;
                 App.Current.Properties["Path"] = res.fotoUser;
                 App.Current.Properties["IsLoggedIn"] = true;
-
+                 
                 iml.ShowMainPage();
+                UserDialogs.Instance.HideLoading();
             }
         }
 
@@ -63,5 +69,7 @@ namespace FinalProyecto
         {
             iml.ShowRegisterPage();
         }
+
+         
     }
 }

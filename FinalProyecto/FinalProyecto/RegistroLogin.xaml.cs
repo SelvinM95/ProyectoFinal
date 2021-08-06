@@ -1,4 +1,5 @@
-﻿using Plugin.Media;
+﻿using Acr.UserDialogs;
+using Plugin.Media;
 using Plugin.Media.Abstractions;
 using System;
 using System.Collections.Generic;
@@ -38,12 +39,14 @@ namespace FinalProyecto
             String birtdate = date.Date.ToShortDateString();
             String carrera = Carrera.Text;
 
+            UserDialogs.Instance.ShowLoading("Cargando");
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri("http://3.15.208.156");
             string url = string.Format("/WSXamarin/users/verification/{0}/{1}/{2}", email, sixDigitNumber, TempPassword);
             var response = await client.GetAsync(url);
 
             await Navigation.PushAsync(new CodigoLogin(TempPassword, sixDigitNumber, base64, name, ncount, tel, email, birtdate, carrera));
+            UserDialogs.Instance.HideLoading();
         }
 
         private async void AddFoto_Clicked(object sender, EventArgs e)

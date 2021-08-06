@@ -1,4 +1,5 @@
-﻿using FinalProyecto.Classes;
+﻿using Acr.UserDialogs;
+using FinalProyecto.Classes;
 using FinalProyecto.Models;
 using Newtonsoft.Json;
 using System;
@@ -25,6 +26,9 @@ namespace FinalProyecto.Views
 
         protected async override void OnAppearing()
         {
+            base.OnAppearing();
+
+            UserDialogs.Instance.ShowLoading("Cargando");
             string url = string.Format("http://3.15.208.156/WSXamarin/groups/getmygroups/" + App.Current.Properties["Name"].ToString());
             ConsultManager manager = new ConsultManager();
             var res = await manager.getGroups(url);
@@ -33,6 +37,7 @@ namespace FinalProyecto.Views
             {
                 ListStudent.ItemsSource = res;
             }
+            UserDialogs.Instance.HideLoading();
         }
 
         private async void NuevoGrupo_Clicked(object sender, EventArgs e)
@@ -44,7 +49,7 @@ namespace FinalProyecto.Views
             }
             else
             {
-                bool answer = await DisplayAlert("Alerta", "Quieres guardar este nombre: "+nombre.ToString(), "Yes", "No");
+                bool answer = await DisplayAlert("Alerta", "Quieres guardar este nombre","Yes", "No");
                 
                 if ( answer == true)
                 {
@@ -76,6 +81,7 @@ namespace FinalProyecto.Views
 
         public async void recargar()
         {
+            UserDialogs.Instance.ShowLoading("Cargando");
             string url = string.Format("http://3.15.208.156/WSXamarin/groups/getmygroups/" + App.Current.Properties["Name"].ToString());
             ConsultManager manager = new ConsultManager();
             var res = await manager.getGroups(url);
@@ -84,6 +90,7 @@ namespace FinalProyecto.Views
             {
                 ListStudent.ItemsSource = res;
             }
+            UserDialogs.Instance.HideLoading();
         }
 
         private async void ListStudent_ItemTapped(object sender, ItemTappedEventArgs e)

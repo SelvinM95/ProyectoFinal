@@ -1,4 +1,5 @@
-﻿using FinalProyecto.Classes;
+﻿using Acr.UserDialogs;
+using FinalProyecto.Classes;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -21,6 +22,9 @@ namespace FinalProyecto.Views
 
         protected async override void OnAppearing()
         {
+            base.OnAppearing();
+
+            UserDialogs.Instance.ShowLoading("Cargando");
             string url = string.Format("http://3.15.208.156/WSXamarin/groups/mygroups/" + App.Current.Properties["Id"].ToString());
             ConsultManager manager = new ConsultManager();
             var res = await manager.getGroups(url);
@@ -29,6 +33,7 @@ namespace FinalProyecto.Views
             {
                 ListStudent.ItemsSource = res;
             }
+            UserDialogs.Instance.HideLoading();
         }
 
         private async void ListView_ItemTapped(object sender, ItemTappedEventArgs e)

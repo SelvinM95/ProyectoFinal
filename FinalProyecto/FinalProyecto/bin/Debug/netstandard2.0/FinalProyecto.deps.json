@@ -9,11 +9,13 @@
     ".NETStandard,Version=v2.0/": {
       "FinalProyecto/1.0.0": {
         "dependencies": {
+          "Acr.UserDialogs": "7.1.0.514",
           "IntelliAbb.Xamarin.Controls": "1.0.148",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.1",
           "SkiaSharp": "2.80.3",
           "Xam.Plugin.Media": "5.0.1",
+          "Xam.Plugins.Forms.ProgressRing": "0.1.2",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.FFImageLoading": "2.4.11.982",
           "Xamarin.FFImageLoading.Svg": "2.4.11.982",
@@ -22,6 +24,14 @@
         },
         "runtime": {
           "FinalProyecto.dll": {}
+        }
+      },
+      "Acr.UserDialogs/7.1.0.514": {
+        "runtime": {
+          "lib/netstandard2.0/Acr.UserDialogs.dll": {
+            "assemblyVersion": "7.1.0.514",
+            "fileVersion": "7.1.0.514"
+          }
         }
       },
       "IntelliAbb.Xamarin.Controls/1.0.148": {
@@ -120,6 +130,17 @@
           }
         }
       },
+      "Xam.Plugins.Forms.ProgressRing/0.1.2": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2083"
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/ProgressRing.Forms.Plugin.dll": {
+            "assemblyVersion": "1.0.6460.16364",
+            "fileVersion": "1.0.6460.16364"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -203,6 +224,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Acr.UserDialogs/7.1.0.514": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jSjxoOtwS4qHXRpRJxt5anCwRxga+RK22N0w/hR4wLwmxfVBv7eVHX+BsMYFF/Qe6SJGO5dJDcIyh/7+gbEkCA==",
+      "path": "acr.userdialogs/7.1.0.514",
+      "hashPath": "acr.userdialogs.7.1.0.514.nupkg.sha512"
+    },
     "IntelliAbb.Xamarin.Controls/1.0.148": {
       "type": "package",
       "serviceable": true,
@@ -279,6 +307,13 @@
       "sha512": "sha512-UUR31EEnhDVa4IXgVfQIAL3u9v6YAyppsb5UlO9MNJ4quGGkfcWX++JexjB1nMGqvCzsjAT2t32drKDIXoW4SQ==",
       "path": "xam.plugin.media/5.0.1",
       "hashPath": "xam.plugin.media.5.0.1.nupkg.sha512"
+    },
+    "Xam.Plugins.Forms.ProgressRing/0.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TqxIQo9uiq0EXPSIet8eouoF0Vs1Al30Urd++LXkH2lCQPMJzr5aCrwnCrTi9/4V229njCgUw53+Au6xWbZwHg==",
+      "path": "xam.plugins.forms.progressring/0.1.2",
+      "hashPath": "xam.plugins.forms.progressring.0.1.2.nupkg.sha512"
     },
     "Xamarin.Essentials/1.7.0": {
       "type": "package",

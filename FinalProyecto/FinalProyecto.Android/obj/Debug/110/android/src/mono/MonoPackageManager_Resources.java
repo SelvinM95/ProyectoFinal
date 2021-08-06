@@ -3,6 +3,8 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "FinalProyecto.Android.dll" comes first in this list. */
 		"FinalProyecto.Android.dll",
+		"Acr.UserDialogs.dll",
+		"AndHUD.dll",
 		"FFImageLoading.dll",
 		"FFImageLoading.Forms.dll",
 		"FFImageLoading.Forms.Platform.dll",
@@ -14,6 +16,8 @@ public class MonoPackageManager_Resources {
 		"IntelliAbb.Xamarin.Controls.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.Media.dll",
+		"ProgressRing.Forms.Plugin.Android.dll",
+		"ProgressRing.Forms.Plugin.dll",
 		"SkiaSharp.dll",
 		"SkiaSharp.Views.Android.dll",
 		"SkiaSharp.Views.Forms.dll",

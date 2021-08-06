@@ -44,6 +44,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.1.0.514, )"
+            },
             "IntelliAbb.Xamarin.Controls": {
               "target": "Package",
               "version": "[1.0.148, )"
@@ -65,6 +69,10 @@
             "Xam.Plugin.Media": {
               "target": "Package",
               "version": "[5.0.1, )"
+            },
+            "Xam.Plugins.Forms.ProgressRing": {
+              "target": "Package",
+              "version": "[0.1.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

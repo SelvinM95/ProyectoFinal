@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Acr.UserDialogs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,9 @@ namespace FinalProyecto.Views
         {
             base.OnAppearing();
 
+            UserDialogs.Instance.ShowLoading("Cargando");
+
+
             nombre.Text = App.Current.Properties["Name"].ToString();
             profile.Source = App.Current.Properties["Path"].ToString();
             cuenta.Text = App.Current.Properties["Account"].ToString();
@@ -27,6 +31,8 @@ namespace FinalProyecto.Views
             telefono.Text = App.Current.Properties["Telephone"].ToString();
             correo.Text = App.Current.Properties["Email"].ToString();
             fecha.Text = App.Current.Properties["Birthday"].ToString();
+
+            UserDialogs.Instance.HideLoading();
         }
 
         private async void imageEditar_Tapped(object sender, EventArgs e)
@@ -59,9 +65,18 @@ namespace FinalProyecto.Views
             await Navigation.PushAsync(new ListaAmigos());
         }
 
-        private void CerrarSesion_Clicked(object sender, EventArgs e)
+        private async void CerrarSesion_Clicked(object sender, EventArgs e)
         {
-            App.Current.Logout();
+            bool answer = await DisplayAlert("Alerta", "¿Cerrar Sesión?", "Yes", "No");
+            if (answer == true)
+            {
+                App.Current.Logout();
+            }
+            else
+            {
+
+            }
+            
         }
     }
 }

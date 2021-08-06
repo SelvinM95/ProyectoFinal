@@ -1,4 +1,5 @@
-﻿using FinalProyecto.Models;
+﻿using Acr.UserDialogs;
+using FinalProyecto.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -50,6 +51,7 @@ namespace FinalProyecto
                     AppIDUser = Preferences.Get("TokenApp", "")
                 };
 
+                UserDialogs.Instance.ShowLoading("Cargando");
                 var request = new HttpRequestMessage();
                 Uri RequestUri = new Uri("http://3.15.208.156/WSXamarin/users/add");
 
@@ -61,6 +63,7 @@ namespace FinalProyecto
                 {
                     await DisplayAlert("Datos", "Cuenta Creada y Verificada, Por favor Inicie Sesión", "OK");
                     Application.Current.MainPage = new LoginAndRegister(App.Current);
+                UserDialogs.Instance.HideLoading();
                 }
             }
             else

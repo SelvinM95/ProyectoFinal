@@ -34,18 +34,6 @@
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
-        </ListView>
-
-        <StackLayout Orientation="Horizontal" HorizontalOptions="End"  Margin="20,0,20,20">
-            <Button 
-                    Text="+" 
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    CornerRadius="50"
-                    WidthRequest="50">
-
-            </Button>
-        </StackLayout>
-
+        </ListView>  
     </StackLayout>
 </ContentPage>

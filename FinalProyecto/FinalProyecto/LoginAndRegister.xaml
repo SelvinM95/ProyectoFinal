@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             xmlns:control="clr-namespace:ProgressRingControl.Forms.Plugin;assembly=ProgressRing.Forms.Plugin"
              x:Class="FinalProyecto.LoginAndRegister"
               BackgroundImageSource="degradado.jpg">
 
@@ -56,8 +57,7 @@
                                     </Label.GestureRecognizers>
 
                                 </Label>
-                            </StackLayout>
-
+                            </StackLayout> 
                             <Button Text="INICIAR" BackgroundColor="#5DBEFF" TextColor="White" FontAttributes="Bold" CornerRadius="25" x:Name="InicioSesion" Clicked="InicioSesion_Clicked"/>
 
                             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="10">

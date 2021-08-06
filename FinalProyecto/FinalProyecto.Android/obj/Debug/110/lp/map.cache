@@ -1,3 +1,5 @@
+Acr.UserDialogs.dll
+AndHUD.dll
 FFImageLoading.Forms.Platform.dll
 FFImageLoading.Platform.dll
 FFImageLoading.Svg.Forms.dll
@@ -5,6 +7,7 @@ FFImageLoading.Svg.Platform.dll
 FormsViewGroup.dll
 IntelliAbb.Xamarin.Controls.dll
 Plugin.Media.dll
+ProgressRing.Forms.Plugin.Android.dll
 SkiaSharp.dll
 SkiaSharp.Views.Android.dll
 SkiaSharp.Views.Forms.dll

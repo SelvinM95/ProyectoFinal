@@ -2,6 +2,31 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v11.0": {
+      "Acr.UserDialogs/7.1.0.514": {
+        "type": "package",
+        "dependencies": {
+          "AndHUD": "1.4.2",
+          "Xamarin.Google.Android.Material": "1.0.0"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid10.0/Acr.UserDialogs.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid10.0/Acr.UserDialogs.dll": {}
+        }
+      },
+      "AndHUD/1.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid81/AndHUD.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid81/AndHUD.dll": {}
+        }
+      },
       "IntelliAbb.Xamarin.Controls/1.0.148": {
         "type": "package",
         "dependencies": {
@@ -105,6 +130,20 @@
         },
         "runtime": {
           "lib/monoandroid10.0/Plugin.Media.dll": {}
+        }
+      },
+      "Xam.Plugins.Forms.ProgressRing/0.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.247"
+        },
+        "compile": {
+          "lib/MonoAndroid10/ProgressRing.Forms.Plugin.Android.dll": {},
+          "lib/MonoAndroid10/ProgressRing.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/ProgressRing.Forms.Plugin.Android.dll": {},
+          "lib/MonoAndroid10/ProgressRing.Forms.Plugin.dll": {}
         }
       },
       "Xamarin.AndroidX.Activity/1.2.0.1": {
@@ -1592,10 +1631,12 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Acr.UserDialogs": "7.1.0.514",
           "IntelliAbb.Xamarin.Controls": "1.0.148",
           "Newtonsoft.Json": "13.0.1",
           "SkiaSharp": "2.80.3",
           "Xam.Plugin.Media": "5.0.1",
+          "Xam.Plugins.Forms.ProgressRing": "0.1.2",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.FFImageLoading": "2.4.11.982",
           "Xamarin.FFImageLoading.Svg": "2.4.11.982",
@@ -1612,6 +1653,53 @@
     }
   },
   "libraries": {
+    "Acr.UserDialogs/7.1.0.514": {
+      "sha512": "jSjxoOtwS4qHXRpRJxt5anCwRxga+RK22N0w/hR4wLwmxfVBv7eVHX+BsMYFF/Qe6SJGO5dJDcIyh/7+gbEkCA==",
+      "type": "package",
+      "path": "acr.userdialogs/7.1.0.514",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "acr.userdialogs.7.1.0.514.nupkg.sha512",
+        "acr.userdialogs.nuspec",
+        "lib/monoandroid10.0/Acr.UserDialogs.dll",
+        "lib/monoandroid10.0/Acr.UserDialogs.pdb",
+        "lib/monoandroid10.0/Acr.UserDialogs.xml",
+        "lib/monoandroid90/Acr.UserDialogs.dll",
+        "lib/monoandroid90/Acr.UserDialogs.pdb",
+        "lib/monoandroid90/Acr.UserDialogs.xml",
+        "lib/netstandard2.0/Acr.UserDialogs.dll",
+        "lib/netstandard2.0/Acr.UserDialogs.pdb",
+        "lib/netstandard2.0/Acr.UserDialogs.xml",
+        "lib/uap10.0.16299/Acr.UserDialogs.dll",
+        "lib/uap10.0.16299/Acr.UserDialogs.pdb",
+        "lib/uap10.0.16299/Acr.UserDialogs.pri",
+        "lib/uap10.0.16299/Acr.UserDialogs.xml",
+        "lib/uap10.0.16299/Acr.UserDialogs/Acr.UserDialogs.xr.xml",
+        "lib/xamarinios10/Acr.UserDialogs.dll",
+        "lib/xamarinios10/Acr.UserDialogs.pdb",
+        "lib/xamarinios10/Acr.UserDialogs.xml",
+        "lib/xamarinmac20/Acr.UserDialogs.dll",
+        "lib/xamarinmac20/Acr.UserDialogs.pdb",
+        "lib/xamarinmac20/Acr.UserDialogs.xml",
+        "lib/xamarintvos10/Acr.UserDialogs.dll",
+        "lib/xamarintvos10/Acr.UserDialogs.pdb",
+        "lib/xamarintvos10/Acr.UserDialogs.xml",
+        "readme.txt"
+      ]
+    },
+    "AndHUD/1.4.2": {
+      "sha512": "talAByCb4/g2hXaFXuWFqb/bxvpUecX3V04WO1D3l11ghR0R2eNMi1GhP4u+36tOgKk738+78UxyugQNyPP7Vw==",
+      "type": "package",
+      "path": "andhud/1.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "andhud.1.4.2.nupkg.sha512",
+        "andhud.nuspec",
+        "lib/MonoAndroid81/AndHUD.dll"
+      ]
+    },
     "IntelliAbb.Xamarin.Controls/1.0.148": {
       "sha512": "rJzqyBhDM87Dxv1TUl0ySbEuU7fpTLZl6dkjDx0A90u0pEzhHPAOqtQlKaRmj2098pmwFX+lIOXXmgc8raqGLA==",
       "type": "package",
@@ -1880,6 +1968,22 @@
         "readme.txt",
         "xam.plugin.media.5.0.1.nupkg.sha512",
         "xam.plugin.media.nuspec"
+      ]
+    },
+    "Xam.Plugins.Forms.ProgressRing/0.1.2": {
+      "sha512": "TqxIQo9uiq0EXPSIet8eouoF0Vs1Al30Urd++LXkH2lCQPMJzr5aCrwnCrTi9/4V229njCgUw53+Au6xWbZwHg==",
+      "type": "package",
+      "path": "xam.plugins.forms.progressring/0.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/ProgressRing.Forms.Plugin.Android.dll",
+        "lib/MonoAndroid10/ProgressRing.Forms.Plugin.dll",
+        "lib/Xamarin.iOS10/ProgressRing.Forms.Plugin.dll",
+        "lib/Xamarin.iOS10/ProgressRing.Forms.Plugin.iOS.dll",
+        "lib/portable-net45+wp80+win8+wpa81/ProgressRing.Forms.Plugin.dll",
+        "xam.plugins.forms.progressring.0.1.2.nupkg.sha512",
+        "xam.plugins.forms.progressring.nuspec"
       ]
     },
     "Xamarin.AndroidX.Activity/1.2.0.1": {
@@ -3505,11 +3609,13 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v11.0": [
+      "Acr.UserDialogs >= 7.1.0.514",
       "FinalProyecto >= 1.0.0",
       "IntelliAbb.Xamarin.Controls >= 1.0.148",
       "Newtonsoft.Json >= 13.0.1",
       "SkiaSharp >= 2.80.3",
       "Xam.Plugin.Media >= 5.0.1",
+      "Xam.Plugins.Forms.ProgressRing >= 0.1.2",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.FFImageLoading >= 2.4.11.982",
       "Xamarin.FFImageLoading.Svg >= 2.4.11.982",
@@ -3562,6 +3668,10 @@
     "frameworks": {
       "monoandroid11.0": {
         "dependencies": {
+          "Acr.UserDialogs": {
+            "target": "Package",
+            "version": "[7.1.0.514, )"
+          },
           "IntelliAbb.Xamarin.Controls": {
             "target": "Package",
             "version": "[1.0.148, )"
@@ -3577,6 +3687,10 @@
           "Xam.Plugin.Media": {
             "target": "Package",
             "version": "[5.0.1, )"
+          },
+          "Xam.Plugins.Forms.ProgressRing": {
+            "target": "Package",
+            "version": "[0.1.2, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

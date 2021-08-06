@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "L109ImMnSEmey5IyNuoZH4Bivb58pGmguqeuVQQcPm9VoyUOc49iehNwl7nMCBwxwzRC4J4OCQp+86fmwGIUxw==",
+  "dgSpecHash": "hH1BQb/nykOicYbzdjYUYf7TaikerJMBGntQLF3ySTTgk1t97+EVtikMgQBqxmcK+MF7dojHgcF6gp7lgZ8Isw==",
   "success": true,
   "projectFilePath": "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto.Android\\FinalProyecto.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\SelvinM95\\.nuget\\packages\\acr.userdialogs\\7.1.0.514\\acr.userdialogs.7.1.0.514.nupkg.sha512",
+    "C:\\Users\\SelvinM95\\.nuget\\packages\\andhud\\1.4.2\\andhud.1.4.2.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\intelliabb.xamarin.controls\\1.0.148\\intelliabb.xamarin.controls.1.0.148.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\skiasharp\\2.80.3\\skiasharp.2.80.3.nupkg.sha512",
@@ -11,6 +13,7 @@
     "C:\\Users\\SelvinM95\\.nuget\\packages\\skiasharp.views.forms\\1.60.3\\skiasharp.views.forms.1.60.3.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\SelvinM95\\.nuget\\packages\\xam.plugins.forms.progressring\\0.1.2\\xam.plugins.forms.progressring.0.1.2.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\xamarin.androidx.activity\\1.2.0.1\\xamarin.androidx.activity.1.2.0.1.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0\\xamarin.androidx.annotation.1.2.0.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.0.0.9\\xamarin.androidx.annotation.experimental.1.0.0.9.nupkg.sha512",

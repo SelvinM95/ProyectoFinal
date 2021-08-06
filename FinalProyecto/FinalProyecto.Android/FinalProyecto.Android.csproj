@@ -54,6 +54,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Acr.UserDialogs">
+      <Version>7.1.0.514</Version>
+    </PackageReference>
     <PackageReference Include="IntelliAbb.Xamarin.Controls">
       <Version>1.0.148</Version>
     </PackageReference>
@@ -65,6 +68,9 @@
     </PackageReference>
     <PackageReference Include="Xam.Plugin.Media">
       <Version>5.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xam.Plugins.Forms.ProgressRing">
+      <Version>0.1.2</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.FFImageLoading">
       <Version>2.4.11.982</Version>

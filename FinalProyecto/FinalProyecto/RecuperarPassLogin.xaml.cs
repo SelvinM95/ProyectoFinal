@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Acr.UserDialogs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
@@ -20,6 +21,7 @@ namespace FinalProyecto
 
         private async void EnviarCorreo_Clicked(object sender, EventArgs e)
         {
+            UserDialogs.Instance.ShowLoading("Cargando");
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri("http://3.15.208.156");
             string url = string.Format("/WSXamarin/users/recover/{0}", mail.Text);
@@ -27,6 +29,7 @@ namespace FinalProyecto
 
             await DisplayAlert("Alerta", "Se ha Enviado un Correo Electrónico con la Contraseña Recuperada", "cerrar");
             Application.Current.MainPage = new LoginAndRegister(App.Current);
+            UserDialogs.Instance.HideLoading();
         }
     }
 }
