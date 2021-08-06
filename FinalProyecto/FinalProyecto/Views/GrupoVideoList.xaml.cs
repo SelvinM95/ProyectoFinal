@@ -101,10 +101,26 @@ namespace FinalProyecto.Views
                 {
                     UserDialogs.Instance.HideLoading();
                     await DisplayAlert("Datos", "Archivo Subido Correctamente", "OK");
-
+                    recargar();
                 }
             }
 
         }
+
+        public async void recargar()
+        {
+            UserDialogs.Instance.ShowLoading("Cargando");
+
+            string url = string.Format("http://3.15.208.156/WSXamarin/files/getfiles/{0}/{1}", "Videos", App.Current.Properties["idGroup"]);
+            ConsultManager manager = new ConsultManager();
+            var res = await manager.getFile(url);
+
+            if (res != null)
+            {
+                ListStudent.ItemsSource = res;
+            }
+            UserDialogs.Instance.HideLoading();
+        }
+
     }
 }

@@ -14,6 +14,8 @@ namespace FinalProyecto.Models
 
         public string teamName { get; set; }
 
+        public string nameUser { get; set; }
+
         public string fileName { get; set; }
 
         public string fileType { get; set; }
