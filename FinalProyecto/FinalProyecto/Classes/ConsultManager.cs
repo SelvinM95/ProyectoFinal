@@ -47,5 +47,19 @@ namespace FinalProyecto.Classes
 
             return Enumerable.Empty<Groups>();
         }
+
+        public async Task<IEnumerable<Archivo>> getFile(string URL)
+        {
+            HttpClient client = getCliente();
+            var res = await client.GetAsync(URL);
+
+            if (res.IsSuccessStatusCode)
+            {
+                string content = await res.Content.ReadAsStringAsync();
+                return JsonConvert.DeserializeObject<IEnumerable<Archivo>>(content);
+            }
+
+            return Enumerable.Empty<Archivo>();
+        }
     }
 }

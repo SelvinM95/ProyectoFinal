@@ -1,4 +1,5 @@
 ﻿using Acr.UserDialogs;
+using FinalProyecto.Classes;
 using FinalProyecto.Models;
 using Newtonsoft.Json;
 using System;
@@ -21,26 +22,29 @@ namespace FinalProyecto.Views
     {
         byte[] File;
 
-        public ObservableCollection<Card> ListDetails { get; set; }
+         
         public GrupoVideoList()
         {
-            InitializeComponent();
-            ListDetails = new ObservableCollection<Card>
-            {
-                  new Card{ImgIcon="profileUser.png", Name= "BERET - DIE...160K).mp3", Fecha = "6 abr. 2021" },
-                  new Card{ImgIcon="profileUser.png", Name= "BERET - DIE...160K).mp3", Fecha = "6 abr. 2021" }
-            };
-            BindingContext = this;
+            InitializeComponent(); 
         }
 
-        public class Card
+        protected async override void OnAppearing()
         {
-            public string ImgIcon { get; set; }
-            public string Name { get; set; }
+            base.OnAppearing();
 
-            public string Fecha { get; set; }
+            UserDialogs.Instance.ShowLoading("Cargando");
 
+            string url = string.Format("http://3.15.208.156/WSXamarin/files/getfiles/{0}/{1}", "Videos", App.Current.Properties["idGroup"]);
+            ConsultManager manager = new ConsultManager();
+            var res = await manager.getFile(url);
+
+            if (res != null)
+            {
+                ListStudent.ItemsSource = res;
+            }
+            UserDialogs.Instance.HideLoading();
         }
+
 
         private async void uploaded_Clicked(object sender, EventArgs e)
         {
