@@ -77,6 +77,8 @@ namespace FinalProyecto.Views
                 var obj = (User)e.Item;
                 usuarioid = obj.idUser.ToString();
 
+                UserDialogs.Instance.ShowLoading("Cargando");
+
                 HttpClient client2 = new HttpClient();
                 client2.BaseAddress = new Uri("http://3.15.208.156");
                 string url2 = string.Format("/WSXamarin/groups/verifymember/{0}/{1}", Id, usuarioid);
@@ -98,14 +100,21 @@ namespace FinalProyecto.Views
                     }
                     else
                     {
+                        string url3 = string.Format("/WSXamarin/users/groupsjoinednotification/{0}", obj.AppIDUser);
+                        await client.GetAsync(url3);
+
+                        
+
                         await DisplayAlert("Success", "Usuario Agregado", "Ok");
                     }
+
 
                 }
                 else
                 {
                     await DisplayAlert("Success", "Usuario ya existe en el grupo", "Ok");
                 }
+                UserDialogs.Instance.HideLoading();
             }
             else
             { 
