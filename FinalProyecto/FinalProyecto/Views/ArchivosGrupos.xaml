@@ -186,7 +186,7 @@
         </StackLayout>
 
         <StackLayout>
-            <ListView ItemsSource="{Binding ListDetails}"
+            <ListView
                   x:Name="ListStudent"
                   HasUnevenRows="True" 
                   SeparatorColor="Blue"
@@ -197,7 +197,7 @@
                     <DataTemplate>
                         <ViewCell>
                             <Grid Padding="20,10,20,10">
-                                <Frame CornerRadius="10" HasShadow="True" HeightRequest="40">
+                                <Frame CornerRadius="10" HasShadow="True" HeightRequest="50">
                                     <StackLayout Orientation="Horizontal">
                                         <ffimageloading:SvgCachedImage
                                          Source="dto.svg"
@@ -205,8 +205,9 @@
                                             WidthRequest="50"
                                             HeightRequest="50"/>
                                         <StackLayout VerticalOptions="Center">
-                                            <Label Text="{Binding Name}"  VerticalOptions="Center" FontSize="16" TextColor="Black"  Margin="10,0,0,0"></Label>
-                                            <Label VerticalOptions="Center" Text="{Binding Fecha}" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                            <Label Text="{Binding fileName}"  VerticalOptions="Center" FontSize="14" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                            <Label    VerticalOptions="Center" Text="{Binding uploadDate}" FontSize="10" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                            <Label    VerticalOptions="Center" Text="{Binding nameUser}" FontSize="10" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
                                         </StackLayout>
                                     </StackLayout>
                                 </Frame>
