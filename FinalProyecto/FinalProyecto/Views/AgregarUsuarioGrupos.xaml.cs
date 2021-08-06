@@ -45,7 +45,7 @@ namespace FinalProyecto.Views
         {
             if (search.Text == "")
             {
-                string url = string.Format("http://3.15.208.156/WSXamarin/users/all/{0}", App.Current.Properties["Id"].ToString());
+                string url = string.Format("http://3.15.208.156/WSXamarin/users/myfriends/{0}", App.Current.Properties["Id"].ToString());
 
                 ConsultManager manager = new ConsultManager();
                 var res = await manager.getUsers(url);
@@ -75,23 +75,37 @@ namespace FinalProyecto.Views
             if (answer == true)
             {
                 var obj = (User)e.Item;
-            usuarioid = obj.idUser.ToString();
+                usuarioid = obj.idUser.ToString();
 
-            HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://3.15.208.156");
-            string url = string.Format("/WSXamarin/groups/addmembers/{0}/{1}", Id, usuarioid);
-            var response = await client.GetAsync(url);
-            var result = response.Content.ReadAsStringAsync().Result;
+                HttpClient client2 = new HttpClient();
+                client2.BaseAddress = new Uri("http://3.15.208.156");
+                string url2 = string.Format("/WSXamarin/groups/verifymember/{0}/{1}", Id, usuarioid);
+                var response2 = await client2.GetAsync(url2);
+                var result2 = response2.Content.ReadAsStringAsync().Result;
 
-            if (string.IsNullOrEmpty(result) || result == "null" || !response.IsSuccessStatusCode)
-            {
-                await DisplayAlert("Error", "Error Al agregar usuario", "OK");
-              
-            }
-            else
-            {
-                await DisplayAlert("Success", "Usuario Agregado", "Ok");
-            }
+                if (string.IsNullOrEmpty(result2) || result2 == "null" || !response2.IsSuccessStatusCode)
+                { 
+                    HttpClient client = new HttpClient();
+                    client.BaseAddress = new Uri("http://3.15.208.156");
+                    string url = string.Format("/WSXamarin/groups/addmembers/{0}/{1}", Id, usuarioid);
+                    var response = await client.GetAsync(url);
+                    var result = response.Content.ReadAsStringAsync().Result;
+
+                    if (string.IsNullOrEmpty(result) || result == "null" || !response.IsSuccessStatusCode)
+                    {
+                        await DisplayAlert("Error", "Error Al agregar usuario", "OK");
+
+                    }
+                    else
+                    {
+                        await DisplayAlert("Success", "Usuario Agregado", "Ok");
+                    }
+
+                }
+                else
+                {
+                    await DisplayAlert("Success", "Usuario ya existe en el grupo", "Ok");
+                }
             }
             else
             { 
