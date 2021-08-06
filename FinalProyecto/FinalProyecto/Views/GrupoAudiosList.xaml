@@ -28,6 +28,7 @@
                                     <StackLayout VerticalOptions="Center">
                                         <Label Text="{Binding fileName}"  VerticalOptions="Center" FontSize="15" TextColor="Black"  Margin="10,0,0,0"></Label>
                                         <Label    VerticalOptions="Center" Text="{Binding uploadDate}" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                        <Label    VerticalOptions="Center" Text="{Binding nameUser}" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
                                     </StackLayout>
                                 </StackLayout>
                             </Frame>
