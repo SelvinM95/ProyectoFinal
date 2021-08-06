@@ -35,13 +35,13 @@
                     <Label Text="{Binding NameUser}" 
                         TextColor="White"
                         FontAttributes="Bold"
-                        FontSize="18" 
+                        FontSize="14" 
                         HorizontalOptions="Center"
                         VerticalOptions="CenterAndExpand" />
 
                     <Label Text="{Binding nCountUser}" 
                          TextColor="White"
-                         FontSize="16" 
+                         FontSize="14" 
                          HorizontalOptions="Center"
                          VerticalOptions="CenterAndExpand" />
 

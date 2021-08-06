@@ -25,8 +25,7 @@ namespace FinalProyecto.Views
         {
             base.OnAppearing();
 
-            UserDialogs.Instance.ShowLoading("Cargando"); 
-            
+            UserDialogs.Instance.ShowLoading("Cargando");  
 
             string url = string.Format("http://3.15.208.156/WSXamarin/groups/all");
             ConsultManager manager = new ConsultManager();

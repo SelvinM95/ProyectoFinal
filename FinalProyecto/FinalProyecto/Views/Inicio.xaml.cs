@@ -26,6 +26,7 @@ namespace FinalProyecto.Views
 
         protected async override void OnAppearing()
         {
+            base.OnAppearing();
             UserDialogs.Instance.ShowLoading("Cargando");
             string url = string.Format("http://3.15.208.156/WSXamarin/users/all/{0}", App.Current.Properties["Id"].ToString());
             ConsultManager manager = new ConsultManager();

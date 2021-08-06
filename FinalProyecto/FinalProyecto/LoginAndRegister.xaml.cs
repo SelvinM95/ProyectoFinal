@@ -27,6 +27,7 @@ namespace FinalProyecto
 
         private  async void InicioSesion_Clicked(object sender, EventArgs e)
         {
+            UserDialogs.Instance.ShowLoading("Cargando");
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri("http://3.15.208.156");
             string url = string.Format("/WSXamarin/login/get/{0}/{1}", userName.Text, userPassword.Text);
@@ -38,9 +39,7 @@ namespace FinalProyecto
                 await DisplayAlert("Alerta", "Usuario o Contraseña Incorrecto", "cerrar");
             }
             else
-            {
-                UserDialogs.Instance.ShowLoading("Cargando");
-                
+            { 
                 UserDialogs.Instance.HideLoading();
 
                 var res = JsonConvert.DeserializeObject<User>(result);

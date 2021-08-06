@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Acr.UserDialogs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
@@ -28,6 +29,7 @@ namespace FinalProyecto.Views
 
         private async void send_Clicked(object sender, EventArgs e)
         {
+            UserDialogs.Instance.ShowLoading("Cargando");
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri("http://3.15.208.156");
             string url = string.Format("/WSXamarin/users/updaterequest/{0}", IDSolicitud);
@@ -44,6 +46,7 @@ namespace FinalProyecto.Views
                 await client.GetAsync(url2); 
                 string url3 = string.Format("/WSXamarin/users/newfriend/{0}/{1}", ID, App.Current.Properties["Id"].ToString());
                 await client.GetAsync(url3);
+                UserDialogs.Instance.HideLoading();
                 await DisplayAlert("System", "Solicitud Aceptada", "OK");
                 await Navigation.PopAsync();
             }
