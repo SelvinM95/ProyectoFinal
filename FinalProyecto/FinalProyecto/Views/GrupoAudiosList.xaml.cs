@@ -33,7 +33,7 @@ namespace FinalProyecto.Views
 
             UserDialogs.Instance.ShowLoading("Cargando");
 
-            string url = string.Format("http://3.15.208.156/WSXamarin/files/getfiles/{0}/{1}", "Audios" , App.Current.Properties["idGroup"] );
+            string url = string.Format("http://3.15.208.156/WSXamarin/files/getfiles/{0}/{1}/{2}", "Audios" , App.Current.Properties["idGroup"], App.Current.Properties["Id"]);
             ConsultManager manager = new ConsultManager();
             var res = await manager.getFile(url);
 
