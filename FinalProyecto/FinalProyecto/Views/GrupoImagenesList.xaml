@@ -41,6 +41,8 @@
                     Text="+" 
                     FontSize="18"
                     FontAttributes="Bold"
+                    x:Name="uploaded"
+                    Clicked="uploaded_Clicked"
                     CornerRadius="50"
                     WidthRequest="50">
 

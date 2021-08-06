@@ -41,6 +41,8 @@
             <Button 
                     Text="+" 
                     FontSize="18"
+                    x:Name="uploaded"
+                    Clicked="uploaded_Clicked"
                     FontAttributes="Bold"
                     CornerRadius="50"
                     WidthRequest="50">

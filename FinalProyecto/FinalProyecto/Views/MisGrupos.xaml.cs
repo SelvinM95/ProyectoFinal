@@ -1,5 +1,6 @@
 ﻿using Acr.UserDialogs;
 using FinalProyecto.Classes;
+using FinalProyecto.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -38,6 +39,14 @@ namespace FinalProyecto.Views
 
         private async void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
+            var obj = (Groups)e.Item;
+
+            App.Current.Properties["idGroup"] = "";
+            App.Current.Properties["nameGroup"] = "";
+
+            App.Current.Properties["idGroup"] = obj.idTeam;
+            App.Current.Properties["nameGroup"] = obj.teamName;
+
             await Navigation.PushAsync(new ArchivosGrupos());
         }
 
