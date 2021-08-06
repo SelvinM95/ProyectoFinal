@@ -3,7 +3,7 @@
   <PropertyGroup>
     <SelectedDevice>HUAWEI RNE-L23</SelectedDevice>
     <ActiveDebugProfile>HUAWEI RNE-L23</ActiveDebugProfile>
-    <DefaultDevice>nexus_4_pie_9_0_-_api_28</DefaultDevice>
+    <DefaultDevice>nexus_6p_pie_9_0_-_api_28</DefaultDevice>
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

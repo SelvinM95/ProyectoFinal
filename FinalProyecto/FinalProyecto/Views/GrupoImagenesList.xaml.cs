@@ -43,6 +43,7 @@ namespace FinalProyecto.Views
 
         private async void uploaded_Clicked(object sender, EventArgs e)
         {
+            UserDialogs.Instance.ShowLoading("Subiendo Archivo");
             var customFileType = new FilePickerFileType(new Dictionary<DevicePlatform, IEnumerable<string>>
                 {
                     {
@@ -58,44 +59,47 @@ namespace FinalProyecto.Views
             {
                 FileTypes = customFileType,
             };
-
-            UserDialogs.Instance.ShowLoading("Subiendo Archivo");
+             
             var file = await Xamarin.Essentials.FilePicker.PickAsync(options);
 
             if (file == null)
-                return;
-
-
-            String extension = Path.GetExtension(file.FullPath);
-
-            File = System.IO.File.ReadAllBytes(file.FullPath);
-            String baseFile = Convert.ToBase64String(File);
-
-
-
-            var archivo = new Archivo
-            {
-                idUser = Convert.ToInt32(App.Current.Properties["Id"].ToString()),
-                idTeam = Convert.ToInt32(App.Current.Properties["idGroup"].ToString()),
-                teamName = App.Current.Properties["nameGroup"].ToString(),
-                filePath = baseFile,
-                fileType = "Imagenes",
-                fileExt = extension,
-                uploadDate = DateTime.Now
-            };
-
-            var request = new HttpRequestMessage();
-
-            Uri RequestUri = new Uri("http://3.15.208.156/WSXamarin/files/add");
-            var client = new HttpClient();
-            var json = JsonConvert.SerializeObject(archivo);
-            var contentJSON = new StringContent(json, Encoding.UTF8, "application/json");
-            var response = await client.PostAsync(RequestUri, contentJSON);
-            if (response.StatusCode == HttpStatusCode.OK)
             {
                 UserDialogs.Instance.HideLoading();
-                await DisplayAlert("Datos", "Archivo Subido Correctamente", "OK");
+            }
+            else
+            {
+                
+                String extension = Path.GetExtension(file.FullPath);
 
+                File = System.IO.File.ReadAllBytes(file.FullPath);
+                String baseFile = Convert.ToBase64String(File);
+
+                 
+                var archivo = new Archivo
+                {
+                    idUser = Convert.ToInt32(App.Current.Properties["Id"].ToString()),
+                    idTeam = Convert.ToInt32(App.Current.Properties["idGroup"].ToString()),
+                    teamName = App.Current.Properties["nameGroup"].ToString(),
+                    filePath = baseFile,
+                    fileType = "Imagenes",
+                    fileExt = extension,
+                    uploadDate = DateTime.Now
+                };
+
+                var request = new HttpRequestMessage();
+
+                Uri RequestUri = new Uri("http://3.15.208.156/WSXamarin/files/add");
+                var client = new HttpClient();
+                var json = JsonConvert.SerializeObject(archivo);
+                var contentJSON = new StringContent(json, Encoding.UTF8, "application/json");
+                var response = await client.PostAsync(RequestUri, contentJSON);
+            
+                if (response.StatusCode == HttpStatusCode.OK)
+                {
+                    UserDialogs.Instance.HideLoading();
+                    await DisplayAlert("Datos", "Archivo Subido Correctamente", "OK");
+
+                }
             }
         }
     }
