@@ -15,12 +15,15 @@ FormsViewGroup.dll
 IntelliAbb.Xamarin.Controls.dll
 MediaManager.dll
 MediaManager.Forms.dll
+Plugin.DownloadManager.dll
 Plugin.Media.dll
+Plugin.Permissions.dll
 ProgressRing.Forms.Plugin.Android.dll
 SkiaSharp.dll
 SkiaSharp.Views.Android.dll
 SkiaSharp.Views.Forms.dll
 Xam.Forms.VideoPlayer.Android.dll
+Xam.Plugin.WebView.Droid.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
 Xamarin.AndroidX.Annotation.Experimental.dll

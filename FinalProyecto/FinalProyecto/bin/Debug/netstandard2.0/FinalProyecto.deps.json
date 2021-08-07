@@ -17,6 +17,7 @@
           "SkiaSharp": "2.80.3",
           "Xam.Forms.VideoPlayer": "1.0.8",
           "Xam.Plugin.Media": "5.0.1",
+          "Xam.Plugins.DownloadManager": "1.4.0",
           "Xam.Plugins.Forms.ProgressRing": "0.1.2",
           "Xamarin.CommunityToolkit": "1.2.0",
           "Xamarin.Essentials": "1.7.0",
@@ -191,6 +192,18 @@
           "lib/netstandard2.0/Plugin.Media.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xam.Plugins.DownloadManager/1.4.0": {
+        "runtime": {
+          "lib/dotnet/Plugin.DownloadManager.Abstractions.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.0.0"
+          },
+          "lib/dotnet/Plugin.DownloadManager.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.0.0"
           }
         }
       },
@@ -426,6 +439,13 @@
       "sha512": "sha512-UUR31EEnhDVa4IXgVfQIAL3u9v6YAyppsb5UlO9MNJ4quGGkfcWX++JexjB1nMGqvCzsjAT2t32drKDIXoW4SQ==",
       "path": "xam.plugin.media/5.0.1",
       "hashPath": "xam.plugin.media.5.0.1.nupkg.sha512"
+    },
+    "Xam.Plugins.DownloadManager/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cie4U0vP87MthMD13pAMzRxCwxnZDXD6JtS7/ObhpHW0aPHs2DH4Fs1HC3nHsBQAMfKfh52XYDh3d/wnEkQvRQ==",
+      "path": "xam.plugins.downloadmanager/1.4.0",
+      "hashPath": "xam.plugins.downloadmanager.1.4.0.nupkg.sha512"
     },
     "Xam.Plugins.Forms.ProgressRing/0.1.2": {
       "type": "package",

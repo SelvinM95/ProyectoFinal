@@ -8,6 +8,10 @@ using Xamarin.Essentials;
 using Android.Gms.Common;
 using Acr.UserDialogs;
 using MediaManager;
+using Plugin.DownloadManager;
+using Plugin.DownloadManager.Abstractions;
+using System.IO;
+using System.Linq;
 
 namespace FinalProyecto.Droid
 {
@@ -17,6 +21,7 @@ namespace FinalProyecto.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            Downloaded();
             IsPlayServicesAvailable();
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
@@ -40,5 +45,17 @@ namespace FinalProyecto.Droid
             bool isGooglePlayServices = resultCode != ConnectionResult.Success;
             Preferences.Set("isGooglePlayServices", isGooglePlayServices);
         }
+
+        public void Downloaded()
+        {
+            CrossDownloadManager.Current.PathNameForDownloadedFile = new System.Func<IDownloadFile, string>
+                (file =>
+            {
+                string fileName = Android.Net.Uri.Parse(file.Url).Path.Split('/').Last();
+                return Path.Combine(ApplicationContext.GetExternalFilesDir(Android.OS.Environment.DirectoryDownloads).AbsolutePath, fileName);
+            });
+
+        }
+
     }
 }

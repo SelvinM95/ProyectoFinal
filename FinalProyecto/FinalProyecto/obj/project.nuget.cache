@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "otiy/ot2tcRq+FWE+Ts3x0DwWTAQNrW83Qw1ikKsZq/aCH6k0jUdWiXiGycsQpBHCHY3wwDxmN0+Byq6gW+4KA==",
+  "dgSpecHash": "E1bRv/nqPH5t8nY0bjdYcP6VXYBC4quwA3DYcXRtPlOqKYgov713gVe66oeN410XaAtcXIAuvbTaDz1lBsz4jw==",
   "success": true,
   "projectFilePath": "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto\\FinalProyecto.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\SelvinM95\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\xam.forms.videoplayer\\1.0.8\\xam.forms.videoplayer.1.0.8.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\SelvinM95\\.nuget\\packages\\xam.plugins.downloadmanager\\1.4.0\\xam.plugins.downloadmanager.1.4.0.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\xam.plugins.forms.progressring\\0.1.2\\xam.plugins.forms.progressring.0.1.2.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\xamarin.communitytoolkit\\1.2.0\\xamarin.communitytoolkit.1.2.0.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
@@ -38,6 +39,16 @@
       "warningLevel": 1,
       "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Xamarin.CommunityToolkit 1.2.0 requiere Xamarin.Forms (>= 5.0.0.1874 && <= 5.0.0.2012), pero la versión Xamarin.Forms 5.0.0.2083 ya se resolvió.",
       "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"Xam.Plugins.DownloadManager 1.4.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \".NETStandard,Version=v2.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "Xam.Plugins.DownloadManager",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
       ]

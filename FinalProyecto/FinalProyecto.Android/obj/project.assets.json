@@ -83,6 +83,22 @@
           "lib/monoandroid10.0/MediaManager.Forms.dll": {}
         }
       },
+      "Plugin.Permissions/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Core": "1.1.0",
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid10.0/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid10.0/Plugin.Permissions.dll": {}
+        }
+      },
       "SkiaSharp/2.80.3": {
         "type": "package",
         "compile": {
@@ -181,6 +197,20 @@
         },
         "runtime": {
           "lib/monoandroid10.0/Plugin.Media.dll": {}
+        }
+      },
+      "Xam.Plugin.WebView/2.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Xam.Plugin.WebView.Abstractions.dll": {},
+          "lib/MonoAndroid10/Xam.Plugin.WebView.Droid.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Xam.Plugin.WebView.Abstractions.dll": {},
+          "lib/MonoAndroid10/Xam.Plugin.WebView.Droid.dll": {}
         }
       },
       "Xam.Plugins.Android.ExoPlayer/2.11.8": {
@@ -292,6 +322,17 @@
         },
         "runtime": {
           "lib/monoandroid10.0/ExoPlayer.UI.dll": {}
+        }
+      },
+      "Xam.Plugins.DownloadManager/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/Plugin.DownloadManager.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.DownloadManager.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Plugin.DownloadManager.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.DownloadManager.dll": {}
         }
       },
       "Xam.Plugins.Forms.ProgressRing/0.1.2": {
@@ -1818,6 +1859,7 @@
           "SkiaSharp": "2.80.3",
           "Xam.Forms.VideoPlayer": "1.0.8",
           "Xam.Plugin.Media": "5.0.1",
+          "Xam.Plugins.DownloadManager": "1.4.0",
           "Xam.Plugins.Forms.ProgressRing": "0.1.2",
           "Xamarin.CommunityToolkit": "1.2.0",
           "Xamarin.Essentials": "1.7.0",
@@ -2008,6 +2050,37 @@
         "lib/xamarintvos10/MediaManager.Forms.xml",
         "plugin.mediamanager.forms.1.0.9.nupkg.sha512",
         "plugin.mediamanager.forms.nuspec",
+        "readme.txt"
+      ]
+    },
+    "Plugin.Permissions/6.0.1": {
+      "sha512": "na/0FNhyKmSicANWZMLSM0y/FW2AvLoawX3lsvBpELwP15sdJRyuBhRKk1OQjRoNrmTIewcON1tJFyydjMGWcA==",
+      "type": "package",
+      "path": "plugin.permissions/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Plugin.Permissions.dll",
+        "lib/monoandroid10.0/Plugin.Permissions.pdb",
+        "lib/monoandroid80/Plugin.Permissions.dll",
+        "lib/monoandroid80/Plugin.Permissions.pdb",
+        "lib/monoandroid81/Plugin.Permissions.dll",
+        "lib/monoandroid81/Plugin.Permissions.pdb",
+        "lib/monoandroid90/Plugin.Permissions.dll",
+        "lib/monoandroid90/Plugin.Permissions.pdb",
+        "lib/netstandard1.0/Plugin.Permissions.dll",
+        "lib/netstandard1.0/Plugin.Permissions.pdb",
+        "lib/netstandard2.0/Plugin.Permissions.dll",
+        "lib/netstandard2.0/Plugin.Permissions.pdb",
+        "lib/uap10.0.16299/Plugin.Permissions.dll",
+        "lib/uap10.0.16299/Plugin.Permissions.pdb",
+        "lib/uap10.0.16299/Plugin.Permissions.pri",
+        "lib/xamarinios10/Plugin.Permissions.dll",
+        "lib/xamarinios10/Plugin.Permissions.pdb",
+        "lib/xamarintvos10/Plugin.Permissions.dll",
+        "lib/xamarintvos10/Plugin.Permissions.pdb",
+        "plugin.permissions.6.0.1.nupkg.sha512",
+        "plugin.permissions.nuspec",
         "readme.txt"
       ]
     },
@@ -2259,6 +2332,38 @@
         "xam.plugin.media.nuspec"
       ]
     },
+    "Xam.Plugin.WebView/2.1.3": {
+      "sha512": "56jUzz+Z0MiYfgP3XXrnUkfc/TJKAo1/vQUF/7no99t1SqQoUYUfU/jGpq8Olz4JpD3iuppt2/MRe+5tiyGJmQ==",
+      "type": "package",
+      "path": "xam.plugin.webview/2.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Xam.Plugin.WebView.Abstractions.dll",
+        "lib/MonoAndroid10/Xam.Plugin.WebView.Abstractions.pdb",
+        "lib/MonoAndroid10/Xam.Plugin.WebView.Droid.dll",
+        "lib/MonoAndroid10/Xam.Plugin.WebView.Droid.dll.mdb",
+        "lib/MonoAndroid10/Xam.Plugin.WebView.Droid.pdb",
+        "lib/Xamarin.Mac20/Xam.Plugin.WebView.Abstractions.dll",
+        "lib/Xamarin.Mac20/Xam.Plugin.WebView.Abstractions.pdb",
+        "lib/Xamarin.Mac20/Xam.Plugin.WebView.MacOS.dll",
+        "lib/Xamarin.iOS10/Xam.Plugin.WebView.Abstractions.dll",
+        "lib/Xamarin.iOS10/Xam.Plugin.WebView.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Xam.Plugin.WebView.iOS.dll",
+        "lib/Xamarin.iOS10/Xam.Plugin.WebView.iOS.pdb",
+        "lib/netstandard1.0/Xam.Plugin.WebView.Abstractions.deps.json",
+        "lib/netstandard1.0/Xam.Plugin.WebView.Abstractions.dll",
+        "lib/netstandard1.0/Xam.Plugin.WebView.Abstractions.pdb",
+        "lib/uap10.0/Xam.Plugin.WebView.Abstractions.dll",
+        "lib/uap10.0/Xam.Plugin.WebView.Abstractions.pdb",
+        "lib/uap10.0/Xam.Plugin.WebView.UWP.dll",
+        "lib/uap10.0/Xam.Plugin.WebView.UWP.pdb",
+        "lib/uap10.0/Xam.Plugin.WebView.UWP.pri",
+        "readme.txt",
+        "xam.plugin.webview.2.1.3.nupkg.sha512",
+        "xam.plugin.webview.nuspec"
+      ]
+    },
     "Xam.Plugins.Android.ExoPlayer/2.11.8": {
       "sha512": "QhXsquw4z8KlKI5q4j/fiQeJrYXlxvr7ZxSaZV6WYCoB2fmoatNV8ezVJu3dCtt3cXRNuzZQfBjIX4p3hTQnuw==",
       "type": "package",
@@ -2362,6 +2467,41 @@
         "readme.txt",
         "xam.plugins.android.exoplayer.ui.2.11.8.nupkg.sha512",
         "xam.plugins.android.exoplayer.ui.nuspec"
+      ]
+    },
+    "Xam.Plugins.DownloadManager/1.4.0": {
+      "sha512": "cie4U0vP87MthMD13pAMzRxCwxnZDXD6JtS7/ObhpHW0aPHs2DH4Fs1HC3nHsBQAMfKfh52XYDh3d/wnEkQvRQ==",
+      "type": "package",
+      "path": "xam.plugins.downloadmanager/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.DownloadManager.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.DownloadManager.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.DownloadManager.dll",
+        "lib/MonoAndroid10/Plugin.DownloadManager.xml",
+        "lib/Xamarin.Mac20/Plugin.DownloadManager.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.DownloadManager.Abstractions.xml",
+        "lib/Xamarin.Mac20/Plugin.DownloadManager.dll",
+        "lib/Xamarin.Mac20/Plugin.DownloadManager.xml",
+        "lib/Xamarin.iOS10/Plugin.DownloadManager.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.DownloadManager.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.DownloadManager.dll",
+        "lib/Xamarin.iOS10/Plugin.DownloadManager.xml",
+        "lib/dotnet/Plugin.DownloadManager.Abstractions.dll",
+        "lib/dotnet/Plugin.DownloadManager.Abstractions.xml",
+        "lib/dotnet/Plugin.DownloadManager.XML",
+        "lib/dotnet/Plugin.DownloadManager.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.DownloadManager.Abstractions.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.DownloadManager.Abstractions.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.DownloadManager.XML",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.DownloadManager.dll",
+        "lib/uap10.0/Plugin.DownloadManager.Abstractions.dll",
+        "lib/uap10.0/Plugin.DownloadManager.Abstractions.xml",
+        "lib/uap10.0/Plugin.DownloadManager.dll",
+        "lib/uap10.0/Plugin.DownloadManager.xml",
+        "xam.plugins.downloadmanager.1.4.0.nupkg.sha512",
+        "xam.plugins.downloadmanager.nuspec"
       ]
     },
     "Xam.Plugins.Forms.ProgressRing/0.1.2": {
@@ -4051,9 +4191,12 @@
       "Newtonsoft.Json >= 13.0.1",
       "Plugin.MediaManager >= 1.0.9",
       "Plugin.MediaManager.Forms >= 1.0.9",
+      "Plugin.Permissions >= 6.0.1",
       "SkiaSharp >= 2.80.3",
       "Xam.Forms.VideoPlayer >= 1.0.8",
       "Xam.Plugin.Media >= 5.0.1",
+      "Xam.Plugin.WebView >= 2.1.3",
+      "Xam.Plugins.DownloadManager >= 1.4.0",
       "Xam.Plugins.Forms.ProgressRing >= 0.1.2",
       "Xamarin.CommunityToolkit >= 1.2.0",
       "Xamarin.Essentials >= 1.7.0",
@@ -4131,6 +4274,10 @@
             "target": "Package",
             "version": "[1.0.9, )"
           },
+          "Plugin.Permissions": {
+            "target": "Package",
+            "version": "[6.0.1, )"
+          },
           "SkiaSharp": {
             "target": "Package",
             "version": "[2.80.3, )"
@@ -4142,6 +4289,14 @@
           "Xam.Plugin.Media": {
             "target": "Package",
             "version": "[5.0.1, )"
+          },
+          "Xam.Plugin.WebView": {
+            "target": "Package",
+            "version": "[2.1.3, )"
+          },
+          "Xam.Plugins.DownloadManager": {
+            "target": "Package",
+            "version": "[1.4.0, )"
           },
           "Xam.Plugins.Forms.ProgressRing": {
             "target": "Package",

@@ -80,6 +80,10 @@
               "target": "Package",
               "version": "[5.0.1, )"
             },
+            "Xam.Plugins.DownloadManager": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
             "Xam.Plugins.Forms.ProgressRing": {
               "target": "Package",
               "version": "[0.1.2, )"
