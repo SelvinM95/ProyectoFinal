@@ -12,6 +12,7 @@
                   HasUnevenRows="True" 
                   SeparatorColor="Blue"
                   SeparatorVisibility="None"
+                  ItemTapped="ListStudent_ItemTapped"
                   BackgroundColor="White"
                   SelectionMode="None">
             <ListView.ItemTemplate>

@@ -171,3 +171,5 @@ D:\Storage\UTH\Movil 2\3 Parcial\ProyectoFinal\FinalProyecto\FinalProyecto\obj\D
 C:\Users\SelvinM95\Documents\GitHub\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\AgregarUsuarioGrupos.xaml.g.cs
 C:\Users\SelvinM95\Documents\GitHub\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\VideoPlayMyArchivos.xaml.g.cs
 C:\Users\SelvinM95\Documents\GitHub\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\AudioPlayMyArchivos.xaml.g.cs
+C:\Users\SelvinM95\Documents\GitHub\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\AudioPlayGrupos.xaml.g.cs
+C:\Users\SelvinM95\Documents\GitHub\ProyectoFinal\FinalProyecto\FinalProyecto\obj\Debug\netstandard2.0\Views\VideoPlayGrupos.xaml.g.cs

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:media1="clr-namespace:MediaManager.Forms;assembly=MediaManager.Forms"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             Shell.NavBarIsVisible="False"
+             x:Class="FinalProyecto.Views.AudioPlayGrupos">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <media1:VideoView x:Name="video" Source="{Binding filePath}"  AutoPlay="False" ShowControls="True" Margin="0,0,0,-35" VerticalOptions="FillAndExpand"/>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,50,0,20" >
+
+
+                    <Frame CornerRadius="5" HeightRequest="60" WidthRequest="200" Margin="0,0,5,0">
+                        <AbsoluteLayout x:Name="page_google_pixel_5___1_ek1"
+				 AbsoluteLayout.LayoutBounds="0,0,393,851">
+
+
+                            <!-- Descargar -->
+                            <AbsoluteLayout x:Name="light_____card__1__container_a__elevated"
+					 AbsoluteLayout.LayoutBounds="40,-10,159,138" HorizontalOptions="CenterAndExpand" >
+
+                                <Frame x:Name="container"
+						CornerRadius="10" 
+						BackgroundColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,0,60,60" />
+                                <Frame x:Name="audios"  
+						CornerRadius="10"
+						BackgroundColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,0,60,60" />
+
+
+                                <ffimageloading:SvgCachedImage 
+                                         Source="direct.svg"
+                                         HorizontalOptions="Center"
+                                         WidthRequest="40"
+                                         HeightRequest="40" 
+                   AbsoluteLayout.LayoutBounds="-43,0,149,65">
+
+                                    <ffimageloading:SvgCachedImage.GestureRecognizers>
+                                        <TapGestureRecognizer NumberOfTapsRequired="1" x:Name="imageDescargar" Tapped="imageDescargar_Tapped"/>
+                                    </ffimageloading:SvgCachedImage.GestureRecognizers>
+                                </ffimageloading:SvgCachedImage>
+                            </AbsoluteLayout>
+
+                            <Label x:Name="audiosL"
+					FontFamily="Segoe UI"
+					FontSize="12"
+					TextColor="Black"
+					AbsoluteLayout.LayoutBounds="72,55,70,41"
+					Text="Descargar"/>
+                        </AbsoluteLayout>
+                    </Frame>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

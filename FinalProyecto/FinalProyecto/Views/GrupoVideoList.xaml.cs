@@ -122,5 +122,19 @@ namespace FinalProyecto.Views
             UserDialogs.Instance.HideLoading();
         }
 
+        private async void ListStudent_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var obj = (Archivo)e.Item;
+
+            var detail = new Archivo
+            {
+                filePath = obj.filePath,
+                fileName = obj.fileName
+            };
+
+            var detalles = new VideoPlayGrupos();
+            detalles.BindingContext = detail;
+            await Navigation.PushAsync(detalles);
+        }
     }
 }
