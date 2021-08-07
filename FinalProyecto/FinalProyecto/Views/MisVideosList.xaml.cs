@@ -26,7 +26,7 @@ namespace FinalProyecto.Views
 
             UserDialogs.Instance.ShowLoading("Cargando");
 
-            string url = string.Format("http://3.15.208.156/WSXamarin/files/getownfiles/{0}/{1}/{2}", "Videos", App.Current.Properties["idGroup"], App.Current.Properties["Id"]);
+            string url = string.Format("http://3.15.208.156/WSXamarin/files/getownfiles/{0}/{1}", "Videos", App.Current.Properties["Id"]);
             ConsultManager manager = new ConsultManager();
             var res = await manager.getFile(url);
 
