@@ -62,6 +62,10 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "Plugin.MediaManager.Forms": {
+              "target": "Package",
+              "version": "[1.0.9, )"
+            },
             "SkiaSharp": {
               "target": "Package",
               "version": "[2.80.3, )"
@@ -73,6 +77,10 @@
             "Xam.Plugins.Forms.ProgressRing": {
               "target": "Package",
               "version": "[0.1.2, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[1.2.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

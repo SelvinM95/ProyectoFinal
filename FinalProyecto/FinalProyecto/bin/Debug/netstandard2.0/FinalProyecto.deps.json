@@ -13,9 +13,11 @@
           "IntelliAbb.Xamarin.Controls": "1.0.148",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.1",
+          "Plugin.MediaManager.Forms": "1.0.9",
           "SkiaSharp": "2.80.3",
           "Xam.Plugin.Media": "5.0.1",
           "Xam.Plugins.Forms.ProgressRing": "0.1.2",
+          "Xamarin.CommunityToolkit": "1.2.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.FFImageLoading": "2.4.11.982",
           "Xamarin.FFImageLoading.Svg": "2.4.11.982",
@@ -59,6 +61,26 @@
           }
         }
       },
+      "Plugin.MediaManager/1.0.9": {
+        "runtime": {
+          "lib/netstandard2.0/MediaManager.dll": {
+            "assemblyVersion": "1.0.9.0",
+            "fileVersion": "1.0.9.0"
+          }
+        }
+      },
+      "Plugin.MediaManager.Forms/1.0.9": {
+        "dependencies": {
+          "Plugin.MediaManager": "1.0.9",
+          "Xamarin.Forms": "5.0.0.2083"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediaManager.Forms.dll": {
+            "assemblyVersion": "1.0.9.0",
+            "fileVersion": "1.0.9.0"
+          }
+        }
+      },
       "SkiaSharp/2.80.3": {
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -94,7 +116,7 @@
         "dependencies": {
           "System.Buffers": "4.4.0",
           "System.Numerics.Vectors": "4.5.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
         },
         "runtime": {
           "lib/netstandard2.0/System.Memory.dll": {
@@ -111,11 +133,41 @@
           }
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "System.Reflection.Emit.ILGeneration/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Emit.ILGeneration.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {
+        "dependencies": {
+          "System.Reflection.Emit.ILGeneration": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Emit.Lightweight.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
         "runtime": {
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "assemblyVersion": "4.0.4.1",
-            "fileVersion": "4.6.26919.2"
+            "fileVersion": "4.6.28619.1"
+          }
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "assemblyVersion": "4.2.0.1",
+            "fileVersion": "4.6.28619.1"
           }
         }
       },
@@ -138,6 +190,19 @@
           "lib/portable-net45+wp80+win8+wpa81/ProgressRing.Forms.Plugin.dll": {
             "assemblyVersion": "1.0.6460.16364",
             "fileVersion": "1.0.6460.16364"
+          }
+        }
+      },
+      "Xamarin.CommunityToolkit/1.2.0": {
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.7.0",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Xamarin.Forms": "5.0.0.2083"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.CommunityToolkit.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -259,6 +324,20 @@
       "path": "newtonsoft.json/13.0.1",
       "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
+    "Plugin.MediaManager/1.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XWjkq5kru+pxE/EBZue7d5i4S6zOJ/zqTCY1QkwVmY+13fDcJ5LARAN6en4oc7MGyWmVWkFaIG0SmoTpXKt5tg==",
+      "path": "plugin.mediamanager/1.0.9",
+      "hashPath": "plugin.mediamanager.1.0.9.nupkg.sha512"
+    },
+    "Plugin.MediaManager.Forms/1.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GGyoFNTb4KMwH3YZOHhs1ckUpFYl1HIU8aWb3nwButRoeA0GVQ6A9PyQ8vldGXmNHW4hmMaXDYt0jHBD9R9NGQ==",
+      "path": "plugin.mediamanager.forms/1.0.9",
+      "hashPath": "plugin.mediamanager.forms.1.0.9.nupkg.sha512"
+    },
     "SkiaSharp/2.80.3": {
       "type": "package",
       "serviceable": true,
@@ -294,12 +373,33 @@
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
     },
-    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+    "System.Reflection.Emit.ILGeneration/4.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
-      "path": "system.runtime.compilerservices.unsafe/4.5.2",
-      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+      "sha512": "sha512-AucBYo3DSI0IDxdUjKksBcQJXPHyoPyrCXYURW1WDsLI4M65Ar/goSHjdnHOAY9MiYDNKqDlIgaYm+zL2hA1KA==",
+      "path": "system.reflection.emit.ilgeneration/4.7.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3TIsJhD1EiiT0w2CcDMN/iSSwnNnsrnbzeVHSKkaEgV85txMprmuO+Yq2AdSbeVGcg28pdNDTPK87tJhX7VFHw==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.3",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
     },
     "Xam.Plugin.Media/5.0.1": {
       "type": "package",
@@ -314,6 +414,13 @@
       "sha512": "sha512-TqxIQo9uiq0EXPSIet8eouoF0Vs1Al30Urd++LXkH2lCQPMJzr5aCrwnCrTi9/4V229njCgUw53+Au6xWbZwHg==",
       "path": "xam.plugins.forms.progressring/0.1.2",
       "hashPath": "xam.plugins.forms.progressring.0.1.2.nupkg.sha512"
+    },
+    "Xamarin.CommunityToolkit/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N2f4a0MmdRTx2QyxtcEeoV0yVXNblIhs9H2NED0v+YNn42AaRnw1WN4sG+Okw8jOkc3iyMkrVtn6EjzE29EjmQ==",
+      "path": "xamarin.communitytoolkit/1.2.0",
+      "hashPath": "xamarin.communitytoolkit.1.2.0.nupkg.sha512"
     },
     "Xamarin.Essentials/1.7.0": {
       "type": "package",

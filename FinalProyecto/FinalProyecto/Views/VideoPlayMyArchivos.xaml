@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:media1="clr-namespace:MediaManager.Forms;assembly=MediaManager.Forms"
+             xmlns:y="http://xamarin.com/schemas/2020/toolkit"
+             Shell.NavBarIsVisible="False"
+             x:Class="FinalProyecto.Views.VideoPlayMyArchivos">
+    <ContentPage.Content>
+        <ScrollView> 
+        <StackLayout>
+            <media1:VideoView x:Name="video" Source="{Binding filePath}"  AutoPlay="False" ShowControls="True" Margin="0,20,0,20" VerticalOptions="FillAndExpand"/>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,0,0,20">
+                <Button Text="Descargar"/>
+                <Button Text="Eliminar"/>
+            </StackLayout>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

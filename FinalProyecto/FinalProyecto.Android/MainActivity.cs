@@ -7,6 +7,7 @@ using Android.OS;
 using Xamarin.Essentials;
 using Android.Gms.Common;
 using Acr.UserDialogs;
+using MediaManager;
 
 namespace FinalProyecto.Droid
 {
@@ -21,6 +22,7 @@ namespace FinalProyecto.Droid
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             UserDialogs.Init(this);
+            CrossMediaManager.Current.Init(this);
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init(enableFastRenderer: true);
             LoadApplication(new App());
         }

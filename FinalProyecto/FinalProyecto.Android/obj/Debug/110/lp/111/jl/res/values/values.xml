@@ -1,80 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="AnimatedStateListDrawableCompat">
-        <!-- Indicates whether the drawable should be initially visible. -->
-        <attr name="android:visible"/>
-        <!-- If true, allows the drawable's padding to change based on the
-             current state that is selected.  If false, the padding will
-             stay the same (based on the maximum padding of all the states).
-             Enabling this feature requires that the owner of the drawable
-             deal with performing layout when the state changes, which is
-             often not supported. -->
-        <attr name="android:variablePadding"/>
-        <!-- If true, the drawable's reported internal size will remain
-             constant as the state changes; the size is the maximum of all
-             of the states.  If false, the size will vary based on the
-             current state. -->
-        <attr name="android:constantSize"/>
-        <!-- Enables or disables dithering of the bitmap if the bitmap does not have the
-             same pixel configuration as the screen (for instance: a ARGB 8888 bitmap with
-             an RGB 565 screen). -->
-        <attr name="android:dither"/>
-        <!-- Amount of time (in milliseconds) to fade in a new state drawable. -->
-        <attr name="android:enterFadeDuration"/>
-        <!-- Amount of time (in milliseconds) to fade out an old state drawable. -->
-        <attr name="android:exitFadeDuration"/>
-        <!-- Indicates if the drawable needs to be mirrored when its layout direction is
-             RTL (right-to-left). -->
-        <!--<attr name="autoMirrored"/>-->
-    </declare-styleable>
-    <declare-styleable name="AnimatedStateListDrawableItem">
-        <!-- Reference to a drawable resource to use for the frame.  If not
-             given, the drawable must be defined by the first child tag. -->
-        <attr name="android:drawable"/>
-        <!-- Keyframe identifier for use in specifying transitions. -->
-        <attr name="android:id"/>
-    </declare-styleable>
-    <declare-styleable name="AnimatedStateListDrawableTransition">
-        <!-- Keyframe identifier for the starting state. -->
-        <attr name="android:fromId"/>
-        <!-- Keyframe identifier for the ending state. -->
-        <attr name="android:toId"/>
-        <!-- Reference to a animation drawable resource to use for the frame.  If not
-             given, the animation drawable must be defined by the first child tag. -->
-        <attr name="android:drawable"/>
-        <!-- Whether this transition is reversible. -->
-        <attr name="android:reversible"/>
-    </declare-styleable>
-    <declare-styleable name="StateListDrawable">
-        <!-- Indicates whether the drawable should be initially visible. -->
-        <attr name="android:visible"/>
-        <!-- If true, allows the drawable's padding to change based on the
-             current state that is selected.  If false, the padding will
-             stay the same (based on the maximum padding of all the states).
-             Enabling this feature requires that the owner of the drawable
-             deal with performing layout when the state changes, which is
-             often not supported. -->
-        <attr name="android:variablePadding"/>
-        <!-- If true, the drawable's reported internal size will remain
-             constant as the state changes; the size is the maximum of all
-             of the states.  If false, the size will vary based on the
-             current state. -->
-        <attr name="android:constantSize"/>
-        <!-- Enables or disables dithering of the bitmap if the bitmap does not have the
-             same pixel configuration as the screen (for instance: a ARGB 8888 bitmap with
-             an RGB 565 screen). -->
-        <attr name="android:dither"/>
-        <!-- Amount of time (in milliseconds) to fade in a new state drawable. -->
-        <attr name="android:enterFadeDuration"/>
-        <!-- Amount of time (in milliseconds) to fade out an old state drawable. -->
-        <attr name="android:exitFadeDuration"/>
-        <!-- Indicates if the drawable needs to be mirrored when its layout direction is
-             RTL (right-to-left). -->
-        <!--<attr name="autoMirrored"/>-->
-    </declare-styleable>
-    <declare-styleable name="StateListDrawableItem">
-        <!-- Reference to a drawable resource to use for the state. If not
-             given, the drawable must be defined by the first child tag. -->
-        <attr name="android:drawable"/>
+    <attr format="reference" name="recyclerViewStyle"/>
+    <dimen name="fastscroll_default_thickness">8dp</dimen>
+    <dimen name="fastscroll_margin">0dp</dimen>
+    <dimen name="fastscroll_minimum_range">50dp</dimen>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <item name="item_touch_helper_previous_elevation" type="id"/>
+    <declare-styleable name="RecyclerView">
+        <!-- Class name of the Layout Manager to be used.
+        <p/>
+        The class must ext androidx.recyclerview.widget.RecyclerViewView$LayoutManager
+        and have either a default constructor or constructor with the signature
+        (android.content.Context, android.util.AttributeSet, int, int).
+         <p/>
+         If the name starts with a '.', application package is prefixed.
+         Else, if the name contains a '.', the classname is assumed to be a full class name.
+         Else, the recycler view package naandroidx.appcompat.widgetdget) is prefixed. -->
+        <attr format="string" name="layoutManager"/>
+
+        <!-- ============================= -->
+        <!-- Attributes for Layout Manager -->
+        <!-- ============================= -->
+        <eat-comment/>
+
+        <attr name="android:orientation"/>
+        <attr name="android:descendantFocusability"/>
+        <attr name="android:clipToPadding"/>
+        <attr format="integer" name="spanCount"/>
+        <attr format="boolean" name="reverseLayout"/>
+        <attr format="boolean" name="stackFromEnd"/>
+        <attr format="boolean" name="fastScrollEnabled"/>
+        <attr format="reference" name="fastScrollVerticalThumbDrawable"/>
+        <attr format="reference" name="fastScrollVerticalTrackDrawable"/>
+        <attr format="reference" name="fastScrollHorizontalThumbDrawable"/>
+        <attr format="reference" name="fastScrollHorizontalTrackDrawable"/>
     </declare-styleable>
 </resources>
