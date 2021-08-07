@@ -66,6 +66,10 @@
               "target": "Package",
               "version": "[2.80.3, )"
             },
+            "Xam.Forms.VideoPlayer": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
             "Xam.Plugin.Media": {
               "target": "Package",
               "version": "[5.0.1, )"
@@ -179,6 +183,10 @@
             "SkiaSharp": {
               "target": "Package",
               "version": "[2.80.3, )"
+            },
+            "Xam.Forms.VideoPlayer": {
+              "target": "Package",
+              "version": "[1.0.8, )"
             },
             "Xam.Plugin.Media": {
               "target": "Package",

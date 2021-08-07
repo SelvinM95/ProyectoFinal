@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JpW24846Gl3ebefmDSLxTlnN3kWZ9I+PGqOlv4PKCAWiG+bDCAolS+8ugHwLcgTUXSUV0OmCl8hJbld4ZhaBaA==",
+  "dgSpecHash": "JySqp28sateFs2uiLATwE9xADBbZcu07p6zLfiGdLnB/iSwVFWFeVuEpd06nXp2YqUYbtUG46D0uoRX2ubLf+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto.Android\\FinalProyecto.Android.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\SelvinM95\\.nuget\\packages\\skiasharp.views\\1.60.3\\skiasharp.views.1.60.3.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\skiasharp.views.forms\\1.60.3\\skiasharp.views.forms.1.60.3.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\SelvinM95\\.nuget\\packages\\xam.forms.videoplayer\\1.0.8\\xam.forms.videoplayer.1.0.8.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\xam.plugins.android.exoplayer\\2.11.8\\xam.plugins.android.exoplayer.2.11.8.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\xam.plugins.android.exoplayer.core\\2.11.8\\xam.plugins.android.exoplayer.core.2.11.8.nupkg.sha512",

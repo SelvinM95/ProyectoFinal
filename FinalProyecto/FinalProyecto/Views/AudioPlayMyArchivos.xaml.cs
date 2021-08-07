@@ -15,7 +15,7 @@ namespace FinalProyecto.Views
     {
         public AudioPlayMyArchivos()
         {
-            InitializeComponent();
+            InitializeComponent(); 
         }
 
 
@@ -29,6 +29,16 @@ namespace FinalProyecto.Views
                 return true;
 
             }
+        }
+
+        private void imageDescargar_Tapped(object sender, EventArgs e)
+        {
+
+        }
+
+        private void imageEliminar_Tapped(object sender, EventArgs e)
+        {
+
         }
     }
 }

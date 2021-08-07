@@ -8012,6 +8012,1950 @@ namespace FinalProyecto.Droid
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewStubCompat_android_id = global::FinalProyecto.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::FinalProyecto.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewStubCompat_android_layout = global::FinalProyecto.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_fade_in = global::FinalProyecto.Droid.Resource.Animation.abc_fade_in;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_fade_out = global::FinalProyecto.Droid.Resource.Animation.abc_fade_out;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::FinalProyecto.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_popup_enter = global::FinalProyecto.Droid.Resource.Animation.abc_popup_enter;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_popup_exit = global::FinalProyecto.Droid.Resource.Animation.abc_popup_exit;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::FinalProyecto.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_slide_in_bottom = global::FinalProyecto.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_slide_in_top = global::FinalProyecto.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_slide_out_bottom = global::FinalProyecto.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.abc_slide_out_top = global::FinalProyecto.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.design_bottom_sheet_slide_in = global::FinalProyecto.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.design_bottom_sheet_slide_out = global::FinalProyecto.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.design_snackbar_in = global::FinalProyecto.Droid.Resource.Animation.design_snackbar_in;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.design_snackbar_out = global::FinalProyecto.Droid.Resource.Animation.design_snackbar_out;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.EnterFromLeft = global::FinalProyecto.Droid.Resource.Animation.EnterFromLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.EnterFromRight = global::FinalProyecto.Droid.Resource.Animation.EnterFromRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.ExitToLeft = global::FinalProyecto.Droid.Resource.Animation.ExitToLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animation.ExitToRight = global::FinalProyecto.Droid.Resource.Animation.ExitToRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Animator.design_appbar_state_list_animator = global::FinalProyecto.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarDivider = global::FinalProyecto.Droid.Resource.Attribute.actionBarDivider;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarItemBackground = global::FinalProyecto.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarPopupTheme = global::FinalProyecto.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarSize = global::FinalProyecto.Droid.Resource.Attribute.actionBarSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarSplitStyle = global::FinalProyecto.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarStyle = global::FinalProyecto.Droid.Resource.Attribute.actionBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarTabBarStyle = global::FinalProyecto.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarTabStyle = global::FinalProyecto.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarTabTextStyle = global::FinalProyecto.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarTheme = global::FinalProyecto.Droid.Resource.Attribute.actionBarTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionBarWidgetTheme = global::FinalProyecto.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionButtonStyle = global::FinalProyecto.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionDropDownStyle = global::FinalProyecto.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionLayout = global::FinalProyecto.Droid.Resource.Attribute.actionLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionMenuTextAppearance = global::FinalProyecto.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionMenuTextColor = global::FinalProyecto.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeBackground = global::FinalProyecto.Droid.Resource.Attribute.actionModeBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeCloseButtonStyle = global::FinalProyecto.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeCloseDrawable = global::FinalProyecto.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeCopyDrawable = global::FinalProyecto.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeCutDrawable = global::FinalProyecto.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeFindDrawable = global::FinalProyecto.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModePasteDrawable = global::FinalProyecto.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModePopupWindowStyle = global::FinalProyecto.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeSelectAllDrawable = global::FinalProyecto.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeShareDrawable = global::FinalProyecto.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeSplitBackground = global::FinalProyecto.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeStyle = global::FinalProyecto.Droid.Resource.Attribute.actionModeStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionModeWebSearchDrawable = global::FinalProyecto.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionOverflowButtonStyle = global::FinalProyecto.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionOverflowMenuStyle = global::FinalProyecto.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionProviderClass = global::FinalProyecto.Droid.Resource.Attribute.actionProviderClass;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.actionViewClass = global::FinalProyecto.Droid.Resource.Attribute.actionViewClass;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.activityChooserViewStyle = global::FinalProyecto.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::FinalProyecto.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.alertDialogCenterButtons = global::FinalProyecto.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.alertDialogStyle = global::FinalProyecto.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.alertDialogTheme = global::FinalProyecto.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.allowStacking = global::FinalProyecto.Droid.Resource.Attribute.allowStacking;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.alpha = global::FinalProyecto.Droid.Resource.Attribute.alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.alphabeticModifiers = global::FinalProyecto.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.arrowHeadLength = global::FinalProyecto.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.arrowShaftLength = global::FinalProyecto.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.autoCompleteTextViewStyle = global::FinalProyecto.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.autoSizeMaxTextSize = global::FinalProyecto.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.autoSizeMinTextSize = global::FinalProyecto.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.autoSizePresetSizes = global::FinalProyecto.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.autoSizeStepGranularity = global::FinalProyecto.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.autoSizeTextType = global::FinalProyecto.Droid.Resource.Attribute.autoSizeTextType;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.background = global::FinalProyecto.Droid.Resource.Attribute.background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.backgroundSplit = global::FinalProyecto.Droid.Resource.Attribute.backgroundSplit;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.backgroundStacked = global::FinalProyecto.Droid.Resource.Attribute.backgroundStacked;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.backgroundTint = global::FinalProyecto.Droid.Resource.Attribute.backgroundTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.backgroundTintMode = global::FinalProyecto.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.barLength = global::FinalProyecto.Droid.Resource.Attribute.barLength;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.behavior_autoHide = global::FinalProyecto.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.behavior_hideable = global::FinalProyecto.Droid.Resource.Attribute.behavior_hideable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.behavior_overlapTop = global::FinalProyecto.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.behavior_peekHeight = global::FinalProyecto.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.behavior_skipCollapsed = global::FinalProyecto.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.borderWidth = global::FinalProyecto.Droid.Resource.Attribute.borderWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.borderlessButtonStyle = global::FinalProyecto.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.bottomSheetDialogTheme = global::FinalProyecto.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.bottomSheetStyle = global::FinalProyecto.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonBarButtonStyle = global::FinalProyecto.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::FinalProyecto.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::FinalProyecto.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::FinalProyecto.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonBarStyle = global::FinalProyecto.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonGravity = global::FinalProyecto.Droid.Resource.Attribute.buttonGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonPanelSideLayout = global::FinalProyecto.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonStyle = global::FinalProyecto.Droid.Resource.Attribute.buttonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonStyleSmall = global::FinalProyecto.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonTint = global::FinalProyecto.Droid.Resource.Attribute.buttonTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.buttonTintMode = global::FinalProyecto.Droid.Resource.Attribute.buttonTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.cardBackgroundColor = global::FinalProyecto.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.cardCornerRadius = global::FinalProyecto.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.cardElevation = global::FinalProyecto.Droid.Resource.Attribute.cardElevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.cardMaxElevation = global::FinalProyecto.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.cardPreventCornerOverlap = global::FinalProyecto.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.cardUseCompatPadding = global::FinalProyecto.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.checkboxStyle = global::FinalProyecto.Droid.Resource.Attribute.checkboxStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.checkedTextViewStyle = global::FinalProyecto.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.closeIcon = global::FinalProyecto.Droid.Resource.Attribute.closeIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.closeItemLayout = global::FinalProyecto.Droid.Resource.Attribute.closeItemLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.collapseContentDescription = global::FinalProyecto.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.collapseIcon = global::FinalProyecto.Droid.Resource.Attribute.collapseIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.collapsedTitleGravity = global::FinalProyecto.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.collapsedTitleTextAppearance = global::FinalProyecto.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.color = global::FinalProyecto.Droid.Resource.Attribute.color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorAccent = global::FinalProyecto.Droid.Resource.Attribute.colorAccent;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorBackgroundFloating = global::FinalProyecto.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorButtonNormal = global::FinalProyecto.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorControlActivated = global::FinalProyecto.Droid.Resource.Attribute.colorControlActivated;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorControlHighlight = global::FinalProyecto.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorControlNormal = global::FinalProyecto.Droid.Resource.Attribute.colorControlNormal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorError = global::FinalProyecto.Droid.Resource.Attribute.colorError;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorPrimary = global::FinalProyecto.Droid.Resource.Attribute.colorPrimary;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorPrimaryDark = global::FinalProyecto.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.colorSwitchThumbNormal = global::FinalProyecto.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.commitIcon = global::FinalProyecto.Droid.Resource.Attribute.commitIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentDescription = global::FinalProyecto.Droid.Resource.Attribute.contentDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentInsetEnd = global::FinalProyecto.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentInsetEndWithActions = global::FinalProyecto.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentInsetLeft = global::FinalProyecto.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentInsetRight = global::FinalProyecto.Droid.Resource.Attribute.contentInsetRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentInsetStart = global::FinalProyecto.Droid.Resource.Attribute.contentInsetStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentInsetStartWithNavigation = global::FinalProyecto.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentPadding = global::FinalProyecto.Droid.Resource.Attribute.contentPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentPaddingBottom = global::FinalProyecto.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentPaddingLeft = global::FinalProyecto.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentPaddingRight = global::FinalProyecto.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentPaddingTop = global::FinalProyecto.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.contentScrim = global::FinalProyecto.Droid.Resource.Attribute.contentScrim;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.controlBackground = global::FinalProyecto.Droid.Resource.Attribute.controlBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.counterEnabled = global::FinalProyecto.Droid.Resource.Attribute.counterEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.counterMaxLength = global::FinalProyecto.Droid.Resource.Attribute.counterMaxLength;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.counterOverflowTextAppearance = global::FinalProyecto.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.counterTextAppearance = global::FinalProyecto.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.customNavigationLayout = global::FinalProyecto.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.defaultQueryHint = global::FinalProyecto.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dialogPreferredPadding = global::FinalProyecto.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dialogTheme = global::FinalProyecto.Droid.Resource.Attribute.dialogTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.displayOptions = global::FinalProyecto.Droid.Resource.Attribute.displayOptions;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.divider = global::FinalProyecto.Droid.Resource.Attribute.divider;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dividerHorizontal = global::FinalProyecto.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dividerPadding = global::FinalProyecto.Droid.Resource.Attribute.dividerPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dividerVertical = global::FinalProyecto.Droid.Resource.Attribute.dividerVertical;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.drawableSize = global::FinalProyecto.Droid.Resource.Attribute.drawableSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.drawerArrowStyle = global::FinalProyecto.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dropDownListViewStyle = global::FinalProyecto.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::FinalProyecto.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.editTextBackground = global::FinalProyecto.Droid.Resource.Attribute.editTextBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.editTextColor = global::FinalProyecto.Droid.Resource.Attribute.editTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.editTextStyle = global::FinalProyecto.Droid.Resource.Attribute.editTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.elevation = global::FinalProyecto.Droid.Resource.Attribute.elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.errorEnabled = global::FinalProyecto.Droid.Resource.Attribute.errorEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.errorTextAppearance = global::FinalProyecto.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::FinalProyecto.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expanded = global::FinalProyecto.Droid.Resource.Attribute.expanded;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleGravity = global::FinalProyecto.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleMargin = global::FinalProyecto.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleMarginBottom = global::FinalProyecto.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleMarginEnd = global::FinalProyecto.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleMarginStart = global::FinalProyecto.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleMarginTop = global::FinalProyecto.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.expandedTitleTextAppearance = global::FinalProyecto.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fabSize = global::FinalProyecto.Droid.Resource.Attribute.fabSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fastScrollEnabled = global::FinalProyecto.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::FinalProyecto.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::FinalProyecto.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fastScrollVerticalThumbDrawable = global::FinalProyecto.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fastScrollVerticalTrackDrawable = global::FinalProyecto.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.font = global::FinalProyecto.Droid.Resource.Attribute.font;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontFamily = global::FinalProyecto.Droid.Resource.Attribute.fontFamily;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontProviderAuthority = global::FinalProyecto.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontProviderCerts = global::FinalProyecto.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontProviderFetchStrategy = global::FinalProyecto.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontProviderFetchTimeout = global::FinalProyecto.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontProviderPackage = global::FinalProyecto.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontProviderQuery = global::FinalProyecto.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontStyle = global::FinalProyecto.Droid.Resource.Attribute.fontStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.fontWeight = global::FinalProyecto.Droid.Resource.Attribute.fontWeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.foregroundInsidePadding = global::FinalProyecto.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.gapBetweenBars = global::FinalProyecto.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.goIcon = global::FinalProyecto.Droid.Resource.Attribute.goIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.headerLayout = global::FinalProyecto.Droid.Resource.Attribute.headerLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.height = global::FinalProyecto.Droid.Resource.Attribute.height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.hideOnContentScroll = global::FinalProyecto.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.hintAnimationEnabled = global::FinalProyecto.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.hintEnabled = global::FinalProyecto.Droid.Resource.Attribute.hintEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.hintTextAppearance = global::FinalProyecto.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.homeAsUpIndicator = global::FinalProyecto.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.homeLayout = global::FinalProyecto.Droid.Resource.Attribute.homeLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.icon = global::FinalProyecto.Droid.Resource.Attribute.icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.iconTint = global::FinalProyecto.Droid.Resource.Attribute.iconTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.iconTintMode = global::FinalProyecto.Droid.Resource.Attribute.iconTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.iconifiedByDefault = global::FinalProyecto.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.imageButtonStyle = global::FinalProyecto.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.indeterminateProgressStyle = global::FinalProyecto.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.initialActivityCount = global::FinalProyecto.Droid.Resource.Attribute.initialActivityCount;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.insetForeground = global::FinalProyecto.Droid.Resource.Attribute.insetForeground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.isLightTheme = global::FinalProyecto.Droid.Resource.Attribute.isLightTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.itemBackground = global::FinalProyecto.Droid.Resource.Attribute.itemBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.itemIconTint = global::FinalProyecto.Droid.Resource.Attribute.itemIconTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.itemPadding = global::FinalProyecto.Droid.Resource.Attribute.itemPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.itemTextAppearance = global::FinalProyecto.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.itemTextColor = global::FinalProyecto.Droid.Resource.Attribute.itemTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.keylines = global::FinalProyecto.Droid.Resource.Attribute.keylines;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout = global::FinalProyecto.Droid.Resource.Attribute.layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layoutManager = global::FinalProyecto.Droid.Resource.Attribute.layoutManager;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_anchor = global::FinalProyecto.Droid.Resource.Attribute.layout_anchor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_anchorGravity = global::FinalProyecto.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_behavior = global::FinalProyecto.Droid.Resource.Attribute.layout_behavior;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_collapseMode = global::FinalProyecto.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::FinalProyecto.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_dodgeInsetEdges = global::FinalProyecto.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_insetEdge = global::FinalProyecto.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_keyline = global::FinalProyecto.Droid.Resource.Attribute.layout_keyline;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_scrollFlags = global::FinalProyecto.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.layout_scrollInterpolator = global::FinalProyecto.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::FinalProyecto.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listDividerAlertDialog = global::FinalProyecto.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listItemLayout = global::FinalProyecto.Droid.Resource.Attribute.listItemLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listLayout = global::FinalProyecto.Droid.Resource.Attribute.listLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listMenuViewStyle = global::FinalProyecto.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listPopupWindowStyle = global::FinalProyecto.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listPreferredItemHeight = global::FinalProyecto.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listPreferredItemHeightLarge = global::FinalProyecto.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listPreferredItemHeightSmall = global::FinalProyecto.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::FinalProyecto.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.listPreferredItemPaddingRight = global::FinalProyecto.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.logo = global::FinalProyecto.Droid.Resource.Attribute.logo;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.logoDescription = global::FinalProyecto.Droid.Resource.Attribute.logoDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.maxActionInlineWidth = global::FinalProyecto.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.maxButtonHeight = global::FinalProyecto.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.measureWithLargestChild = global::FinalProyecto.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.menu = global::FinalProyecto.Droid.Resource.Attribute.menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.multiChoiceItemLayout = global::FinalProyecto.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.navigationContentDescription = global::FinalProyecto.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.navigationIcon = global::FinalProyecto.Droid.Resource.Attribute.navigationIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.navigationMode = global::FinalProyecto.Droid.Resource.Attribute.navigationMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.numericModifiers = global::FinalProyecto.Droid.Resource.Attribute.numericModifiers;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.overlapAnchor = global::FinalProyecto.Droid.Resource.Attribute.overlapAnchor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.paddingBottomNoButtons = global::FinalProyecto.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.paddingEnd = global::FinalProyecto.Droid.Resource.Attribute.paddingEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.paddingStart = global::FinalProyecto.Droid.Resource.Attribute.paddingStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.paddingTopNoTitle = global::FinalProyecto.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.panelBackground = global::FinalProyecto.Droid.Resource.Attribute.panelBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.panelMenuListTheme = global::FinalProyecto.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.panelMenuListWidth = global::FinalProyecto.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.passwordToggleContentDescription = global::FinalProyecto.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.passwordToggleDrawable = global::FinalProyecto.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.passwordToggleEnabled = global::FinalProyecto.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.passwordToggleTint = global::FinalProyecto.Droid.Resource.Attribute.passwordToggleTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.passwordToggleTintMode = global::FinalProyecto.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.popupMenuStyle = global::FinalProyecto.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.popupTheme = global::FinalProyecto.Droid.Resource.Attribute.popupTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.popupWindowStyle = global::FinalProyecto.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.preserveIconSpacing = global::FinalProyecto.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.pressedTranslationZ = global::FinalProyecto.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.progressBarPadding = global::FinalProyecto.Droid.Resource.Attribute.progressBarPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.progressBarStyle = global::FinalProyecto.Droid.Resource.Attribute.progressBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.queryBackground = global::FinalProyecto.Droid.Resource.Attribute.queryBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.queryHint = global::FinalProyecto.Droid.Resource.Attribute.queryHint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.radioButtonStyle = global::FinalProyecto.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.ratingBarStyle = global::FinalProyecto.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.ratingBarStyleIndicator = global::FinalProyecto.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.ratingBarStyleSmall = global::FinalProyecto.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.reverseLayout = global::FinalProyecto.Droid.Resource.Attribute.reverseLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.rippleColor = global::FinalProyecto.Droid.Resource.Attribute.rippleColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.scrimAnimationDuration = global::FinalProyecto.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::FinalProyecto.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.searchHintIcon = global::FinalProyecto.Droid.Resource.Attribute.searchHintIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.searchIcon = global::FinalProyecto.Droid.Resource.Attribute.searchIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.searchViewStyle = global::FinalProyecto.Droid.Resource.Attribute.searchViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.seekBarStyle = global::FinalProyecto.Droid.Resource.Attribute.seekBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.selectableItemBackground = global::FinalProyecto.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::FinalProyecto.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.showAsAction = global::FinalProyecto.Droid.Resource.Attribute.showAsAction;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.showDividers = global::FinalProyecto.Droid.Resource.Attribute.showDividers;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.showText = global::FinalProyecto.Droid.Resource.Attribute.showText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.showTitle = global::FinalProyecto.Droid.Resource.Attribute.showTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.singleChoiceItemLayout = global::FinalProyecto.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.spanCount = global::FinalProyecto.Droid.Resource.Attribute.spanCount;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.spinBars = global::FinalProyecto.Droid.Resource.Attribute.spinBars;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.spinnerDropDownItemStyle = global::FinalProyecto.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.spinnerStyle = global::FinalProyecto.Droid.Resource.Attribute.spinnerStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.splitTrack = global::FinalProyecto.Droid.Resource.Attribute.splitTrack;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.srcCompat = global::FinalProyecto.Droid.Resource.Attribute.srcCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.stackFromEnd = global::FinalProyecto.Droid.Resource.Attribute.stackFromEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.state_above_anchor = global::FinalProyecto.Droid.Resource.Attribute.state_above_anchor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.state_collapsed = global::FinalProyecto.Droid.Resource.Attribute.state_collapsed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.state_collapsible = global::FinalProyecto.Droid.Resource.Attribute.state_collapsible;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.statusBarBackground = global::FinalProyecto.Droid.Resource.Attribute.statusBarBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.statusBarScrim = global::FinalProyecto.Droid.Resource.Attribute.statusBarScrim;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.subMenuArrow = global::FinalProyecto.Droid.Resource.Attribute.subMenuArrow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.submitBackground = global::FinalProyecto.Droid.Resource.Attribute.submitBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.subtitle = global::FinalProyecto.Droid.Resource.Attribute.subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.subtitleTextAppearance = global::FinalProyecto.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.subtitleTextColor = global::FinalProyecto.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.subtitleTextStyle = global::FinalProyecto.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.suggestionRowLayout = global::FinalProyecto.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.switchMinWidth = global::FinalProyecto.Droid.Resource.Attribute.switchMinWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.switchPadding = global::FinalProyecto.Droid.Resource.Attribute.switchPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.switchStyle = global::FinalProyecto.Droid.Resource.Attribute.switchStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.switchTextAppearance = global::FinalProyecto.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabBackground = global::FinalProyecto.Droid.Resource.Attribute.tabBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabContentStart = global::FinalProyecto.Droid.Resource.Attribute.tabContentStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabGravity = global::FinalProyecto.Droid.Resource.Attribute.tabGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabIndicatorColor = global::FinalProyecto.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabIndicatorHeight = global::FinalProyecto.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabMaxWidth = global::FinalProyecto.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabMinWidth = global::FinalProyecto.Droid.Resource.Attribute.tabMinWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabMode = global::FinalProyecto.Droid.Resource.Attribute.tabMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabPadding = global::FinalProyecto.Droid.Resource.Attribute.tabPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabPaddingBottom = global::FinalProyecto.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabPaddingEnd = global::FinalProyecto.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabPaddingStart = global::FinalProyecto.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabPaddingTop = global::FinalProyecto.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabSelectedTextColor = global::FinalProyecto.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabTextAppearance = global::FinalProyecto.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tabTextColor = global::FinalProyecto.Droid.Resource.Attribute.tabTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAllCaps = global::FinalProyecto.Droid.Resource.Attribute.textAllCaps;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::FinalProyecto.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceListItem = global::FinalProyecto.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceListItemSecondary = global::FinalProyecto.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceListItemSmall = global::FinalProyecto.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::FinalProyecto.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::FinalProyecto.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::FinalProyecto.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::FinalProyecto.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textColorAlertDialogListItem = global::FinalProyecto.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.textColorSearchUrl = global::FinalProyecto.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.theme = global::FinalProyecto.Droid.Resource.Attribute.theme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.thickness = global::FinalProyecto.Droid.Resource.Attribute.thickness;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.thumbTextPadding = global::FinalProyecto.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.thumbTint = global::FinalProyecto.Droid.Resource.Attribute.thumbTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.thumbTintMode = global::FinalProyecto.Droid.Resource.Attribute.thumbTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tickMark = global::FinalProyecto.Droid.Resource.Attribute.tickMark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tickMarkTint = global::FinalProyecto.Droid.Resource.Attribute.tickMarkTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tickMarkTintMode = global::FinalProyecto.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tint = global::FinalProyecto.Droid.Resource.Attribute.tint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tintMode = global::FinalProyecto.Droid.Resource.Attribute.tintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.title = global::FinalProyecto.Droid.Resource.Attribute.title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleEnabled = global::FinalProyecto.Droid.Resource.Attribute.titleEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleMargin = global::FinalProyecto.Droid.Resource.Attribute.titleMargin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleMarginBottom = global::FinalProyecto.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleMarginEnd = global::FinalProyecto.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleMarginStart = global::FinalProyecto.Droid.Resource.Attribute.titleMarginStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleMarginTop = global::FinalProyecto.Droid.Resource.Attribute.titleMarginTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleMargins = global::FinalProyecto.Droid.Resource.Attribute.titleMargins;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleTextAppearance = global::FinalProyecto.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleTextColor = global::FinalProyecto.Droid.Resource.Attribute.titleTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.titleTextStyle = global::FinalProyecto.Droid.Resource.Attribute.titleTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.toolbarId = global::FinalProyecto.Droid.Resource.Attribute.toolbarId;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::FinalProyecto.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.toolbarStyle = global::FinalProyecto.Droid.Resource.Attribute.toolbarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tooltipForegroundColor = global::FinalProyecto.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tooltipFrameBackground = global::FinalProyecto.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.tooltipText = global::FinalProyecto.Droid.Resource.Attribute.tooltipText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.track = global::FinalProyecto.Droid.Resource.Attribute.track;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.trackTint = global::FinalProyecto.Droid.Resource.Attribute.trackTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.trackTintMode = global::FinalProyecto.Droid.Resource.Attribute.trackTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.useCompatPadding = global::FinalProyecto.Droid.Resource.Attribute.useCompatPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.voiceIcon = global::FinalProyecto.Droid.Resource.Attribute.voiceIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowActionBar = global::FinalProyecto.Droid.Resource.Attribute.windowActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowActionBarOverlay = global::FinalProyecto.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowActionModeOverlay = global::FinalProyecto.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowFixedHeightMajor = global::FinalProyecto.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowFixedHeightMinor = global::FinalProyecto.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowFixedWidthMajor = global::FinalProyecto.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowFixedWidthMinor = global::FinalProyecto.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowMinWidthMajor = global::FinalProyecto.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowMinWidthMinor = global::FinalProyecto.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Attribute.windowNoTitle = global::FinalProyecto.Droid.Resource.Attribute.windowNoTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::FinalProyecto.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::FinalProyecto.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::FinalProyecto.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::FinalProyecto.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::FinalProyecto.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::FinalProyecto.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_btn_colored_text_material = global::FinalProyecto.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_color_highlight_material = global::FinalProyecto.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_hint_foreground_material_dark = global::FinalProyecto.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_hint_foreground_material_light = global::FinalProyecto.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::FinalProyecto.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::FinalProyecto.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_primary_text_material_dark = global::FinalProyecto.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_primary_text_material_light = global::FinalProyecto.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_search_url_text = global::FinalProyecto.Droid.Resource.Color.abc_search_url_text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_search_url_text_normal = global::FinalProyecto.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_search_url_text_pressed = global::FinalProyecto.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_search_url_text_selected = global::FinalProyecto.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_secondary_text_material_dark = global::FinalProyecto.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_secondary_text_material_light = global::FinalProyecto.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_tint_btn_checkable = global::FinalProyecto.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_tint_default = global::FinalProyecto.Droid.Resource.Color.abc_tint_default;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_tint_edittext = global::FinalProyecto.Droid.Resource.Color.abc_tint_edittext;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_tint_seek_thumb = global::FinalProyecto.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_tint_spinner = global::FinalProyecto.Droid.Resource.Color.abc_tint_spinner;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.abc_tint_switch_track = global::FinalProyecto.Droid.Resource.Color.abc_tint_switch_track;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.accent_material_dark = global::FinalProyecto.Droid.Resource.Color.accent_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.accent_material_light = global::FinalProyecto.Droid.Resource.Color.accent_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.background_floating_material_dark = global::FinalProyecto.Droid.Resource.Color.background_floating_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.background_floating_material_light = global::FinalProyecto.Droid.Resource.Color.background_floating_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.background_material_dark = global::FinalProyecto.Droid.Resource.Color.background_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.background_material_light = global::FinalProyecto.Droid.Resource.Color.background_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.bright_foreground_disabled_material_dark = global::FinalProyecto.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.bright_foreground_disabled_material_light = global::FinalProyecto.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.bright_foreground_inverse_material_dark = global::FinalProyecto.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.bright_foreground_inverse_material_light = global::FinalProyecto.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.bright_foreground_material_dark = global::FinalProyecto.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.bright_foreground_material_light = global::FinalProyecto.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.button_material_dark = global::FinalProyecto.Droid.Resource.Color.button_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.button_material_light = global::FinalProyecto.Droid.Resource.Color.button_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.cardview_dark_background = global::FinalProyecto.Droid.Resource.Color.cardview_dark_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.cardview_light_background = global::FinalProyecto.Droid.Resource.Color.cardview_light_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.cardview_shadow_end_color = global::FinalProyecto.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.cardview_shadow_start_color = global::FinalProyecto.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_bottom_navigation_shadow_color = global::FinalProyecto.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_error = global::FinalProyecto.Droid.Resource.Color.design_error;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_shadow_end_color = global::FinalProyecto.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_shadow_mid_color = global::FinalProyecto.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_shadow_start_color = global::FinalProyecto.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_stroke_end_inner_color = global::FinalProyecto.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_stroke_end_outer_color = global::FinalProyecto.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_stroke_top_inner_color = global::FinalProyecto.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_fab_stroke_top_outer_color = global::FinalProyecto.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.design_snackbar_background_color = global::FinalProyecto.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.dim_foreground_disabled_material_dark = global::FinalProyecto.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.dim_foreground_disabled_material_light = global::FinalProyecto.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.dim_foreground_material_dark = global::FinalProyecto.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.dim_foreground_material_light = global::FinalProyecto.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.foreground_material_dark = global::FinalProyecto.Droid.Resource.Color.foreground_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.foreground_material_light = global::FinalProyecto.Droid.Resource.Color.foreground_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.highlighted_text_material_dark = global::FinalProyecto.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.highlighted_text_material_light = global::FinalProyecto.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_blue_grey_800 = global::FinalProyecto.Droid.Resource.Color.material_blue_grey_800;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_blue_grey_900 = global::FinalProyecto.Droid.Resource.Color.material_blue_grey_900;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_blue_grey_950 = global::FinalProyecto.Droid.Resource.Color.material_blue_grey_950;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_deep_teal_200 = global::FinalProyecto.Droid.Resource.Color.material_deep_teal_200;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_deep_teal_500 = global::FinalProyecto.Droid.Resource.Color.material_deep_teal_500;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_100 = global::FinalProyecto.Droid.Resource.Color.material_grey_100;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_300 = global::FinalProyecto.Droid.Resource.Color.material_grey_300;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_50 = global::FinalProyecto.Droid.Resource.Color.material_grey_50;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_600 = global::FinalProyecto.Droid.Resource.Color.material_grey_600;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_800 = global::FinalProyecto.Droid.Resource.Color.material_grey_800;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_850 = global::FinalProyecto.Droid.Resource.Color.material_grey_850;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.material_grey_900 = global::FinalProyecto.Droid.Resource.Color.material_grey_900;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.notification_action_color_filter = global::FinalProyecto.Droid.Resource.Color.notification_action_color_filter;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.notification_icon_bg_color = global::FinalProyecto.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.notification_material_background_media_default_color = global::FinalProyecto.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_dark_material_dark = global::FinalProyecto.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_dark_material_light = global::FinalProyecto.Droid.Resource.Color.primary_dark_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_material_dark = global::FinalProyecto.Droid.Resource.Color.primary_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_material_light = global::FinalProyecto.Droid.Resource.Color.primary_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_text_default_material_dark = global::FinalProyecto.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_text_default_material_light = global::FinalProyecto.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_text_disabled_material_dark = global::FinalProyecto.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.primary_text_disabled_material_light = global::FinalProyecto.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.ripple_material_dark = global::FinalProyecto.Droid.Resource.Color.ripple_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.ripple_material_light = global::FinalProyecto.Droid.Resource.Color.ripple_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.secondary_text_default_material_dark = global::FinalProyecto.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.secondary_text_default_material_light = global::FinalProyecto.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.secondary_text_disabled_material_dark = global::FinalProyecto.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.secondary_text_disabled_material_light = global::FinalProyecto.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.switch_thumb_disabled_material_dark = global::FinalProyecto.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.switch_thumb_disabled_material_light = global::FinalProyecto.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.switch_thumb_material_dark = global::FinalProyecto.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.switch_thumb_material_light = global::FinalProyecto.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.switch_thumb_normal_material_dark = global::FinalProyecto.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.switch_thumb_normal_material_light = global::FinalProyecto.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.tooltip_background_dark = global::FinalProyecto.Droid.Resource.Color.tooltip_background_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Color.tooltip_background_light = global::FinalProyecto.Droid.Resource.Color.tooltip_background_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::FinalProyecto.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::FinalProyecto.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_default_height_material = global::FinalProyecto.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::FinalProyecto.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::FinalProyecto.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_elevation_material = global::FinalProyecto.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::FinalProyecto.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::FinalProyecto.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::FinalProyecto.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::FinalProyecto.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::FinalProyecto.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::FinalProyecto.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::FinalProyecto.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_button_min_height_material = global::FinalProyecto.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_button_min_width_material = global::FinalProyecto.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::FinalProyecto.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::FinalProyecto.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::FinalProyecto.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_button_inset_vertical_material = global::FinalProyecto.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::FinalProyecto.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_button_padding_vertical_material = global::FinalProyecto.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::FinalProyecto.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_config_prefDialogWidth = global::FinalProyecto.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_control_corner_material = global::FinalProyecto.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_control_inset_material = global::FinalProyecto.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_control_padding_material = global::FinalProyecto.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::FinalProyecto.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::FinalProyecto.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::FinalProyecto.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::FinalProyecto.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::FinalProyecto.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::FinalProyecto.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_min_width_major = global::FinalProyecto.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_min_width_minor = global::FinalProyecto.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_padding_material = global::FinalProyecto.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_padding_top_material = global::FinalProyecto.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dialog_title_divider_material = global::FinalProyecto.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::FinalProyecto.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::FinalProyecto.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::FinalProyecto.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::FinalProyecto.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::FinalProyecto.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::FinalProyecto.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::FinalProyecto.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::FinalProyecto.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_floating_window_z = global::FinalProyecto.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::FinalProyecto.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_panel_menu_list_width = global::FinalProyecto.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_progress_bar_height_material = global::FinalProyecto.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_search_view_preferred_height = global::FinalProyecto.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_search_view_preferred_width = global::FinalProyecto.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::FinalProyecto.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::FinalProyecto.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::FinalProyecto.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_switch_padding = global::FinalProyecto.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_body_1_material = global::FinalProyecto.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_body_2_material = global::FinalProyecto.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_button_material = global::FinalProyecto.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_caption_material = global::FinalProyecto.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_display_1_material = global::FinalProyecto.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_display_2_material = global::FinalProyecto.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_display_3_material = global::FinalProyecto.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_display_4_material = global::FinalProyecto.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_headline_material = global::FinalProyecto.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_large_material = global::FinalProyecto.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_medium_material = global::FinalProyecto.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_menu_header_material = global::FinalProyecto.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_menu_material = global::FinalProyecto.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_small_material = global::FinalProyecto.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_subhead_material = global::FinalProyecto.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::FinalProyecto.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_title_material = global::FinalProyecto.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::FinalProyecto.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.cardview_compat_inset_shadow = global::FinalProyecto.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.cardview_default_elevation = global::FinalProyecto.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.cardview_default_radius = global::FinalProyecto.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::FinalProyecto.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.compat_button_inset_vertical_material = global::FinalProyecto.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::FinalProyecto.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.compat_button_padding_vertical_material = global::FinalProyecto.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.compat_control_corner_material = global::FinalProyecto.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_appbar_elevation = global::FinalProyecto.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::FinalProyecto.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::FinalProyecto.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_elevation = global::FinalProyecto.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_height = global::FinalProyecto.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::FinalProyecto.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::FinalProyecto.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_margin = global::FinalProyecto.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::FinalProyecto.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_navigation_text_size = global::FinalProyecto.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::FinalProyecto.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::FinalProyecto.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_fab_border_width = global::FinalProyecto.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_fab_elevation = global::FinalProyecto.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_fab_image_size = global::FinalProyecto.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_fab_size_mini = global::FinalProyecto.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_fab_size_normal = global::FinalProyecto.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_fab_translation_z_pressed = global::FinalProyecto.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_navigation_elevation = global::FinalProyecto.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_navigation_icon_padding = global::FinalProyecto.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_navigation_icon_size = global::FinalProyecto.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_navigation_max_width = global::FinalProyecto.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_navigation_padding_bottom = global::FinalProyecto.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::FinalProyecto.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::FinalProyecto.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::FinalProyecto.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_elevation = global::FinalProyecto.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::FinalProyecto.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_max_width = global::FinalProyecto.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_min_width = global::FinalProyecto.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::FinalProyecto.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_padding_vertical = global::FinalProyecto.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::FinalProyecto.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_snackbar_text_size = global::FinalProyecto.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_tab_max_width = global::FinalProyecto.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_tab_scrollable_min_width = global::FinalProyecto.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_tab_text_size = global::FinalProyecto.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.design_tab_text_size_2line = global::FinalProyecto.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.disabled_alpha_material_dark = global::FinalProyecto.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.disabled_alpha_material_light = global::FinalProyecto.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.fastscroll_default_thickness = global::FinalProyecto.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.fastscroll_margin = global::FinalProyecto.Droid.Resource.Dimension.fastscroll_margin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.fastscroll_minimum_range = global::FinalProyecto.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.highlight_alpha_material_colored = global::FinalProyecto.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.highlight_alpha_material_dark = global::FinalProyecto.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.highlight_alpha_material_light = global::FinalProyecto.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.hint_alpha_material_dark = global::FinalProyecto.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.hint_alpha_material_light = global::FinalProyecto.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::FinalProyecto.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::FinalProyecto.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::FinalProyecto.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::FinalProyecto.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::FinalProyecto.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_action_icon_size = global::FinalProyecto.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_action_text_size = global::FinalProyecto.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_big_circle_margin = global::FinalProyecto.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_content_margin_start = global::FinalProyecto.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_large_icon_height = global::FinalProyecto.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_large_icon_width = global::FinalProyecto.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_main_column_padding_top = global::FinalProyecto.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_media_narrow_margin = global::FinalProyecto.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_right_icon_size = global::FinalProyecto.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_right_side_padding_top = global::FinalProyecto.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_small_icon_background_padding = global::FinalProyecto.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_small_icon_size_as_large = global::FinalProyecto.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_subtext_size = global::FinalProyecto.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_top_pad = global::FinalProyecto.Droid.Resource.Dimension.notification_top_pad;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.notification_top_pad_large_text = global::FinalProyecto.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_corner_radius = global::FinalProyecto.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_horizontal_padding = global::FinalProyecto.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_margin = global::FinalProyecto.Droid.Resource.Dimension.tooltip_margin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::FinalProyecto.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_precise_anchor_threshold = global::FinalProyecto.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_vertical_padding = global::FinalProyecto.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_y_offset_non_touch = global::FinalProyecto.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Dimension.tooltip_y_offset_touch = global::FinalProyecto.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_action_bar_item_background_material = global::FinalProyecto.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_borderless_material = global::FinalProyecto.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_check_material = global::FinalProyecto.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::FinalProyecto.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::FinalProyecto.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_colored_material = global::FinalProyecto.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::FinalProyecto.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_radio_material = global::FinalProyecto.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::FinalProyecto.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::FinalProyecto.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::FinalProyecto.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::FinalProyecto.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_cab_background_internal_bg = global::FinalProyecto.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_cab_background_top_material = global::FinalProyecto.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_control_background_material = global::FinalProyecto.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_dialog_material_background = global::FinalProyecto.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_edit_text_material = global::FinalProyecto.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_ab_back_material = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_clear_material = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_go_search_api_material = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_search_api_material = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_star_black_16dp = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_star_black_36dp = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_star_black_48dp = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::FinalProyecto.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_item_background_holo_dark = global::FinalProyecto.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_item_background_holo_light = global::FinalProyecto.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_focused_holo = global::FinalProyecto.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_longpressed_holo = global::FinalProyecto.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::FinalProyecto.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_pressed_holo_light = global::FinalProyecto.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::FinalProyecto.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::FinalProyecto.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::FinalProyecto.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::FinalProyecto.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_selector_holo_dark = global::FinalProyecto.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_list_selector_holo_light = global::FinalProyecto.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::FinalProyecto.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::FinalProyecto.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::FinalProyecto.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ratingbar_material = global::FinalProyecto.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_ratingbar_small_material = global::FinalProyecto.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::FinalProyecto.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::FinalProyecto.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_seekbar_thumb_material = global::FinalProyecto.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::FinalProyecto.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_seekbar_track_material = global::FinalProyecto.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::FinalProyecto.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_switch_thumb_material = global::FinalProyecto.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_tab_indicator_material = global::FinalProyecto.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_text_cursor_material = global::FinalProyecto.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::FinalProyecto.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::FinalProyecto.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::FinalProyecto.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::FinalProyecto.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::FinalProyecto.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::FinalProyecto.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::FinalProyecto.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_textfield_search_material = global::FinalProyecto.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.abc_vector_test = global::FinalProyecto.Droid.Resource.Drawable.abc_vector_test;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.avd_hide_password = global::FinalProyecto.Droid.Resource.Drawable.avd_hide_password;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.avd_show_password = global::FinalProyecto.Droid.Resource.Drawable.avd_show_password;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.design_bottom_navigation_item_background = global::FinalProyecto.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.design_fab_background = global::FinalProyecto.Droid.Resource.Drawable.design_fab_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.design_ic_visibility = global::FinalProyecto.Droid.Resource.Drawable.design_ic_visibility;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.design_ic_visibility_off = global::FinalProyecto.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.design_password_eye = global::FinalProyecto.Droid.Resource.Drawable.design_password_eye;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.design_snackbar_background = global::FinalProyecto.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.ic_fullscreen = global::FinalProyecto.Droid.Resource.Drawable.ic_fullscreen;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.ic_fullscreen_exit = global::FinalProyecto.Droid.Resource.Drawable.ic_fullscreen_exit;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.navigation_empty_icon = global::FinalProyecto.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_action_background = global::FinalProyecto.Droid.Resource.Drawable.notification_action_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_bg = global::FinalProyecto.Droid.Resource.Drawable.notification_bg;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_bg_low = global::FinalProyecto.Droid.Resource.Drawable.notification_bg_low;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_bg_low_normal = global::FinalProyecto.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_bg_low_pressed = global::FinalProyecto.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_bg_normal = global::FinalProyecto.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_bg_normal_pressed = global::FinalProyecto.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_icon_background = global::FinalProyecto.Droid.Resource.Drawable.notification_icon_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_template_icon_bg = global::FinalProyecto.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_template_icon_low_bg = global::FinalProyecto.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notification_tile_bg = global::FinalProyecto.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::FinalProyecto.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.tooltip_frame_dark = global::FinalProyecto.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Drawable.tooltip_frame_light = global::FinalProyecto.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.ALT = global::FinalProyecto.Droid.Resource.Id.ALT;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.CTRL = global::FinalProyecto.Droid.Resource.Id.CTRL;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.FUNCTION = global::FinalProyecto.Droid.Resource.Id.FUNCTION;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.META = global::FinalProyecto.Droid.Resource.Id.META;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.SHIFT = global::FinalProyecto.Droid.Resource.Id.SHIFT;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.SYM = global::FinalProyecto.Droid.Resource.Id.SYM;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action0 = global::FinalProyecto.Droid.Resource.Id.action0;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar = global::FinalProyecto.Droid.Resource.Id.action_bar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar_activity_content = global::FinalProyecto.Droid.Resource.Id.action_bar_activity_content;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar_container = global::FinalProyecto.Droid.Resource.Id.action_bar_container;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar_root = global::FinalProyecto.Droid.Resource.Id.action_bar_root;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar_spinner = global::FinalProyecto.Droid.Resource.Id.action_bar_spinner;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar_subtitle = global::FinalProyecto.Droid.Resource.Id.action_bar_subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_bar_title = global::FinalProyecto.Droid.Resource.Id.action_bar_title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_container = global::FinalProyecto.Droid.Resource.Id.action_container;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_context_bar = global::FinalProyecto.Droid.Resource.Id.action_context_bar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_divider = global::FinalProyecto.Droid.Resource.Id.action_divider;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_image = global::FinalProyecto.Droid.Resource.Id.action_image;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_menu_divider = global::FinalProyecto.Droid.Resource.Id.action_menu_divider;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_menu_presenter = global::FinalProyecto.Droid.Resource.Id.action_menu_presenter;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_mode_bar = global::FinalProyecto.Droid.Resource.Id.action_mode_bar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_mode_bar_stub = global::FinalProyecto.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_mode_close_button = global::FinalProyecto.Droid.Resource.Id.action_mode_close_button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.action_text = global::FinalProyecto.Droid.Resource.Id.action_text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.actions = global::FinalProyecto.Droid.Resource.Id.actions;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.activity_chooser_view_content = global::FinalProyecto.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.add = global::FinalProyecto.Droid.Resource.Id.add;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.alertTitle = global::FinalProyecto.Droid.Resource.Id.alertTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.all = global::FinalProyecto.Droid.Resource.Id.all;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.always = global::FinalProyecto.Droid.Resource.Id.always;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.async = global::FinalProyecto.Droid.Resource.Id.async;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.auto = global::FinalProyecto.Droid.Resource.Id.auto;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.beginning = global::FinalProyecto.Droid.Resource.Id.beginning;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.blocking = global::FinalProyecto.Droid.Resource.Id.blocking;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.bottom = global::FinalProyecto.Droid.Resource.Id.bottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.bottomtab_navarea = global::FinalProyecto.Droid.Resource.Id.bottomtab_navarea;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.bottomtab_tabbar = global::FinalProyecto.Droid.Resource.Id.bottomtab_tabbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.buttonPanel = global::FinalProyecto.Droid.Resource.Id.buttonPanel;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.cancel_action = global::FinalProyecto.Droid.Resource.Id.cancel_action;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.center = global::FinalProyecto.Droid.Resource.Id.center;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.center_horizontal = global::FinalProyecto.Droid.Resource.Id.center_horizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.center_vertical = global::FinalProyecto.Droid.Resource.Id.center_vertical;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.checkbox = global::FinalProyecto.Droid.Resource.Id.checkbox;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.chronometer = global::FinalProyecto.Droid.Resource.Id.chronometer;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.clip_horizontal = global::FinalProyecto.Droid.Resource.Id.clip_horizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.clip_vertical = global::FinalProyecto.Droid.Resource.Id.clip_vertical;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.collapseActionView = global::FinalProyecto.Droid.Resource.Id.collapseActionView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.container = global::FinalProyecto.Droid.Resource.Id.container;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.contentPanel = global::FinalProyecto.Droid.Resource.Id.contentPanel;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.coordinator = global::FinalProyecto.Droid.Resource.Id.coordinator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.custom = global::FinalProyecto.Droid.Resource.Id.custom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.customPanel = global::FinalProyecto.Droid.Resource.Id.customPanel;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.decor_content_parent = global::FinalProyecto.Droid.Resource.Id.decor_content_parent;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.default_activity_button = global::FinalProyecto.Droid.Resource.Id.default_activity_button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.design_bottom_sheet = global::FinalProyecto.Droid.Resource.Id.design_bottom_sheet;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.design_menu_item_action_area = global::FinalProyecto.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.design_menu_item_action_area_stub = global::FinalProyecto.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.design_menu_item_text = global::FinalProyecto.Droid.Resource.Id.design_menu_item_text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.design_navigation_view = global::FinalProyecto.Droid.Resource.Id.design_navigation_view;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.disableHome = global::FinalProyecto.Droid.Resource.Id.disableHome;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.edit_query = global::FinalProyecto.Droid.Resource.Id.edit_query;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.end = global::FinalProyecto.Droid.Resource.Id.end;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.end_padder = global::FinalProyecto.Droid.Resource.Id.end_padder;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.enterAlways = global::FinalProyecto.Droid.Resource.Id.enterAlways;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.enterAlwaysCollapsed = global::FinalProyecto.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.exitUntilCollapsed = global::FinalProyecto.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.expand_activities_button = global::FinalProyecto.Droid.Resource.Id.expand_activities_button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.expanded_menu = global::FinalProyecto.Droid.Resource.Id.expanded_menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.fill = global::FinalProyecto.Droid.Resource.Id.fill;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.fill_horizontal = global::FinalProyecto.Droid.Resource.Id.fill_horizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.fill_vertical = global::FinalProyecto.Droid.Resource.Id.fill_vertical;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.@fixed = global::FinalProyecto.Droid.Resource.Id.@fixed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.flyoutcontent_appbar = global::FinalProyecto.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.forever = global::FinalProyecto.Droid.Resource.Id.forever;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.ghost_view = global::FinalProyecto.Droid.Resource.Id.ghost_view;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.home = global::FinalProyecto.Droid.Resource.Id.home;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.homeAsUp = global::FinalProyecto.Droid.Resource.Id.homeAsUp;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.icon = global::FinalProyecto.Droid.Resource.Id.icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.icon_group = global::FinalProyecto.Droid.Resource.Id.icon_group;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.ifRoom = global::FinalProyecto.Droid.Resource.Id.ifRoom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.image = global::FinalProyecto.Droid.Resource.Id.image;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.info = global::FinalProyecto.Droid.Resource.Id.info;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.italic = global::FinalProyecto.Droid.Resource.Id.italic;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.item_touch_helper_previous_elevation = global::FinalProyecto.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.largeLabel = global::FinalProyecto.Droid.Resource.Id.largeLabel;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.left = global::FinalProyecto.Droid.Resource.Id.left;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.line1 = global::FinalProyecto.Droid.Resource.Id.line1;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.line3 = global::FinalProyecto.Droid.Resource.Id.line3;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.listMode = global::FinalProyecto.Droid.Resource.Id.listMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.list_item = global::FinalProyecto.Droid.Resource.Id.list_item;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.main_appbar = global::FinalProyecto.Droid.Resource.Id.main_appbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.main_tablayout = global::FinalProyecto.Droid.Resource.Id.main_tablayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.main_toolbar = global::FinalProyecto.Droid.Resource.Id.main_toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.main_viewpager = global::FinalProyecto.Droid.Resource.Id.main_viewpager;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.masked = global::FinalProyecto.Droid.Resource.Id.masked;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.media_actions = global::FinalProyecto.Droid.Resource.Id.media_actions;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.message = global::FinalProyecto.Droid.Resource.Id.message;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.middle = global::FinalProyecto.Droid.Resource.Id.middle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.mini = global::FinalProyecto.Droid.Resource.Id.mini;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.multiply = global::FinalProyecto.Droid.Resource.Id.multiply;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.navigation_header_container = global::FinalProyecto.Droid.Resource.Id.navigation_header_container;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.never = global::FinalProyecto.Droid.Resource.Id.never;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.none = global::FinalProyecto.Droid.Resource.Id.none;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.normal = global::FinalProyecto.Droid.Resource.Id.normal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.notification_background = global::FinalProyecto.Droid.Resource.Id.notification_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.notification_main_column = global::FinalProyecto.Droid.Resource.Id.notification_main_column;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.notification_main_column_container = global::FinalProyecto.Droid.Resource.Id.notification_main_column_container;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.parallax = global::FinalProyecto.Droid.Resource.Id.parallax;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.parentPanel = global::FinalProyecto.Droid.Resource.Id.parentPanel;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.parent_matrix = global::FinalProyecto.Droid.Resource.Id.parent_matrix;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.pin = global::FinalProyecto.Droid.Resource.Id.pin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.progress_circular = global::FinalProyecto.Droid.Resource.Id.progress_circular;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.progress_horizontal = global::FinalProyecto.Droid.Resource.Id.progress_horizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.radio = global::FinalProyecto.Droid.Resource.Id.radio;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.right = global::FinalProyecto.Droid.Resource.Id.right;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.right_icon = global::FinalProyecto.Droid.Resource.Id.right_icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.right_side = global::FinalProyecto.Droid.Resource.Id.right_side;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.save_non_transition_alpha = global::FinalProyecto.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.screen = global::FinalProyecto.Droid.Resource.Id.screen;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.scroll = global::FinalProyecto.Droid.Resource.Id.scroll;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.scrollIndicatorDown = global::FinalProyecto.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.scrollIndicatorUp = global::FinalProyecto.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.scrollView = global::FinalProyecto.Droid.Resource.Id.scrollView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.scrollable = global::FinalProyecto.Droid.Resource.Id.scrollable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_badge = global::FinalProyecto.Droid.Resource.Id.search_badge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_bar = global::FinalProyecto.Droid.Resource.Id.search_bar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_button = global::FinalProyecto.Droid.Resource.Id.search_button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_close_btn = global::FinalProyecto.Droid.Resource.Id.search_close_btn;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_edit_frame = global::FinalProyecto.Droid.Resource.Id.search_edit_frame;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_go_btn = global::FinalProyecto.Droid.Resource.Id.search_go_btn;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_mag_icon = global::FinalProyecto.Droid.Resource.Id.search_mag_icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_plate = global::FinalProyecto.Droid.Resource.Id.search_plate;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_src_text = global::FinalProyecto.Droid.Resource.Id.search_src_text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.search_voice_btn = global::FinalProyecto.Droid.Resource.Id.search_voice_btn;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.select_dialog_listview = global::FinalProyecto.Droid.Resource.Id.select_dialog_listview;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.shellcontent_appbar = global::FinalProyecto.Droid.Resource.Id.shellcontent_appbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.shellcontent_toolbar = global::FinalProyecto.Droid.Resource.Id.shellcontent_toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.shortcut = global::FinalProyecto.Droid.Resource.Id.shortcut;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.showCustom = global::FinalProyecto.Droid.Resource.Id.showCustom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.showHome = global::FinalProyecto.Droid.Resource.Id.showHome;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.showTitle = global::FinalProyecto.Droid.Resource.Id.showTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.smallLabel = global::FinalProyecto.Droid.Resource.Id.smallLabel;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.snackbar_action = global::FinalProyecto.Droid.Resource.Id.snackbar_action;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.snackbar_text = global::FinalProyecto.Droid.Resource.Id.snackbar_text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.snap = global::FinalProyecto.Droid.Resource.Id.snap;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.spacer = global::FinalProyecto.Droid.Resource.Id.spacer;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.split_action_bar = global::FinalProyecto.Droid.Resource.Id.split_action_bar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.src_atop = global::FinalProyecto.Droid.Resource.Id.src_atop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.src_in = global::FinalProyecto.Droid.Resource.Id.src_in;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.src_over = global::FinalProyecto.Droid.Resource.Id.src_over;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.start = global::FinalProyecto.Droid.Resource.Id.start;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.status_bar_latest_event_content = global::FinalProyecto.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.submenuarrow = global::FinalProyecto.Droid.Resource.Id.submenuarrow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.submit_area = global::FinalProyecto.Droid.Resource.Id.submit_area;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.tabMode = global::FinalProyecto.Droid.Resource.Id.tabMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.tag_transition_group = global::FinalProyecto.Droid.Resource.Id.tag_transition_group;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.text = global::FinalProyecto.Droid.Resource.Id.text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.text2 = global::FinalProyecto.Droid.Resource.Id.text2;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.textSpacerNoButtons = global::FinalProyecto.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.textSpacerNoTitle = global::FinalProyecto.Droid.Resource.Id.textSpacerNoTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.textinput_counter = global::FinalProyecto.Droid.Resource.Id.textinput_counter;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.textinput_error = global::FinalProyecto.Droid.Resource.Id.textinput_error;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.time = global::FinalProyecto.Droid.Resource.Id.time;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.title = global::FinalProyecto.Droid.Resource.Id.title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.titleDividerNoCustom = global::FinalProyecto.Droid.Resource.Id.titleDividerNoCustom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.title_template = global::FinalProyecto.Droid.Resource.Id.title_template;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.top = global::FinalProyecto.Droid.Resource.Id.top;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.topPanel = global::FinalProyecto.Droid.Resource.Id.topPanel;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.touch_outside = global::FinalProyecto.Droid.Resource.Id.touch_outside;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.transition_current_scene = global::FinalProyecto.Droid.Resource.Id.transition_current_scene;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.transition_layout_save = global::FinalProyecto.Droid.Resource.Id.transition_layout_save;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.transition_position = global::FinalProyecto.Droid.Resource.Id.transition_position;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.transition_scene_layoutid_cache = global::FinalProyecto.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.transition_transform = global::FinalProyecto.Droid.Resource.Id.transition_transform;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.uniform = global::FinalProyecto.Droid.Resource.Id.uniform;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.up = global::FinalProyecto.Droid.Resource.Id.up;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.useLogo = global::FinalProyecto.Droid.Resource.Id.useLogo;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.view_offset_helper = global::FinalProyecto.Droid.Resource.Id.view_offset_helper;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.visible = global::FinalProyecto.Droid.Resource.Id.visible;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.withText = global::FinalProyecto.Droid.Resource.Id.withText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Id.wrap_content = global::FinalProyecto.Droid.Resource.Id.wrap_content;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.abc_config_activityDefaultDur = global::FinalProyecto.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.abc_config_activityShortDur = global::FinalProyecto.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.app_bar_elevation_anim_duration = global::FinalProyecto.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.bottom_sheet_slide_duration = global::FinalProyecto.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.cancel_button_image_alpha = global::FinalProyecto.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.config_tooltipAnimTime = global::FinalProyecto.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.design_snackbar_text_max_lines = global::FinalProyecto.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.hide_password_duration = global::FinalProyecto.Droid.Resource.Integer.hide_password_duration;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.show_password_duration = global::FinalProyecto.Droid.Resource.Integer.show_password_duration;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Integer.status_bar_notification_info_maxnum = global::FinalProyecto.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_action_bar_title_item = global::FinalProyecto.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_action_bar_up_container = global::FinalProyecto.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_action_menu_item_layout = global::FinalProyecto.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_action_menu_layout = global::FinalProyecto.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_action_mode_bar = global::FinalProyecto.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_action_mode_close_item_material = global::FinalProyecto.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_activity_chooser_view = global::FinalProyecto.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::FinalProyecto.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::FinalProyecto.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_alert_dialog_material = global::FinalProyecto.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_alert_dialog_title_material = global::FinalProyecto.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_dialog_title_material = global::FinalProyecto.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_expanded_menu_layout = global::FinalProyecto.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_list_menu_item_checkbox = global::FinalProyecto.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_list_menu_item_icon = global::FinalProyecto.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_list_menu_item_layout = global::FinalProyecto.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_list_menu_item_radio = global::FinalProyecto.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::FinalProyecto.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_popup_menu_item_layout = global::FinalProyecto.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_screen_content_include = global::FinalProyecto.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_screen_simple = global::FinalProyecto.Droid.Resource.Layout.abc_screen_simple;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::FinalProyecto.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_screen_toolbar = global::FinalProyecto.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::FinalProyecto.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_search_view = global::FinalProyecto.Droid.Resource.Layout.abc_search_view;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.abc_select_dialog_material = global::FinalProyecto.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.BottomTabLayout = global::FinalProyecto.Droid.Resource.Layout.BottomTabLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_bottom_navigation_item = global::FinalProyecto.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_bottom_sheet_dialog = global::FinalProyecto.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_layout_snackbar = global::FinalProyecto.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_layout_snackbar_include = global::FinalProyecto.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_layout_tab_icon = global::FinalProyecto.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_layout_tab_text = global::FinalProyecto.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_menu_item_action_area = global::FinalProyecto.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_navigation_item = global::FinalProyecto.Droid.Resource.Layout.design_navigation_item;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_navigation_item_header = global::FinalProyecto.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_navigation_item_separator = global::FinalProyecto.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_navigation_item_subheader = global::FinalProyecto.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_navigation_menu = global::FinalProyecto.Droid.Resource.Layout.design_navigation_menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.design_navigation_menu_item = global::FinalProyecto.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.FlyoutContent = global::FinalProyecto.Droid.Resource.Layout.FlyoutContent;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_action = global::FinalProyecto.Droid.Resource.Layout.notification_action;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_action_tombstone = global::FinalProyecto.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_media_action = global::FinalProyecto.Droid.Resource.Layout.notification_media_action;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_media_cancel_action = global::FinalProyecto.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_big_media = global::FinalProyecto.Droid.Resource.Layout.notification_template_big_media;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_big_media_custom = global::FinalProyecto.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_big_media_narrow = global::FinalProyecto.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::FinalProyecto.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_custom_big = global::FinalProyecto.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_icon_group = global::FinalProyecto.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_lines_media = global::FinalProyecto.Droid.Resource.Layout.notification_template_lines_media;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_media = global::FinalProyecto.Droid.Resource.Layout.notification_template_media;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_media_custom = global::FinalProyecto.Droid.Resource.Layout.notification_template_media_custom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_part_chronometer = global::FinalProyecto.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.notification_template_part_time = global::FinalProyecto.Droid.Resource.Layout.notification_template_part_time;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.RootLayout = global::FinalProyecto.Droid.Resource.Layout.RootLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.select_dialog_item_material = global::FinalProyecto.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.select_dialog_multichoice_material = global::FinalProyecto.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.select_dialog_singlechoice_material = global::FinalProyecto.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.ShellContent = global::FinalProyecto.Droid.Resource.Layout.ShellContent;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::FinalProyecto.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_action_bar_home_description = global::FinalProyecto.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_action_bar_up_description = global::FinalProyecto.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_action_menu_overflow_description = global::FinalProyecto.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_action_mode_done = global::FinalProyecto.Droid.Resource.String.abc_action_mode_done;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_activity_chooser_view_see_all = global::FinalProyecto.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_activitychooserview_choose_application = global::FinalProyecto.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_capital_off = global::FinalProyecto.Droid.Resource.String.abc_capital_off;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_capital_on = global::FinalProyecto.Droid.Resource.String.abc_capital_on;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_search_hint = global::FinalProyecto.Droid.Resource.String.abc_search_hint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_searchview_description_clear = global::FinalProyecto.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_searchview_description_query = global::FinalProyecto.Droid.Resource.String.abc_searchview_description_query;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_searchview_description_search = global::FinalProyecto.Droid.Resource.String.abc_searchview_description_search;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_searchview_description_submit = global::FinalProyecto.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_searchview_description_voice = global::FinalProyecto.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_shareactionprovider_share_with = global::FinalProyecto.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_shareactionprovider_share_with_application = global::FinalProyecto.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.abc_toolbar_collapse_description = global::FinalProyecto.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.app_name = global::FinalProyecto.Droid.Resource.String.app_name;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.appbar_scrolling_view_behavior = global::FinalProyecto.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.bottom_sheet_behavior = global::FinalProyecto.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.character_counter_pattern = global::FinalProyecto.Droid.Resource.String.character_counter_pattern;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.hello = global::FinalProyecto.Droid.Resource.String.hello;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.password_toggle_content_description = global::FinalProyecto.Droid.Resource.String.password_toggle_content_description;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.path_password_eye = global::FinalProyecto.Droid.Resource.String.path_password_eye;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.path_password_eye_mask_strike_through = global::FinalProyecto.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.path_password_eye_mask_visible = global::FinalProyecto.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.path_password_strike_through = global::FinalProyecto.Droid.Resource.String.path_password_strike_through;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.search_menu_title = global::FinalProyecto.Droid.Resource.String.search_menu_title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.String.status_bar_notification_info_overflow = global::FinalProyecto.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.AlertDialog_AppCompat = global::FinalProyecto.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.AlertDialog_AppCompat_Light = global::FinalProyecto.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Animation_AppCompat_Dialog = global::FinalProyecto.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::FinalProyecto.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Animation_AppCompat_Tooltip = global::FinalProyecto.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::FinalProyecto.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_AlertDialog_AppCompat = global::FinalProyecto.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::FinalProyecto.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::FinalProyecto.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::FinalProyecto.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Animation_AppCompat_Tooltip = global::FinalProyecto.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_CardView = global::FinalProyecto.Droid.Resource.Style.Base_CardView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::FinalProyecto.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::FinalProyecto.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::FinalProyecto.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat = global::FinalProyecto.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::FinalProyecto.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::FinalProyecto.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::FinalProyecto.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::FinalProyecto.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::FinalProyecto.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::FinalProyecto.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light = global::FinalProyecto.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::FinalProyecto.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::FinalProyecto.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::FinalProyecto.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::FinalProyecto.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::FinalProyecto.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::FinalProyecto.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::FinalProyecto.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::FinalProyecto.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::FinalProyecto.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::FinalProyecto.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::FinalProyecto.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::FinalProyecto.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::FinalProyecto.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V21_Theme_AppCompat = global::FinalProyecto.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::FinalProyecto.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::FinalProyecto.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::FinalProyecto.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::FinalProyecto.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V22_Theme_AppCompat = global::FinalProyecto.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::FinalProyecto.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V23_Theme_AppCompat = global::FinalProyecto.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::FinalProyecto.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V26_Theme_AppCompat = global::FinalProyecto.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V26_Theme_AppCompat_Light = global::FinalProyecto.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::FinalProyecto.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Theme_AppCompat = global::FinalProyecto.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::FinalProyecto.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::FinalProyecto.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::FinalProyecto.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::FinalProyecto.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::FinalProyecto.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::FinalProyecto.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::FinalProyecto.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Button = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::FinalProyecto.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Base_Widget_Design_TabLayout = global::FinalProyecto.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.CardView = global::FinalProyecto.Droid.Resource.Style.CardView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.CardView_Dark = global::FinalProyecto.Droid.Resource.Style.CardView_Dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.CardView_Light = global::FinalProyecto.Droid.Resource.Style.CardView_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_AppCompat = global::FinalProyecto.Droid.Resource.Style.Platform_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_AppCompat_Light = global::FinalProyecto.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::FinalProyecto.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::FinalProyecto.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::FinalProyecto.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_V21_AppCompat = global::FinalProyecto.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_V21_AppCompat_Light = global::FinalProyecto.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_V25_AppCompat = global::FinalProyecto.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_V25_AppCompat_Light = global::FinalProyecto.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::FinalProyecto.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::FinalProyecto.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::FinalProyecto.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::FinalProyecto.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::FinalProyecto.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::FinalProyecto.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::FinalProyecto.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::FinalProyecto.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::FinalProyecto.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::FinalProyecto.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::FinalProyecto.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::FinalProyecto.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::FinalProyecto.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::FinalProyecto.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::FinalProyecto.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Button = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Large = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Small = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Title = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Tooltip = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FinalProyecto.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_Counter = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_Error = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_Hint = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Design_Tab = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::FinalProyecto.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Dialog = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::FinalProyecto.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_Design = global::FinalProyecto.Droid.Resource.Style.Theme_Design;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::FinalProyecto.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_Design_Light = global::FinalProyecto.Droid.Resource.Style.Theme_Design_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::FinalProyecto.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::FinalProyecto.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Theme_Design_NoActionBar = global::FinalProyecto.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat = global::FinalProyecto.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::FinalProyecto.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::FinalProyecto.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::FinalProyecto.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::FinalProyecto.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::FinalProyecto.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::FinalProyecto.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionBar = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionButton = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActionMode = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Button = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Button_Small = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_EditText = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ImageButton = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ListView = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_RatingBar = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_SearchView = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_SeekBar = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Spinner = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Toolbar = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::FinalProyecto.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::FinalProyecto.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Compat_NotificationActionText = global::FinalProyecto.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_AppBarLayout = global::FinalProyecto.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_BottomNavigationView = global::FinalProyecto.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::FinalProyecto.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::FinalProyecto.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_FloatingActionButton = global::FinalProyecto.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_NavigationView = global::FinalProyecto.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::FinalProyecto.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_Snackbar = global::FinalProyecto.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_TabLayout = global::FinalProyecto.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Style.Widget_Design_TextInputLayout = global::FinalProyecto.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar = global::FinalProyecto.Droid.Resource.Styleable.ActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_background = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_backgroundSplit = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_backgroundStacked = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_contentInsetRight = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_contentInsetStart = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_displayOptions = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_divider = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_elevation = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_height = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_homeLayout = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_icon = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_itemPadding = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_logo = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_navigationMode = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_popupTheme = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_progressBarPadding = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_progressBarStyle = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_subtitle = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_title = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBar_titleTextStyle = global::FinalProyecto.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBarLayout = global::FinalProyecto.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::FinalProyecto.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMenuItemView = global::FinalProyecto.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::FinalProyecto.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMenuView = global::FinalProyecto.Droid.Resource.Styleable.ActionMenuView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode = global::FinalProyecto.Droid.Resource.Styleable.ActionMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode_background = global::FinalProyecto.Droid.Resource.Styleable.ActionMode_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode_backgroundSplit = global::FinalProyecto.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode_closeItemLayout = global::FinalProyecto.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode_height = global::FinalProyecto.Droid.Resource.Styleable.ActionMode_height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::FinalProyecto.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActionMode_titleTextStyle = global::FinalProyecto.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActivityChooserView = global::FinalProyecto.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::FinalProyecto.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::FinalProyecto.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog = global::FinalProyecto.Droid.Resource.Styleable.AlertDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_android_layout = global::FinalProyecto.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::FinalProyecto.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_listItemLayout = global::FinalProyecto.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_listLayout = global::FinalProyecto.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::FinalProyecto.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_showTitle = global::FinalProyecto.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::FinalProyecto.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout = global::FinalProyecto.Droid.Resource.Styleable.AppBarLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_android_background = global::FinalProyecto.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::FinalProyecto.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::FinalProyecto.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_elevation = global::FinalProyecto.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_expanded = global::FinalProyecto.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayoutStates = global::FinalProyecto.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::FinalProyecto.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::FinalProyecto.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_Layout = global::FinalProyecto.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::FinalProyecto.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::FinalProyecto.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatImageView = global::FinalProyecto.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatImageView_android_src = global::FinalProyecto.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::FinalProyecto.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatImageView_tint = global::FinalProyecto.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatImageView_tintMode = global::FinalProyecto.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatSeekBar = global::FinalProyecto.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::FinalProyecto.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::FinalProyecto.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::FinalProyecto.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::FinalProyecto.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorError = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::FinalProyecto.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomNavigationView = global::FinalProyecto.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomNavigationView_elevation = global::FinalProyecto.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::FinalProyecto.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::FinalProyecto.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::FinalProyecto.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomNavigationView_menu = global::FinalProyecto.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::FinalProyecto.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::FinalProyecto.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::FinalProyecto.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::FinalProyecto.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ButtonBarLayout = global::FinalProyecto.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::FinalProyecto.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView = global::FinalProyecto.Droid.Resource.Styleable.CardView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_android_minHeight = global::FinalProyecto.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_android_minWidth = global::FinalProyecto.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_cardBackgroundColor = global::FinalProyecto.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_cardCornerRadius = global::FinalProyecto.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_cardElevation = global::FinalProyecto.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_cardMaxElevation = global::FinalProyecto.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::FinalProyecto.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::FinalProyecto.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_contentPadding = global::FinalProyecto.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_contentPaddingBottom = global::FinalProyecto.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_contentPaddingLeft = global::FinalProyecto.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_contentPaddingRight = global::FinalProyecto.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CardView_contentPaddingTop = global::FinalProyecto.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::FinalProyecto.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ColorStateListItem = global::FinalProyecto.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ColorStateListItem_alpha = global::FinalProyecto.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::FinalProyecto.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ColorStateListItem_android_color = global::FinalProyecto.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CompoundButton = global::FinalProyecto.Droid.Resource.Styleable.CompoundButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CompoundButton_android_button = global::FinalProyecto.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CompoundButton_buttonTint = global::FinalProyecto.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::FinalProyecto.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout = global::FinalProyecto.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_keylines = global::FinalProyecto.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::FinalProyecto.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout = global::FinalProyecto.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::FinalProyecto.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::FinalProyecto.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::FinalProyecto.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::FinalProyecto.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::FinalProyecto.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::FinalProyecto.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::FinalProyecto.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle = global::FinalProyecto.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::FinalProyecto.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::FinalProyecto.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::FinalProyecto.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_color = global::FinalProyecto.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::FinalProyecto.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::FinalProyecto.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::FinalProyecto.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::FinalProyecto.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton = global::FinalProyecto.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::FinalProyecto.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::FinalProyecto.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::FinalProyecto.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_elevation = global::FinalProyecto.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_fabSize = global::FinalProyecto.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::FinalProyecto.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::FinalProyecto.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::FinalProyecto.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::FinalProyecto.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::FinalProyecto.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily = global::FinalProyecto.Droid.Resource.Styleable.FontFamily;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::FinalProyecto.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::FinalProyecto.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::FinalProyecto.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::FinalProyecto.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::FinalProyecto.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::FinalProyecto.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont = global::FinalProyecto.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont_android_font = global::FinalProyecto.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont_android_fontStyle = global::FinalProyecto.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont_android_fontWeight = global::FinalProyecto.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont_font = global::FinalProyecto.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::FinalProyecto.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::FinalProyecto.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ForegroundLinearLayout = global::FinalProyecto.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::FinalProyecto.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::FinalProyecto.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::FinalProyecto.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat = global::FinalProyecto.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::FinalProyecto.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::FinalProyecto.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::FinalProyecto.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::FinalProyecto.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::FinalProyecto.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_divider = global::FinalProyecto.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::FinalProyecto.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::FinalProyecto.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::FinalProyecto.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::FinalProyecto.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::FinalProyecto.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::FinalProyecto.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::FinalProyecto.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::FinalProyecto.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ListPopupWindow = global::FinalProyecto.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::FinalProyecto.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::FinalProyecto.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup = global::FinalProyecto.Droid.Resource.Styleable.MenuGroup;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::FinalProyecto.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup_android_enabled = global::FinalProyecto.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup_android_id = global::FinalProyecto.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::FinalProyecto.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::FinalProyecto.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuGroup_android_visible = global::FinalProyecto.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem = global::FinalProyecto.Droid.Resource.Styleable.MenuItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_actionLayout = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_actionProviderClass = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_actionViewClass = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_alphabeticModifiers = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_checkable = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_checked = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_enabled = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_icon = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_id = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_menuCategory = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_onClick = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_title = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_android_visible = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_contentDescription = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_iconTint = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_iconTintMode = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_numericModifiers = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_showAsAction = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuItem_tooltipText = global::FinalProyecto.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView = global::FinalProyecto.Droid.Resource.Styleable.MenuView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_headerBackground = global::FinalProyecto.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::FinalProyecto.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_itemBackground = global::FinalProyecto.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::FinalProyecto.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::FinalProyecto.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_verticalDivider = global::FinalProyecto.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::FinalProyecto.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::FinalProyecto.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.MenuView_subMenuArrow = global::FinalProyecto.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView = global::FinalProyecto.Droid.Resource.Styleable.NavigationView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_android_background = global::FinalProyecto.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::FinalProyecto.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_android_maxWidth = global::FinalProyecto.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_elevation = global::FinalProyecto.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_headerLayout = global::FinalProyecto.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_itemBackground = global::FinalProyecto.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_itemIconTint = global::FinalProyecto.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::FinalProyecto.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_itemTextColor = global::FinalProyecto.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.NavigationView_menu = global::FinalProyecto.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.PopupWindow = global::FinalProyecto.Droid.Resource.Styleable.PopupWindow;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::FinalProyecto.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::FinalProyecto.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::FinalProyecto.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.PopupWindowBackgroundState = global::FinalProyecto.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::FinalProyecto.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecycleListView = global::FinalProyecto.Droid.Resource.Styleable.RecycleListView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::FinalProyecto.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::FinalProyecto.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView = global::FinalProyecto.Droid.Resource.Styleable.RecyclerView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::FinalProyecto.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_android_orientation = global::FinalProyecto.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::FinalProyecto.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::FinalProyecto.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::FinalProyecto.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::FinalProyecto.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::FinalProyecto.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_layoutManager = global::FinalProyecto.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_reverseLayout = global::FinalProyecto.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_spanCount = global::FinalProyecto.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::FinalProyecto.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::FinalProyecto.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::FinalProyecto.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::FinalProyecto.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::FinalProyecto.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView = global::FinalProyecto.Droid.Resource.Styleable.SearchView;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_android_focusable = global::FinalProyecto.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_android_imeOptions = global::FinalProyecto.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_android_inputType = global::FinalProyecto.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_android_maxWidth = global::FinalProyecto.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_closeIcon = global::FinalProyecto.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_commitIcon = global::FinalProyecto.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_defaultQueryHint = global::FinalProyecto.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_goIcon = global::FinalProyecto.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::FinalProyecto.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_layout = global::FinalProyecto.Droid.Resource.Styleable.SearchView_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_queryBackground = global::FinalProyecto.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_queryHint = global::FinalProyecto.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_searchHintIcon = global::FinalProyecto.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_searchIcon = global::FinalProyecto.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_submitBackground = global::FinalProyecto.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::FinalProyecto.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SearchView_voiceIcon = global::FinalProyecto.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SnackbarLayout = global::FinalProyecto.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::FinalProyecto.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SnackbarLayout_elevation = global::FinalProyecto.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::FinalProyecto.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Spinner = global::FinalProyecto.Droid.Resource.Styleable.Spinner;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::FinalProyecto.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Spinner_android_entries = global::FinalProyecto.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Spinner_android_popupBackground = global::FinalProyecto.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Spinner_android_prompt = global::FinalProyecto.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Spinner_popupTheme = global::FinalProyecto.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat = global::FinalProyecto.Droid.Resource.Styleable.SwitchCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_android_textOff = global::FinalProyecto.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_android_textOn = global::FinalProyecto.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_android_thumb = global::FinalProyecto.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_showText = global::FinalProyecto.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_splitTrack = global::FinalProyecto.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::FinalProyecto.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_switchPadding = global::FinalProyecto.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::FinalProyecto.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::FinalProyecto.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_thumbTint = global::FinalProyecto.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::FinalProyecto.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_track = global::FinalProyecto.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_trackTint = global::FinalProyecto.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::FinalProyecto.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabItem = global::FinalProyecto.Droid.Resource.Styleable.TabItem;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabItem_android_icon = global::FinalProyecto.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabItem_android_layout = global::FinalProyecto.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabItem_android_text = global::FinalProyecto.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout = global::FinalProyecto.Droid.Resource.Styleable.TabLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabBackground = global::FinalProyecto.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabContentStart = global::FinalProyecto.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabGravity = global::FinalProyecto.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::FinalProyecto.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::FinalProyecto.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::FinalProyecto.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabMinWidth = global::FinalProyecto.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabMode = global::FinalProyecto.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabPadding = global::FinalProyecto.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::FinalProyecto.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::FinalProyecto.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::FinalProyecto.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::FinalProyecto.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::FinalProyecto.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::FinalProyecto.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TabLayout_tabTextColor = global::FinalProyecto.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance = global::FinalProyecto.Droid.Resource.Styleable.TextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_fontFamily = global::FinalProyecto.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::FinalProyecto.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::FinalProyecto.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::FinalProyecto.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::FinalProyecto.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_textColor = global::FinalProyecto.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::FinalProyecto.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::FinalProyecto.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_textSize = global::FinalProyecto.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_textStyle = global::FinalProyecto.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_android_typeface = global::FinalProyecto.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_fontFamily = global::FinalProyecto.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextAppearance_textAllCaps = global::FinalProyecto.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout = global::FinalProyecto.Droid.Resource.Styleable.TextInputLayout;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_android_hint = global::FinalProyecto.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::FinalProyecto.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::FinalProyecto.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::FinalProyecto.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::FinalProyecto.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::FinalProyecto.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::FinalProyecto.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::FinalProyecto.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::FinalProyecto.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::FinalProyecto.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::FinalProyecto.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::FinalProyecto.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::FinalProyecto.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::FinalProyecto.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::FinalProyecto.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::FinalProyecto.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar = global::FinalProyecto.Droid.Resource.Styleable.Toolbar;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_android_gravity = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_android_minHeight = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_buttonGravity = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_collapseIcon = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_contentInsetRight = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_contentInsetStart = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_logo = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_logoDescription = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_navigationIcon = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_popupTheme = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_subtitle = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_title = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_title;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleMargin = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleMarginStart = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleMarginTop = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleMargins = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.Toolbar_titleTextColor = global::FinalProyecto.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.View = global::FinalProyecto.Droid.Resource.Styleable.View;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.View_android_focusable = global::FinalProyecto.Droid.Resource.Styleable.View_android_focusable;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.View_android_theme = global::FinalProyecto.Droid.Resource.Styleable.View_android_theme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.View_paddingEnd = global::FinalProyecto.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.View_paddingStart = global::FinalProyecto.Droid.Resource.Styleable.View_paddingStart;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.View_theme = global::FinalProyecto.Droid.Resource.Styleable.View_theme;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewBackgroundHelper = global::FinalProyecto.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::FinalProyecto.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::FinalProyecto.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::FinalProyecto.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewStubCompat = global::FinalProyecto.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewStubCompat_android_id = global::FinalProyecto.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::FinalProyecto.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xam.Forms.VideoPlayer.Android.Resource.Styleable.ViewStubCompat_android_layout = global::FinalProyecto.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.CommunityToolkit.Resource.Animation.abc_fade_in = global::FinalProyecto.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.CommunityToolkit.Resource.Animation.abc_fade_out = global::FinalProyecto.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.CommunityToolkit.Resource.Animation.abc_grow_fade_in_from_bottom = global::FinalProyecto.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -23805,376 +25749,388 @@ namespace FinalProyecto.Droid
 			public const int design_snackbar_background = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int documento = 2131165318;
+			public const int direct = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int download = 2131165319;
+			public const int documento = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int dsApp = 2131165320;
+			public const int download = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int dto = 2131165321;
+			public const int dsApp = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int edit = 2131165322;
+			public const int dto = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int edit1 = 2131165323;
+			public const int edit = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int edit2 = 2131165324;
+			public const int edit1 = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int email = 2131165325;
+			public const int edit2 = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int exit = 2131165326;
+			public const int email = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int exo_controls_fastforward = 2131165327;
+			public const int exit = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int exo_controls_fullscreen_enter = 2131165328;
+			public const int exo_controls_fastforward = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int exo_controls_fullscreen_exit = 2131165329;
+			public const int exo_controls_fullscreen_enter = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int exo_controls_next = 2131165330;
+			public const int exo_controls_fullscreen_exit = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int exo_controls_pause = 2131165331;
+			public const int exo_controls_next = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int exo_controls_play = 2131165332;
+			public const int exo_controls_pause = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int exo_controls_previous = 2131165333;
+			public const int exo_controls_play = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int exo_controls_repeat_all = 2131165334;
+			public const int exo_controls_previous = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int exo_controls_repeat_off = 2131165335;
+			public const int exo_controls_repeat_all = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int exo_controls_repeat_one = 2131165336;
+			public const int exo_controls_repeat_off = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int exo_controls_rewind = 2131165337;
+			public const int exo_controls_repeat_one = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int exo_controls_shuffle_off = 2131165338;
+			public const int exo_controls_rewind = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int exo_controls_shuffle_on = 2131165339;
+			public const int exo_controls_shuffle_off = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int exo_controls_vr = 2131165340;
+			public const int exo_controls_shuffle_on = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int exo_edit_mode_logo = 2131165341;
+			public const int exo_controls_vr = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int exo_icon_circular_play = 2131165342;
+			public const int exo_edit_mode_logo = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int exo_icon_fastforward = 2131165343;
+			public const int exo_icon_circular_play = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int exo_icon_fullscreen_enter = 2131165344;
+			public const int exo_icon_fastforward = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int exo_icon_fullscreen_exit = 2131165345;
+			public const int exo_icon_fullscreen_enter = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int exo_icon_next = 2131165346;
+			public const int exo_icon_fullscreen_exit = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int exo_icon_pause = 2131165347;
+			public const int exo_icon_next = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int exo_icon_play = 2131165348;
+			public const int exo_icon_pause = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int exo_icon_previous = 2131165349;
+			public const int exo_icon_play = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int exo_icon_repeat_all = 2131165350;
+			public const int exo_icon_previous = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int exo_icon_repeat_off = 2131165351;
+			public const int exo_icon_repeat_all = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int exo_icon_repeat_one = 2131165352;
+			public const int exo_icon_repeat_off = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int exo_icon_rewind = 2131165353;
+			public const int exo_icon_repeat_one = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int exo_icon_shuffle_off = 2131165354;
+			public const int exo_icon_rewind = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int exo_icon_shuffle_on = 2131165355;
+			public const int exo_icon_shuffle_off = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int exo_icon_stop = 2131165356;
+			public const int exo_icon_shuffle_on = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int exo_icon_vr = 2131165357;
+			public const int exo_icon_stop = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int exo_media_action_repeat_all = 2131165358;
+			public const int exo_icon_vr = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int exo_media_action_repeat_off = 2131165359;
+			public const int exo_media_action_repeat_all = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int exo_media_action_repeat_one = 2131165360;
+			public const int exo_media_action_repeat_off = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int exo_notification_fastforward = 2131165361;
+			public const int exo_media_action_repeat_one = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int exo_notification_next = 2131165362;
+			public const int exo_notification_fastforward = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int exo_notification_pause = 2131165363;
+			public const int exo_notification_next = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int exo_notification_play = 2131165364;
+			public const int exo_notification_pause = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int exo_notification_previous = 2131165365;
+			public const int exo_notification_play = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int exo_notification_rewind = 2131165366;
+			public const int exo_notification_previous = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int exo_notification_small_icon = 2131165367;
+			public const int exo_notification_rewind = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int exo_notification_stop = 2131165368;
+			public const int exo_notification_small_icon = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int filestorage = 2131165369;
+			public const int exo_notification_stop = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int folder = 2131165370;
+			public const int filestorage = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int fondo = 2131165371;
+			public const int folder = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int friends = 2131165372;
+			public const int fondo = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int friendsgroup = 2131165373;
+			public const int friends = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int friendsp = 2131165374;
+			public const int friendsgroup = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int googleg_disabled_color_18 = 2131165375;
+			public const int friendsp = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int googleg_standard_color_18 = 2131165376;
+			public const int googleg_disabled_color_18 = 2131165376;
 			
 			// aapt resource value: 0x7F0700C1
-			public const int group = 2131165377;
+			public const int googleg_standard_color_18 = 2131165377;
 			
 			// aapt resource value: 0x7F0700C2
-			public const int home = 2131165378;
-			
-			// aapt resource value: 0x7F0700CA
-			public const int icon_about = 2131165386;
+			public const int group = 2131165378;
 			
 			// aapt resource value: 0x7F0700C3
-			public const int ic_arrow_down_24dp = 2131165379;
-			
-			// aapt resource value: 0x7F0700C4
-			public const int ic_errorstatus = 2131165380;
-			
-			// aapt resource value: 0x7F0700C5
-			public const int ic_mtrl_checked_circle = 2131165381;
-			
-			// aapt resource value: 0x7F0700C6
-			public const int ic_mtrl_chip_checked_black = 2131165382;
-			
-			// aapt resource value: 0x7F0700C7
-			public const int ic_mtrl_chip_checked_circle = 2131165383;
-			
-			// aapt resource value: 0x7F0700C8
-			public const int ic_mtrl_chip_close_circle = 2131165384;
-			
-			// aapt resource value: 0x7F0700C9
-			public const int ic_successstatus = 2131165385;
-			
-			// aapt resource value: 0x7F0700CB
-			public const int idcard = 2131165387;
-			
-			// aapt resource value: 0x7F0700CC
-			public const int jugar = 2131165388;
+			public const int home = 2131165379;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int material_ic_calendar_black_24dp = 2131165389;
+			public const int icon_about = 2131165389;
+			
+			// aapt resource value: 0x7F0700C4
+			public const int ic_arrow_down_24dp = 2131165380;
+			
+			// aapt resource value: 0x7F0700C5
+			public const int ic_errorstatus = 2131165381;
+			
+			// aapt resource value: 0x7F0700C6
+			public const int ic_fullscreen = 2131165382;
+			
+			// aapt resource value: 0x7F0700C7
+			public const int ic_fullscreen_exit = 2131165383;
+			
+			// aapt resource value: 0x7F0700C8
+			public const int ic_mtrl_checked_circle = 2131165384;
+			
+			// aapt resource value: 0x7F0700C9
+			public const int ic_mtrl_chip_checked_black = 2131165385;
+			
+			// aapt resource value: 0x7F0700CA
+			public const int ic_mtrl_chip_checked_circle = 2131165386;
+			
+			// aapt resource value: 0x7F0700CB
+			public const int ic_mtrl_chip_close_circle = 2131165387;
+			
+			// aapt resource value: 0x7F0700CC
+			public const int ic_successstatus = 2131165388;
 			
 			// aapt resource value: 0x7F0700CE
-			public const int material_ic_clear_black_24dp = 2131165390;
+			public const int idcard = 2131165390;
 			
 			// aapt resource value: 0x7F0700CF
-			public const int material_ic_edit_black_24dp = 2131165391;
+			public const int jugar = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165392;
+			public const int material_ic_calendar_black_24dp = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165393;
+			public const int material_ic_clear_black_24dp = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165394;
+			public const int material_ic_edit_black_24dp = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165395;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int mtrl_dialog_background = 2131165396;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int mtrl_dropdown_arrow = 2131165397;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int mtrl_ic_arrow_drop_down = 2131165398;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int mtrl_ic_arrow_drop_up = 2131165399;
+			public const int mtrl_dialog_background = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int mtrl_ic_cancel = 2131165400;
+			public const int mtrl_dropdown_arrow = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int mtrl_ic_error = 2131165401;
+			public const int mtrl_ic_arrow_drop_down = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int mtrl_popupmenu_background = 2131165402;
+			public const int mtrl_ic_arrow_drop_up = 2131165402;
 			
 			// aapt resource value: 0x7F0700DB
-			public const int mtrl_popupmenu_background_dark = 2131165403;
+			public const int mtrl_ic_cancel = 2131165403;
 			
 			// aapt resource value: 0x7F0700DC
-			public const int mtrl_tabs_default_indicator = 2131165404;
+			public const int mtrl_ic_error = 2131165404;
 			
 			// aapt resource value: 0x7F0700DD
-			public const int multimedia = 2131165405;
+			public const int mtrl_popupmenu_background = 2131165405;
 			
 			// aapt resource value: 0x7F0700DE
-			public const int multipleuser = 2131165406;
+			public const int mtrl_popupmenu_background_dark = 2131165406;
 			
 			// aapt resource value: 0x7F0700DF
-			public const int navigation_empty_icon = 2131165407;
+			public const int mtrl_tabs_default_indicator = 2131165407;
 			
 			// aapt resource value: 0x7F0700E0
-			public const int next = 2131165408;
+			public const int multimedia = 2131165408;
 			
 			// aapt resource value: 0x7F0700E1
-			public const int notification_action_background = 2131165409;
+			public const int multipleuser = 2131165409;
 			
 			// aapt resource value: 0x7F0700E2
-			public const int notification_bg = 2131165410;
+			public const int navigation_empty_icon = 2131165410;
 			
 			// aapt resource value: 0x7F0700E3
-			public const int notification_bg_low = 2131165411;
+			public const int next = 2131165411;
 			
 			// aapt resource value: 0x7F0700E4
-			public const int notification_bg_low_normal = 2131165412;
+			public const int notification_action_background = 2131165412;
 			
 			// aapt resource value: 0x7F0700E5
-			public const int notification_bg_low_pressed = 2131165413;
+			public const int notification_bg = 2131165413;
 			
 			// aapt resource value: 0x7F0700E6
-			public const int notification_bg_normal = 2131165414;
+			public const int notification_bg_low = 2131165414;
 			
 			// aapt resource value: 0x7F0700E7
-			public const int notification_bg_normal_pressed = 2131165415;
+			public const int notification_bg_low_normal = 2131165415;
 			
 			// aapt resource value: 0x7F0700E8
-			public const int notification_icon_background = 2131165416;
+			public const int notification_bg_low_pressed = 2131165416;
 			
 			// aapt resource value: 0x7F0700E9
-			public const int notification_template_icon_bg = 2131165417;
+			public const int notification_bg_normal = 2131165417;
 			
 			// aapt resource value: 0x7F0700EA
-			public const int notification_template_icon_low_bg = 2131165418;
+			public const int notification_bg_normal_pressed = 2131165418;
 			
 			// aapt resource value: 0x7F0700EB
-			public const int notification_tile_bg = 2131165419;
+			public const int notification_icon_background = 2131165419;
 			
 			// aapt resource value: 0x7F0700EC
-			public const int notify_panel_notification_icon_bg = 2131165420;
+			public const int notification_template_icon_bg = 2131165420;
 			
 			// aapt resource value: 0x7F0700ED
-			public const int padlock = 2131165421;
+			public const int notification_template_icon_low_bg = 2131165421;
 			
 			// aapt resource value: 0x7F0700EE
-			public const int password = 2131165422;
+			public const int notification_tile_bg = 2131165422;
 			
 			// aapt resource value: 0x7F0700EF
-			public const int people = 2131165423;
+			public const int notify_panel_notification_icon_bg = 2131165423;
 			
 			// aapt resource value: 0x7F0700F0
-			public const int picture = 2131165424;
+			public const int padlock = 2131165424;
 			
 			// aapt resource value: 0x7F0700F1
-			public const int picturelist = 2131165425;
+			public const int password = 2131165425;
 			
 			// aapt resource value: 0x7F0700F2
-			public const int preference_list_divider_material = 2131165426;
+			public const int people = 2131165426;
 			
 			// aapt resource value: 0x7F0700F3
-			public const int reproductor = 2131165427;
+			public const int picture = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int roundedbg = 2131165428;
+			public const int picturelist = 2131165428;
 			
 			// aapt resource value: 0x7F0700F5
-			public const int roundedbgdark = 2131165429;
+			public const int preference_list_divider_material = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int sort = 2131165430;
+			public const int reproductor = 2131165430;
 			
 			// aapt resource value: 0x7F0700F7
-			public const int telephone = 2131165431;
+			public const int roundedbg = 2131165431;
 			
 			// aapt resource value: 0x7F0700F8
-			public const int test_custom_background = 2131165432;
+			public const int roundedbgdark = 2131165432;
 			
 			// aapt resource value: 0x7F0700F9
-			public const int tooltip_frame_dark = 2131165433;
+			public const int sort = 2131165433;
 			
 			// aapt resource value: 0x7F0700FA
-			public const int tooltip_frame_light = 2131165434;
+			public const int telephone = 2131165434;
 			
 			// aapt resource value: 0x7F0700FB
-			public const int upload = 2131165435;
+			public const int test_custom_background = 2131165435;
 			
 			// aapt resource value: 0x7F0700FC
-			public const int user = 2131165436;
+			public const int tooltip_frame_dark = 2131165436;
 			
 			// aapt resource value: 0x7F0700FD
-			public const int usergroup = 2131165437;
+			public const int tooltip_frame_light = 2131165437;
 			
 			// aapt resource value: 0x7F0700FE
-			public const int userp = 2131165438;
+			public const int trash = 2131165438;
 			
 			// aapt resource value: 0x7F0700FF
-			public const int users = 2131165439;
+			public const int upload = 2131165439;
 			
 			// aapt resource value: 0x7F070100
-			public const int usersp = 2131165440;
+			public const int user = 2131165440;
 			
 			// aapt resource value: 0x7F070101
-			public const int xamarin_logo = 2131165441;
+			public const int usergroup = 2131165441;
+			
+			// aapt resource value: 0x7F070102
+			public const int userp = 2131165442;
+			
+			// aapt resource value: 0x7F070103
+			public const int users = 2131165443;
+			
+			// aapt resource value: 0x7F070104
+			public const int usersp = 2131165444;
+			
+			// aapt resource value: 0x7F070105
+			public const int xamarin_logo = 2131165445;
 			
 			static Drawable()
 			{
@@ -26016,431 +27972,437 @@ namespace FinalProyecto.Droid
 			// aapt resource value: 0x7F0E001A
 			public const int abc_toolbar_collapse_description = 2131623962;
 			
-			// aapt resource value: 0x7F0E001B
-			public const int appbar_scrolling_view_behavior = 2131623963;
-			
 			// aapt resource value: 0x7F0E001C
-			public const int bottom_sheet_behavior = 2131623964;
+			public const int appbar_scrolling_view_behavior = 2131623964;
+			
+			// aapt resource value: 0x7F0E001B
+			public const int app_name = 2131623963;
 			
 			// aapt resource value: 0x7F0E001D
-			public const int character_counter_content_description = 2131623965;
+			public const int bottom_sheet_behavior = 2131623965;
 			
 			// aapt resource value: 0x7F0E001E
-			public const int character_counter_overflowed_content_description = 2131623966;
+			public const int character_counter_content_description = 2131623966;
 			
 			// aapt resource value: 0x7F0E001F
-			public const int character_counter_pattern = 2131623967;
+			public const int character_counter_overflowed_content_description = 2131623967;
 			
 			// aapt resource value: 0x7F0E0020
-			public const int chip_text = 2131623968;
+			public const int character_counter_pattern = 2131623968;
 			
 			// aapt resource value: 0x7F0E0021
-			public const int clear_text_end_icon_content_description = 2131623969;
+			public const int chip_text = 2131623969;
 			
 			// aapt resource value: 0x7F0E0022
-			public const int common_google_play_services_enable_button = 2131623970;
+			public const int clear_text_end_icon_content_description = 2131623970;
 			
 			// aapt resource value: 0x7F0E0023
-			public const int common_google_play_services_enable_text = 2131623971;
+			public const int common_google_play_services_enable_button = 2131623971;
 			
 			// aapt resource value: 0x7F0E0024
-			public const int common_google_play_services_enable_title = 2131623972;
+			public const int common_google_play_services_enable_text = 2131623972;
 			
 			// aapt resource value: 0x7F0E0025
-			public const int common_google_play_services_install_button = 2131623973;
+			public const int common_google_play_services_enable_title = 2131623973;
 			
 			// aapt resource value: 0x7F0E0026
-			public const int common_google_play_services_install_text = 2131623974;
+			public const int common_google_play_services_install_button = 2131623974;
 			
 			// aapt resource value: 0x7F0E0027
-			public const int common_google_play_services_install_title = 2131623975;
+			public const int common_google_play_services_install_text = 2131623975;
 			
 			// aapt resource value: 0x7F0E0028
-			public const int common_google_play_services_notification_channel_name = 2131623976;
+			public const int common_google_play_services_install_title = 2131623976;
 			
 			// aapt resource value: 0x7F0E0029
-			public const int common_google_play_services_notification_ticker = 2131623977;
+			public const int common_google_play_services_notification_channel_name = 2131623977;
 			
 			// aapt resource value: 0x7F0E002A
-			public const int common_google_play_services_unknown_issue = 2131623978;
+			public const int common_google_play_services_notification_ticker = 2131623978;
 			
 			// aapt resource value: 0x7F0E002B
-			public const int common_google_play_services_unsupported_text = 2131623979;
+			public const int common_google_play_services_unknown_issue = 2131623979;
 			
 			// aapt resource value: 0x7F0E002C
-			public const int common_google_play_services_update_button = 2131623980;
+			public const int common_google_play_services_unsupported_text = 2131623980;
 			
 			// aapt resource value: 0x7F0E002D
-			public const int common_google_play_services_update_text = 2131623981;
+			public const int common_google_play_services_update_button = 2131623981;
 			
 			// aapt resource value: 0x7F0E002E
-			public const int common_google_play_services_update_title = 2131623982;
+			public const int common_google_play_services_update_text = 2131623982;
 			
 			// aapt resource value: 0x7F0E002F
-			public const int common_google_play_services_updating_text = 2131623983;
+			public const int common_google_play_services_update_title = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int common_google_play_services_wear_update_text = 2131623984;
+			public const int common_google_play_services_updating_text = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int common_open_on_phone = 2131623985;
+			public const int common_google_play_services_wear_update_text = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int common_signin_button_text = 2131623986;
+			public const int common_open_on_phone = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int common_signin_button_text_long = 2131623987;
+			public const int common_signin_button_text = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int copy = 2131623988;
+			public const int common_signin_button_text_long = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int copy_toast_msg = 2131623989;
+			public const int copy = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int default_web_client_id = 2131623990;
+			public const int copy_toast_msg = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int error_icon_content_description = 2131623991;
+			public const int default_web_client_id = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int exo_controls_fastforward_description = 2131623992;
+			public const int error_icon_content_description = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int exo_controls_fullscreen_description = 2131623993;
+			public const int exo_controls_fastforward_description = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int exo_controls_hide = 2131623994;
+			public const int exo_controls_fullscreen_description = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int exo_controls_next_description = 2131623995;
+			public const int exo_controls_hide = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int exo_controls_pause_description = 2131623996;
+			public const int exo_controls_next_description = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int exo_controls_play_description = 2131623997;
+			public const int exo_controls_pause_description = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int exo_controls_previous_description = 2131623998;
+			public const int exo_controls_play_description = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int exo_controls_repeat_all_description = 2131623999;
+			public const int exo_controls_previous_description = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int exo_controls_repeat_off_description = 2131624000;
+			public const int exo_controls_repeat_all_description = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int exo_controls_repeat_one_description = 2131624001;
+			public const int exo_controls_repeat_off_description = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int exo_controls_rewind_description = 2131624002;
+			public const int exo_controls_repeat_one_description = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int exo_controls_show = 2131624003;
+			public const int exo_controls_rewind_description = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int exo_controls_shuffle_off_description = 2131624004;
+			public const int exo_controls_show = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int exo_controls_shuffle_on_description = 2131624005;
+			public const int exo_controls_shuffle_off_description = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int exo_controls_stop_description = 2131624006;
+			public const int exo_controls_shuffle_on_description = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int exo_controls_vr_description = 2131624007;
+			public const int exo_controls_stop_description = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int exo_download_completed = 2131624008;
+			public const int exo_controls_vr_description = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int exo_download_description = 2131624009;
+			public const int exo_download_completed = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int exo_download_downloading = 2131624010;
+			public const int exo_download_description = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int exo_download_failed = 2131624011;
+			public const int exo_download_downloading = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int exo_download_notification_channel_name = 2131624012;
+			public const int exo_download_failed = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int exo_download_removing = 2131624013;
+			public const int exo_download_notification_channel_name = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int exo_item_list = 2131624014;
+			public const int exo_download_removing = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int exo_media_action_repeat_all_description = 2131624015;
+			public const int exo_item_list = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int exo_media_action_repeat_off_description = 2131624016;
+			public const int exo_media_action_repeat_all_description = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int exo_media_action_repeat_one_description = 2131624017;
+			public const int exo_media_action_repeat_off_description = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int exo_track_bitrate = 2131624018;
+			public const int exo_media_action_repeat_one_description = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int exo_track_mono = 2131624019;
+			public const int exo_track_bitrate = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int exo_track_resolution = 2131624020;
+			public const int exo_track_mono = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int exo_track_role_alternate = 2131624021;
+			public const int exo_track_resolution = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int exo_track_role_closed_captions = 2131624022;
+			public const int exo_track_role_alternate = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int exo_track_role_commentary = 2131624023;
+			public const int exo_track_role_closed_captions = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int exo_track_role_supplementary = 2131624024;
+			public const int exo_track_role_commentary = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int exo_track_selection_auto = 2131624025;
+			public const int exo_track_role_supplementary = 2131624025;
 			
 			// aapt resource value: 0x7F0E005A
-			public const int exo_track_selection_none = 2131624026;
+			public const int exo_track_selection_auto = 2131624026;
 			
 			// aapt resource value: 0x7F0E005B
-			public const int exo_track_selection_title_audio = 2131624027;
+			public const int exo_track_selection_none = 2131624027;
 			
 			// aapt resource value: 0x7F0E005C
-			public const int exo_track_selection_title_text = 2131624028;
+			public const int exo_track_selection_title_audio = 2131624028;
 			
 			// aapt resource value: 0x7F0E005D
-			public const int exo_track_selection_title_video = 2131624029;
+			public const int exo_track_selection_title_text = 2131624029;
 			
 			// aapt resource value: 0x7F0E005E
-			public const int exo_track_stereo = 2131624030;
+			public const int exo_track_selection_title_video = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int exo_track_surround = 2131624031;
+			public const int exo_track_stereo = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int exo_track_surround_5_point_1 = 2131624032;
+			public const int exo_track_surround = 2131624032;
 			
 			// aapt resource value: 0x7F0E0061
-			public const int exo_track_surround_7_point_1 = 2131624033;
+			public const int exo_track_surround_5_point_1 = 2131624033;
 			
 			// aapt resource value: 0x7F0E0062
-			public const int exo_track_unknown = 2131624034;
+			public const int exo_track_surround_7_point_1 = 2131624034;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int expand_button_title = 2131624035;
+			public const int exo_track_unknown = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int exposed_dropdown_menu_content_description = 2131624036;
+			public const int expand_button_title = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int fab_transformation_scrim_behavior = 2131624037;
+			public const int exposed_dropdown_menu_content_description = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int fab_transformation_sheet_behavior = 2131624038;
+			public const int fab_transformation_scrim_behavior = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int fallback_menu_item_copy_link = 2131624039;
+			public const int fab_transformation_sheet_behavior = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int fallback_menu_item_open_in_browser = 2131624040;
+			public const int fallback_menu_item_copy_link = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int fallback_menu_item_share_link = 2131624041;
+			public const int fallback_menu_item_open_in_browser = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int fcm_fallback_notification_channel_label = 2131624042;
+			public const int fallback_menu_item_share_link = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int gcm_defaultSenderId = 2131624043;
+			public const int fcm_fallback_notification_channel_label = 2131624043;
 			
 			// aapt resource value: 0x7F0E006C
-			public const int google_api_key = 2131624044;
+			public const int gcm_defaultSenderId = 2131624044;
 			
 			// aapt resource value: 0x7F0E006D
-			public const int google_app_id = 2131624045;
+			public const int google_api_key = 2131624045;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int google_crash_reporting_api_key = 2131624046;
+			public const int google_app_id = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int google_storage_bucket = 2131624047;
+			public const int google_crash_reporting_api_key = 2131624047;
 			
 			// aapt resource value: 0x7F0E0070
-			public const int hide_bottom_view_on_scroll_behavior = 2131624048;
+			public const int google_storage_bucket = 2131624048;
 			
 			// aapt resource value: 0x7F0E0071
-			public const int icon_content_description = 2131624049;
+			public const int hello = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int item_view_role_description = 2131624050;
+			public const int hide_bottom_view_on_scroll_behavior = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int library_name = 2131624051;
+			public const int icon_content_description = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int material_slider_range_end = 2131624052;
+			public const int item_view_role_description = 2131624052;
 			
 			// aapt resource value: 0x7F0E0075
-			public const int material_slider_range_start = 2131624053;
+			public const int library_name = 2131624053;
 			
 			// aapt resource value: 0x7F0E0076
-			public const int mtrl_badge_numberless_content_description = 2131624054;
+			public const int material_slider_range_end = 2131624054;
 			
 			// aapt resource value: 0x7F0E0077
-			public const int mtrl_chip_close_icon_content_description = 2131624055;
+			public const int material_slider_range_start = 2131624055;
 			
 			// aapt resource value: 0x7F0E0078
-			public const int mtrl_exceed_max_badge_number_content_description = 2131624056;
+			public const int mtrl_badge_numberless_content_description = 2131624056;
 			
 			// aapt resource value: 0x7F0E0079
-			public const int mtrl_exceed_max_badge_number_suffix = 2131624057;
+			public const int mtrl_chip_close_icon_content_description = 2131624057;
 			
 			// aapt resource value: 0x7F0E007A
-			public const int mtrl_picker_a11y_next_month = 2131624058;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131624058;
 			
 			// aapt resource value: 0x7F0E007B
-			public const int mtrl_picker_a11y_prev_month = 2131624059;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131624059;
 			
 			// aapt resource value: 0x7F0E007C
-			public const int mtrl_picker_announce_current_selection = 2131624060;
+			public const int mtrl_picker_a11y_next_month = 2131624060;
 			
 			// aapt resource value: 0x7F0E007D
-			public const int mtrl_picker_cancel = 2131624061;
+			public const int mtrl_picker_a11y_prev_month = 2131624061;
 			
 			// aapt resource value: 0x7F0E007E
-			public const int mtrl_picker_confirm = 2131624062;
+			public const int mtrl_picker_announce_current_selection = 2131624062;
 			
 			// aapt resource value: 0x7F0E007F
-			public const int mtrl_picker_date_header_selected = 2131624063;
+			public const int mtrl_picker_cancel = 2131624063;
 			
 			// aapt resource value: 0x7F0E0080
-			public const int mtrl_picker_date_header_title = 2131624064;
+			public const int mtrl_picker_confirm = 2131624064;
 			
 			// aapt resource value: 0x7F0E0081
-			public const int mtrl_picker_date_header_unselected = 2131624065;
+			public const int mtrl_picker_date_header_selected = 2131624065;
 			
 			// aapt resource value: 0x7F0E0082
-			public const int mtrl_picker_day_of_week_column_header = 2131624066;
+			public const int mtrl_picker_date_header_title = 2131624066;
 			
 			// aapt resource value: 0x7F0E0083
-			public const int mtrl_picker_invalid_format = 2131624067;
+			public const int mtrl_picker_date_header_unselected = 2131624067;
 			
 			// aapt resource value: 0x7F0E0084
-			public const int mtrl_picker_invalid_format_example = 2131624068;
+			public const int mtrl_picker_day_of_week_column_header = 2131624068;
 			
 			// aapt resource value: 0x7F0E0085
-			public const int mtrl_picker_invalid_format_use = 2131624069;
+			public const int mtrl_picker_invalid_format = 2131624069;
 			
 			// aapt resource value: 0x7F0E0086
-			public const int mtrl_picker_invalid_range = 2131624070;
+			public const int mtrl_picker_invalid_format_example = 2131624070;
 			
 			// aapt resource value: 0x7F0E0087
-			public const int mtrl_picker_navigate_to_year_description = 2131624071;
+			public const int mtrl_picker_invalid_format_use = 2131624071;
 			
 			// aapt resource value: 0x7F0E0088
-			public const int mtrl_picker_out_of_range = 2131624072;
+			public const int mtrl_picker_invalid_range = 2131624072;
 			
 			// aapt resource value: 0x7F0E0089
-			public const int mtrl_picker_range_header_only_end_selected = 2131624073;
+			public const int mtrl_picker_navigate_to_year_description = 2131624073;
 			
 			// aapt resource value: 0x7F0E008A
-			public const int mtrl_picker_range_header_only_start_selected = 2131624074;
+			public const int mtrl_picker_out_of_range = 2131624074;
 			
 			// aapt resource value: 0x7F0E008B
-			public const int mtrl_picker_range_header_selected = 2131624075;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624075;
 			
 			// aapt resource value: 0x7F0E008C
-			public const int mtrl_picker_range_header_title = 2131624076;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624076;
 			
 			// aapt resource value: 0x7F0E008D
-			public const int mtrl_picker_range_header_unselected = 2131624077;
+			public const int mtrl_picker_range_header_selected = 2131624077;
 			
 			// aapt resource value: 0x7F0E008E
-			public const int mtrl_picker_save = 2131624078;
+			public const int mtrl_picker_range_header_title = 2131624078;
 			
 			// aapt resource value: 0x7F0E008F
-			public const int mtrl_picker_text_input_date_hint = 2131624079;
+			public const int mtrl_picker_range_header_unselected = 2131624079;
 			
 			// aapt resource value: 0x7F0E0090
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624080;
+			public const int mtrl_picker_save = 2131624080;
 			
 			// aapt resource value: 0x7F0E0091
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624081;
+			public const int mtrl_picker_text_input_date_hint = 2131624081;
 			
 			// aapt resource value: 0x7F0E0092
-			public const int mtrl_picker_text_input_day_abbr = 2131624082;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624082;
 			
 			// aapt resource value: 0x7F0E0093
-			public const int mtrl_picker_text_input_month_abbr = 2131624083;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624083;
 			
 			// aapt resource value: 0x7F0E0094
-			public const int mtrl_picker_text_input_year_abbr = 2131624084;
+			public const int mtrl_picker_text_input_day_abbr = 2131624084;
 			
 			// aapt resource value: 0x7F0E0095
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624085;
+			public const int mtrl_picker_text_input_month_abbr = 2131624085;
 			
 			// aapt resource value: 0x7F0E0096
-			public const int mtrl_picker_toggle_to_day_selection = 2131624086;
+			public const int mtrl_picker_text_input_year_abbr = 2131624086;
 			
 			// aapt resource value: 0x7F0E0097
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624087;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624087;
 			
 			// aapt resource value: 0x7F0E0098
-			public const int mtrl_picker_toggle_to_year_selection = 2131624088;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624088;
 			
 			// aapt resource value: 0x7F0E0099
-			public const int nav_app_bar_navigate_up_description = 2131624089;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624089;
 			
 			// aapt resource value: 0x7F0E009A
-			public const int nav_app_bar_open_drawer_description = 2131624090;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624090;
 			
 			// aapt resource value: 0x7F0E009B
-			public const int not_set = 2131624091;
+			public const int nav_app_bar_navigate_up_description = 2131624091;
 			
 			// aapt resource value: 0x7F0E009C
-			public const int overflow_tab_title = 2131624092;
+			public const int nav_app_bar_open_drawer_description = 2131624092;
 			
 			// aapt resource value: 0x7F0E009D
-			public const int password_toggle_content_description = 2131624093;
+			public const int not_set = 2131624093;
 			
 			// aapt resource value: 0x7F0E009E
-			public const int path_password_eye = 2131624094;
+			public const int overflow_tab_title = 2131624094;
 			
 			// aapt resource value: 0x7F0E009F
-			public const int path_password_eye_mask_strike_through = 2131624095;
+			public const int password_toggle_content_description = 2131624095;
 			
 			// aapt resource value: 0x7F0E00A0
-			public const int path_password_eye_mask_visible = 2131624096;
+			public const int path_password_eye = 2131624096;
 			
 			// aapt resource value: 0x7F0E00A1
-			public const int path_password_strike_through = 2131624097;
+			public const int path_password_eye_mask_strike_through = 2131624097;
 			
 			// aapt resource value: 0x7F0E00A2
-			public const int preference_copied = 2131624098;
+			public const int path_password_eye_mask_visible = 2131624098;
 			
 			// aapt resource value: 0x7F0E00A3
-			public const int project_id = 2131624099;
+			public const int path_password_strike_through = 2131624099;
 			
 			// aapt resource value: 0x7F0E00A4
-			public const int search_menu_title = 2131624100;
+			public const int preference_copied = 2131624100;
 			
 			// aapt resource value: 0x7F0E00A5
-			public const int status_bar_notification_info_overflow = 2131624101;
+			public const int project_id = 2131624101;
 			
 			// aapt resource value: 0x7F0E00A6
-			public const int summary_collapsed_preference_list = 2131624102;
+			public const int search_menu_title = 2131624102;
 			
 			// aapt resource value: 0x7F0E00A7
-			public const int v7_preference_off = 2131624103;
+			public const int status_bar_notification_info_overflow = 2131624103;
 			
 			// aapt resource value: 0x7F0E00A8
-			public const int v7_preference_on = 2131624104;
+			public const int summary_collapsed_preference_list = 2131624104;
+			
+			// aapt resource value: 0x7F0E00A9
+			public const int v7_preference_off = 2131624105;
+			
+			// aapt resource value: 0x7F0E00AA
+			public const int v7_preference_on = 2131624106;
 			
 			static String()
 			{

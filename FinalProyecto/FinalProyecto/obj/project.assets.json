@@ -195,6 +195,18 @@
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "Xam.Forms.VideoPlayer/1.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.4.0.991265"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xam.Forms.VideoPlayer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xam.Forms.VideoPlayer.dll": {}
+        }
+      },
       "Xam.Plugin.Media/5.0.1": {
         "type": "package",
         "dependencies": {
@@ -1008,6 +1020,27 @@
         "version.txt"
       ]
     },
+    "Xam.Forms.VideoPlayer/1.0.8": {
+      "sha512": "hd38+Bwj5l8Q+YKLATqrWfdhDNCATbqw2qKav/8++49DgNcLQkz9yxQwH6x/BawArfu2uG6Q1N/XC7FMMSuRBA==",
+      "type": "package",
+      "path": "xam.forms.videoplayer/1.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid81/Xam.Forms.VideoPlayer.Android.dll",
+        "lib/MonoAndroid81/Xam.Forms.VideoPlayer.dll",
+        "lib/MonoAndroid81/ru/Xam.Forms.VideoPlayer.Android.resources.dll",
+        "lib/UAP10.0/Xam.Forms.VideoPlayer.UWP.dll",
+        "lib/UAP10.0/Xam.Forms.VideoPlayer.UWP.pri",
+        "lib/UAP10.0/Xam.Forms.VideoPlayer.UWP/Xam.Forms.VideoPlayer.UWP.xr.xml",
+        "lib/UAP10.0/Xam.Forms.VideoPlayer.dll",
+        "lib/Xamarin.iOS10/Xam.Forms.VideoPlayer.dll",
+        "lib/Xamarin.iOS10/Xam.Forms.VideoPlayer.iOS.dll",
+        "lib/netstandard2.0/Xam.Forms.VideoPlayer.dll",
+        "xam.forms.videoplayer.1.0.8.nupkg.sha512",
+        "xam.forms.videoplayer.nuspec"
+      ]
+    },
     "Xam.Plugin.Media/5.0.1": {
       "sha512": "UUR31EEnhDVa4IXgVfQIAL3u9v6YAyppsb5UlO9MNJ4quGGkfcWX++JexjB1nMGqvCzsjAT2t32drKDIXoW4SQ==",
       "type": "package",
@@ -1543,6 +1576,7 @@
       "Newtonsoft.Json >= 13.0.1",
       "Plugin.MediaManager.Forms >= 1.0.9",
       "SkiaSharp >= 2.80.3",
+      "Xam.Forms.VideoPlayer >= 1.0.8",
       "Xam.Plugin.Media >= 5.0.1",
       "Xam.Plugins.Forms.ProgressRing >= 0.1.2",
       "Xamarin.CommunityToolkit >= 1.2.0",
@@ -1622,6 +1656,10 @@
           "SkiaSharp": {
             "target": "Package",
             "version": "[2.80.3, )"
+          },
+          "Xam.Forms.VideoPlayer": {
+            "target": "Package",
+            "version": "[1.0.8, )"
           },
           "Xam.Plugin.Media": {
             "target": "Package",

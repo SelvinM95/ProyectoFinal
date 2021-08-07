@@ -16,7 +16,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label="FinalProyecto.Android" android:theme="@style/MainTheme" android:usesCleartextTraffic="true" android:icon="@drawable/dsapp" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true" android:extractNativeLibs="true">
+  <application android:label="FinalProyecto.Android" android:theme="@style/MainTheme" android:usesCleartextTraffic="true" android:icon="@drawable/dsapp" android:name="crc64cc3626d3e1fedb3e.MainActivity" android:allowBackup="true" android:debuggable="true" android:extractNativeLibs="true">
     <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" android:exported="false" />
     <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:exported="true" android:permission="com.google.android.c2dm.permission.SEND">
       <intent-filter>

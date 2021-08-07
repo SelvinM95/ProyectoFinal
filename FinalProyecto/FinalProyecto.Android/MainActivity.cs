@@ -23,6 +23,7 @@ namespace FinalProyecto.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             UserDialogs.Init(this);
             CrossMediaManager.Current.Init(this);
+            Xam.Forms.VideoPlayer.Android.VideoPlayerRenderer.Init();
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init(enableFastRenderer: true);
             LoadApplication(new App());
         }

@@ -30,6 +30,14 @@ namespace FinalProyecto.Views
             }  
         }
 
-        
+        private void imageDescargar_Tapped(object sender, EventArgs e)
+        {
+
+        }
+
+        private void imageEliminar_Tapped(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -30,6 +30,8 @@ public class MonoPackageManager_Resources {
 		"SkiaSharp.dll",
 		"SkiaSharp.Views.Android.dll",
 		"SkiaSharp.Views.Forms.dll",
+		"Xam.Forms.VideoPlayer.Android.dll",
+		"Xam.Forms.VideoPlayer.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",

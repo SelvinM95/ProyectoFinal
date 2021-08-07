@@ -1,0 +1,3 @@
+values/strings.xml;values/strings.xml
+drawable/ic_fullscreen.png;drawable/ic_fullscreen.png
+drawable/ic_fullscreen_exit.png;drawable/ic_fullscreen_exit.png

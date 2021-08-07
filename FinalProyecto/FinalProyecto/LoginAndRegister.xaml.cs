@@ -36,6 +36,7 @@ namespace FinalProyecto
 
             if (string.IsNullOrEmpty(result) || result == "null" || !response.IsSuccessStatusCode)
             {
+                UserDialogs.Instance.HideLoading();
                 await DisplayAlert("Alerta", "Usuario o Contraseña Incorrecto", "cerrar");
             }
             else
