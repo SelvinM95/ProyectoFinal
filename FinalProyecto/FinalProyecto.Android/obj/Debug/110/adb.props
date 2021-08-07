@@ -1,2 +1,2 @@
-AdbTarget=-s M4VDU17C16002966
+AdbTarget=-s 192.168.64.102:5555
 AdbOptions=
