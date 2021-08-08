@@ -49,7 +49,7 @@ namespace FinalProyecto.Views
                 fileName = obj.fileName
             };
 
-            var detalles = new AudioPlayMyArchivos();
+            var detalles = new AudioPlayMyArchivos(obj.fileName.ToString(), obj.filePath.ToString());
             detalles.BindingContext = detail;
             await Navigation.PushAsync(detalles);
         }

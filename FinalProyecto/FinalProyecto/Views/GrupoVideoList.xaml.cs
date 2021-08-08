@@ -132,7 +132,7 @@ namespace FinalProyecto.Views
                 fileName = obj.fileName
             };
 
-            var detalles = new VideoPlayGrupos();
+            var detalles = new VideoPlayGrupos(obj.fileName.ToString(), obj.filePath.ToString());
             detalles.BindingContext = detail;
             await Navigation.PushAsync(detalles);
         }

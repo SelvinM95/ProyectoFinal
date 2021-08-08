@@ -9,8 +9,11 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <media1:VideoView x:Name="video" Source="{Binding filePath}"  AutoPlay="False" ShowControls="True" Margin="0,0,0,-35" VerticalOptions="FillAndExpand"/>
-
+                <WebView x:Name="Webview"  
+                    HeightRequest="400"  
+                    WidthRequest="1000" 
+                VerticalOptions="FillAndExpand"/>
+                
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,50,0,20" >
 
 

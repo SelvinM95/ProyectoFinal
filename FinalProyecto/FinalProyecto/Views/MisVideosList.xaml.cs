@@ -48,7 +48,7 @@ namespace FinalProyecto.Views
                 fileName = obj.fileName
             };
 
-            var detalles = new VideoPlayMyArchivos();
+            var detalles = new VideoPlayMyArchivos(obj.fileName.ToString(), obj.filePath.ToString());
             detalles.BindingContext = detail;
             await Navigation.PushAsync(detalles ); 
         }

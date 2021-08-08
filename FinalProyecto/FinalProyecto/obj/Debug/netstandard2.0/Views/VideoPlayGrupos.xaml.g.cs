@@ -17,7 +17,7 @@ namespace FinalProyecto.Views {
     public partial class VideoPlayGrupos : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::MediaManager.Forms.VideoView video;
+        private global::Xamarin.Forms.WebView Webview;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.AbsoluteLayout page_google_pixel_5___1_ek1;
@@ -40,7 +40,7 @@ namespace FinalProyecto.Views {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(VideoPlayGrupos));
-            video = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MediaManager.Forms.VideoView>(this, "video");
+            Webview = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.WebView>(this, "Webview");
             page_google_pixel_5___1_ek1 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.AbsoluteLayout>(this, "page_google_pixel_5___1_ek1");
             light_____card__1__container_a__elevated = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.AbsoluteLayout>(this, "light_____card__1__container_a__elevated");
             container = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Frame>(this, "container");
