@@ -13,6 +13,7 @@
                   SeparatorColor="Blue"
                   SeparatorVisibility="None"
                   BackgroundColor="White"
+                  ItemTapped="ListStudent_ItemTapped"
                   SelectionMode="None">
             <ListView.ItemTemplate>
                 <DataTemplate>

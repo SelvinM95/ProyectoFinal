@@ -4,6 +4,7 @@ using Plugin.DownloadManager.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,16 +18,18 @@ namespace FinalProyecto.Views
     {
         String Name;
         String Path;
+        String id;
 
         public IDownloadFile File;
         bool isDownloading = true;
 
-        public AudioPlayMyArchivos(string filename, string filepath)
+        public AudioPlayMyArchivos(string filename, string filepath, string idfile)
         {
             InitializeComponent();
 
             Name = filename;
             Path = filepath;
+            id = idfile;
 
             Webview.Source = Path;
 
@@ -103,14 +106,47 @@ namespace FinalProyecto.Views
         }
 
 
-        private void imageDescargar_Tapped(object sender, EventArgs e)
-        {
-            DownloadFile(Path);
+        private async void imageDescargar_Tapped(object sender, EventArgs e)
+        { 
+            bool answer = await DisplayAlert("Alerta", "¿Descargar Archivos?", "Yes", "No");
+            if (answer == true)
+            {
+                DownloadFile(Path);
+            }
+            else
+            {
+
+            }
         }
 
-        private void imageEliminar_Tapped(object sender, EventArgs e)
+        private async void imageEliminar_Tapped(object sender, EventArgs e)
         {
 
+            bool answer = await DisplayAlert("Alerta", "¿Eliminar Archivo?", "Yes", "No");
+            if (answer == true)
+            { 
+                HttpClient client = new HttpClient();
+                client.BaseAddress = new Uri("http://3.15.208.156");
+                string url = string.Format("/WSXamarin/files/delete/{0}", id);
+                var response = await client.GetAsync(url);
+                var result = response.Content.ReadAsStringAsync().Result;
+
+                if (string.IsNullOrEmpty(result) || result == "null" || !response.IsSuccessStatusCode)
+                {
+                    await DisplayAlert("Alerta", "Archivo Eliminado", "cerrar");
+                    Webview.Source = "about:page";
+                    await Navigation.PopAsync();
+                }
+                else
+                {
+                    await DisplayAlert("Alerta", "Error al Eliminar Archivo", "OK");
+                }
+            }
+            else
+            {
+
+            }
+             
         }
     }
 }

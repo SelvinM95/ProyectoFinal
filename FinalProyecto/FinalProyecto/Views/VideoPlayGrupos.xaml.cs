@@ -100,9 +100,17 @@ namespace FinalProyecto.Views
             CrossDownloadManager.Current.Abort(File);
         }
 
-        private void imageDescargar_Tapped(object sender, EventArgs e)
+        private async void imageDescargar_Tapped(object sender, EventArgs e)
         {
-            DownloadFile(Path);
+            bool answer = await DisplayAlert("Alerta", "¿Descargar Archivos?", "Yes", "No");
+            if (answer == true)
+            {
+                DownloadFile(Path);
+            }
+            else
+            {
+
+            }
         }
     }
 }
