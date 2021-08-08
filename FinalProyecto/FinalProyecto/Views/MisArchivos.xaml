@@ -203,7 +203,7 @@
                                         <Frame CornerRadius="10" HasShadow="True" HeightRequest="50">
                                     <StackLayout Orientation="Horizontal">
                                         <ffimageloading:SvgCachedImage
-                                         Source="dto.svg"
+                                         Source="{Binding icon}"
                                          HorizontalOptions="Center"
                                             WidthRequest="50"
                                             HeightRequest="50"/>
@@ -211,6 +211,7 @@
                                             <Label Text="{Binding fileName}"  VerticalOptions="Center" FontSize="14" TextColor="Black"  Margin="10,0,0,0"></Label>
                                             <Label    VerticalOptions="Center" Text="{Binding uploadDate}" FontSize="10" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
                                             <Label    VerticalOptions="Center" Text="{Binding teamName}" FontSize="10" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                            <Label    VerticalOptions="Center" Text="{Binding fileType}" IsVisible="false" x:Name="file" FontSize="10" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
                                         </StackLayout>
                                     </StackLayout>
                                 </Frame>

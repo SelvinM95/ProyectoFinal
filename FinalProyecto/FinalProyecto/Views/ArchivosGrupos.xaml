@@ -200,7 +200,7 @@
                                 <Frame CornerRadius="10" HasShadow="True" HeightRequest="50">
                                     <StackLayout Orientation="Horizontal">
                                         <ffimageloading:SvgCachedImage
-                                         Source="dto.svg"
+                                          Source="{Binding icon}"
                                          HorizontalOptions="Center"
                                             WidthRequest="50"
                                             HeightRequest="50"/>
