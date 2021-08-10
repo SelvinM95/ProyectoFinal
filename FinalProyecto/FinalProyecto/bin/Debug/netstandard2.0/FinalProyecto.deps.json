@@ -14,6 +14,7 @@
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.1",
           "Plugin.MediaManager.Forms": "1.0.9",
+          "Rg.Plugins.Popup": "2.0.0.12",
           "SkiaSharp": "2.80.3",
           "Xam.Forms.VideoPlayer": "1.0.8",
           "Xam.Plugin.Media": "5.0.1",
@@ -80,6 +81,17 @@
           "lib/netstandard2.0/MediaManager.Forms.dll": {
             "assemblyVersion": "1.0.9.0",
             "fileVersion": "1.0.9.0"
+          }
+        }
+      },
+      "Rg.Plugins.Popup/2.0.0.12": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2083"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Rg.Plugins.Popup.dll": {
+            "assemblyVersion": "2.0.0.12",
+            "fileVersion": "2.0.0.12"
           }
         }
       },
@@ -362,6 +374,13 @@
       "sha512": "sha512-GGyoFNTb4KMwH3YZOHhs1ckUpFYl1HIU8aWb3nwButRoeA0GVQ6A9PyQ8vldGXmNHW4hmMaXDYt0jHBD9R9NGQ==",
       "path": "plugin.mediamanager.forms/1.0.9",
       "hashPath": "plugin.mediamanager.forms.1.0.9.nupkg.sha512"
+    },
+    "Rg.Plugins.Popup/2.0.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Eb4bjZlIwJC39/8ae82G0BM3rC1FS7WwSU2eExRnXg1X0GIJ8yFmz89mYWrxRa7eCzsxI12cdG1/UqNQ3sYBA==",
+      "path": "rg.plugins.popup/2.0.0.12",
+      "hashPath": "rg.plugins.popup.2.0.0.12.nupkg.sha512"
     },
     "SkiaSharp/2.80.3": {
       "type": "package",

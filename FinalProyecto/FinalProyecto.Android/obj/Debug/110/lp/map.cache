@@ -19,6 +19,7 @@ Plugin.DownloadManager.dll
 Plugin.Media.dll
 Plugin.Permissions.dll
 ProgressRing.Forms.Plugin.Android.dll
+Rg.Plugins.Popup.dll
 SkiaSharp.dll
 SkiaSharp.Views.Android.dll
 SkiaSharp.Views.Forms.dll

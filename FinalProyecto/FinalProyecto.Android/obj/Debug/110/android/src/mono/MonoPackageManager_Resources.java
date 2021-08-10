@@ -30,6 +30,7 @@ public class MonoPackageManager_Resources {
 		"Plugin.Permissions.dll",
 		"ProgressRing.Forms.Plugin.Android.dll",
 		"ProgressRing.Forms.Plugin.dll",
+		"Rg.Plugins.Popup.dll",
 		"SkiaSharp.dll",
 		"SkiaSharp.Views.Android.dll",
 		"SkiaSharp.Views.Forms.dll",

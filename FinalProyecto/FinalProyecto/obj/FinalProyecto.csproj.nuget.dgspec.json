@@ -68,6 +68,10 @@
               "target": "Package",
               "version": "[1.0.9, )"
             },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.0.0.12, )"
+            },
             "SkiaSharp": {
               "target": "Package",
               "version": "[2.80.3, )"

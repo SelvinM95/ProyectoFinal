@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "O0SCXi2SD3U5BNesMp9/ua2T4vN5lZ/EYCM2ahDfenz2OpSLgGpWutBXoF4kwTjwOUdxg6uN4HEbRmvVlNRzgQ==",
+  "dgSpecHash": "PTdoJUuD/oi2n+oDZq8WV8czJAcdBw+CBruIY4C1h/585pd1TiswYUSdI+Ka8GfPPlHnylW3odT+GEMpSWkRwQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto.Android\\FinalProyecto.Android.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\SelvinM95\\.nuget\\packages\\plugin.mediamanager\\1.0.9\\plugin.mediamanager.1.0.9.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\plugin.mediamanager.forms\\1.0.9\\plugin.mediamanager.forms.1.0.9.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\plugin.permissions\\6.0.1\\plugin.permissions.6.0.1.nupkg.sha512",
+    "C:\\Users\\SelvinM95\\.nuget\\packages\\rg.plugins.popup\\2.0.0.12\\rg.plugins.popup.2.0.0.12.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\skiasharp\\2.80.3\\skiasharp.2.80.3.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\skiasharp.views\\1.60.3\\skiasharp.views.1.60.3.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\skiasharp.views.forms\\1.60.3\\skiasharp.views.forms.1.60.3.nupkg.sha512",

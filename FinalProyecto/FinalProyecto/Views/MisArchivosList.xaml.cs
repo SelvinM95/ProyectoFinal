@@ -3,6 +3,7 @@ using FinalProyecto.Classes;
 using FinalProyecto.Models;
 using Plugin.DownloadManager;
 using Plugin.DownloadManager.Abstractions;
+using Rg.Plugins.Popup.Services;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -104,19 +105,24 @@ namespace FinalProyecto.Views
         }
 
         private async void ListStudent_ItemTapped(object sender, ItemTappedEventArgs e)
-        { 
+        {
             var obj = (Archivo)e.Item;
 
-            bool answer = await DisplayAlert("Alerta", "¿Descargar Archivos?", "Yes", "No");
-            if (answer == true)
+            var detail = new Archivo
             {
-                DownloadFile(obj.filePath.ToString());
-            }
-            else
-            {
+                filePath = obj.filePath,
+                fileName = obj.fileName
+            };
 
-            }
-           
+            var detalles = new PopupOpcionesArchivos(obj.fileName.ToString(), obj.filePath.ToString(), obj.idFile.ToString());
+            detalles.BindingContext = detail;
+            await PopupNavigation.Instance.PushAsync(detalles); 
+             
+        }
+
+        private void descargar_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }

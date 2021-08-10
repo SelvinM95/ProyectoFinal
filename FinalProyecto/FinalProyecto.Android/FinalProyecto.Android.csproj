@@ -73,6 +73,9 @@
     <PackageReference Include="Plugin.Permissions">
       <Version>6.0.1</Version>
     </PackageReference>
+    <PackageReference Include="Rg.Plugins.Popup">
+      <Version>2.0.0.12</Version>
+    </PackageReference>
     <PackageReference Include="SkiaSharp">
       <Version>2.80.3</Version>
     </PackageReference>
