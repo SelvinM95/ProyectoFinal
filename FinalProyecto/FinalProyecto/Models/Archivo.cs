@@ -22,8 +22,6 @@ namespace FinalProyecto.Models
 
         public string filePath { get; set; }
 
-        public string fileExt { get; set; }
-
         public DateTime uploadDate { get; set; }
 
         public string icon { get; set; }

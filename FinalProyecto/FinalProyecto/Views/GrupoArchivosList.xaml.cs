@@ -89,8 +89,8 @@ namespace FinalProyecto.Views
             }
             else
             {
-                String extension = Path.GetExtension(file.FullPath);
- 
+                String name = file.FileName;
+
                 File = System.IO.File.ReadAllBytes(file.FullPath);
                 String baseFile = Convert.ToBase64String(File);
 
@@ -101,7 +101,7 @@ namespace FinalProyecto.Views
                     teamName = App.Current.Properties["nameGroup"].ToString(),
                     filePath = baseFile,
                     fileType = "Archivos",
-                    fileExt = extension,
+                    fileName = name,
                     uploadDate = DateTime.Now
                 };
              

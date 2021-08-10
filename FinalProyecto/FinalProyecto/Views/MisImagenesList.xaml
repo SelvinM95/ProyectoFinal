@@ -25,7 +25,7 @@
                                             WidthRequest="50"
                                             HeightRequest="50"/>
                                     <StackLayout VerticalOptions="Center">
-                                        <Label Text="{Binding fileName}"  VerticalOptions="Center" FontSize="14" TextColor="Black"  Margin="10,0,0,0"></Label>
+                                        <Label Text="{Binding fileName}"  VerticalOptions="Center" FontSize="10" TextColor="Black"  Margin="10,0,0,0"></Label>
                                         <Label    VerticalOptions="Center" Text="{Binding uploadDate}" FontSize="10" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
                                         <Label    VerticalOptions="Center" Text="{Binding teamName}" FontSize="10" FontAttributes="Italic" TextColor="Black"  Margin="10,0,0,0"></Label>
                                     </StackLayout>
