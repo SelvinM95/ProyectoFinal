@@ -26,27 +26,36 @@ namespace FinalProyecto
 
         private async void guardar_Clicked(object sender, EventArgs e)
         {
-            Random r = new Random();
-            int randNum = r.Next(1000000);
-            String sixDigitNumber = randNum.ToString("D6");
+            if (profile.Source == null || String.IsNullOrEmpty(nombre.Text) || String.IsNullOrEmpty(correo.Text) || String.IsNullOrEmpty(ncuenta.Text) || String.IsNullOrEmpty(Carrera.Text))
+            {
+                await DisplayAlert("Alerta", "Porfavor llene todos los campos", "Ok");
+            }
+            else
+            {
+                Random r = new Random();
+                int randNum = r.Next(1000000);
+                String sixDigitNumber = randNum.ToString("D6");
 
-            String TempPassword = GeneratePassword(10);
-            String base64 = Convert.ToBase64String(image);
-            String name = nombre.Text;
-            String ncount = ncuenta.Text;
-            String tel = telefono.Text;
-            String email = correo.Text;
-            String birtdate = date.Date.ToShortDateString();
-            String carrera = Carrera.Text;
+                String TempPassword = GeneratePassword(10);
+                String base64 = Convert.ToBase64String(image);
+                String name = nombre.Text;
+                String ncount = ncuenta.Text;
+                String tel = telefono.Text;
+                String email = correo.Text;
+                String birtdate = date.Date.ToShortDateString();
+                String carrera = Carrera.Text;
 
-            UserDialogs.Instance.ShowLoading("Cargando");
-            HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://3.15.208.156");
-            string url = string.Format("/WSXamarin/users/verification/{0}/{1}/{2}", email, sixDigitNumber, TempPassword);
-            var response = await client.GetAsync(url);
+                UserDialogs.Instance.ShowLoading("Cargando");
+                HttpClient client = new HttpClient();
+                client.BaseAddress = new Uri("http://3.15.208.156");
+                string url = string.Format("/WSXamarin/users/verification/{0}/{1}/{2}", email, sixDigitNumber, TempPassword);
+                var response = await client.GetAsync(url);
 
-            await Navigation.PushAsync(new CodigoLogin(TempPassword, sixDigitNumber, base64, name, ncount, tel, email, birtdate, carrera));
-            UserDialogs.Instance.HideLoading();
+                await Navigation.PushAsync(new CodigoLogin(TempPassword, sixDigitNumber, base64, name, ncount, tel, email, birtdate, carrera));
+                UserDialogs.Instance.HideLoading();
+            }
+
+            
         }
 
         private async void AddFoto_Clicked(object sender, EventArgs e)

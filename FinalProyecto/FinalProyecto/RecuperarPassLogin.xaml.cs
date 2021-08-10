@@ -21,15 +21,23 @@ namespace FinalProyecto
 
         private async void EnviarCorreo_Clicked(object sender, EventArgs e)
         {
-            UserDialogs.Instance.ShowLoading("Cargando");
-            HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://3.15.208.156");
-            string url = string.Format("/WSXamarin/users/recover/{0}", mail.Text);
-            await client.GetAsync(url);
+            if (String.IsNullOrEmpty(mail.Text))
+            {
+                await DisplayAlert("Alerta", "Ingrese su correo electrónico", "Ok");
+            }
+            else
+            {
+                UserDialogs.Instance.ShowLoading("Cargando");
+                HttpClient client = new HttpClient();
+                client.BaseAddress = new Uri("http://3.15.208.156");
+                string url = string.Format("/WSXamarin/users/recover/{0}", mail.Text);
+                await client.GetAsync(url);
 
-            await DisplayAlert("Alerta", "Se ha Enviado un Correo Electrónico con la Contraseña Recuperada", "cerrar");
-            Application.Current.MainPage = new LoginAndRegister(App.Current);
-            UserDialogs.Instance.HideLoading();
+                await DisplayAlert("Alerta", "Se ha Enviado un Correo Electrónico con la Contraseña Recuperada", "cerrar");
+                Application.Current.MainPage = new LoginAndRegister(App.Current);
+                UserDialogs.Instance.HideLoading();
+            }
+            
         }
     }
 }

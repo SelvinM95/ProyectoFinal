@@ -45,7 +45,7 @@ namespace FinalProyecto.Views
             nombre = await DisplayPromptAsync("Registro", "Ingrese Nombre del grupo");
             if (nombre == null)
             {
-
+                
             }
             else
             {

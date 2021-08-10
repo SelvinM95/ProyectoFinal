@@ -36,6 +36,7 @@ namespace FinalProyecto.Views
 
         private async void EditFtos_Tapped(object sender, EventArgs e)
         {
+            
             if (CrossMedia.Current.IsTakePhotoSupported)
             {
                 var mediaOption = new PickMediaOptions()
@@ -78,8 +79,8 @@ namespace FinalProyecto.Views
 
         private async void guardar_Clicked(object sender, EventArgs e)
         {
-            String base64 = Convert.ToBase64String(image);
-
+            String base64 = Convert.ToBase64String(image); 
+             
             var user = new User
             {
                 NameUser = App.Current.Properties["Name"].ToString(),

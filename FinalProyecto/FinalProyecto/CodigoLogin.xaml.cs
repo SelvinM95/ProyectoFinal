@@ -36,6 +36,7 @@ namespace FinalProyecto
 
         private async void EnviarCorreo_Clicked(object sender, EventArgs e)
         {
+
             if (code.Text == verificationCode)
             {
                 var user = new User
