@@ -1,5 +1,6 @@
 ﻿using Acr.UserDialogs;
 using FinalProyecto.Classes;
+using FinalProyecto.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -38,5 +39,19 @@ namespace FinalProyecto.Views
             UserDialogs.Instance.HideLoading();
         }
 
+        private async void ListStudent_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var obj = (Archivo)e.Item;
+
+            var detail = new Archivo
+            {
+                filePath = obj.filePath,
+                fileName = obj.fileName
+            };
+
+            var detalles = new VerImagenMyArchivos(obj.fileName.ToString(), obj.filePath.ToString(), obj.idFile.ToString());
+            detalles.BindingContext = detail;
+            await Navigation.PushAsync(detalles);
+        }
     }
 }
