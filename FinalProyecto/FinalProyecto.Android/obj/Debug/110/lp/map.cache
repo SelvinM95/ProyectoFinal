@@ -13,6 +13,8 @@ FFImageLoading.Svg.Forms.dll
 FFImageLoading.Svg.Platform.dll
 FormsViewGroup.dll
 IntelliAbb.Xamarin.Controls.dll
+Lottie.Android.dll
+Lottie.Forms.dll
 MediaManager.dll
 MediaManager.Forms.dll
 Plugin.DownloadManager.dll
@@ -23,6 +25,7 @@ Rg.Plugins.Popup.dll
 SkiaSharp.dll
 SkiaSharp.Views.Android.dll
 SkiaSharp.Views.Forms.dll
+Square.OkIO.dll
 Xam.Forms.VideoPlayer.Android.dll
 Xam.Plugin.WebView.Droid.dll
 Xamarin.AndroidX.Activity.dll

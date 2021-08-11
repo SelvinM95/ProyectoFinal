@@ -12,6 +12,7 @@ using Plugin.DownloadManager;
 using Plugin.DownloadManager.Abstractions;
 using System.IO;
 using System.Linq;
+using Lottie.Forms.Platforms.Android;
 
 namespace FinalProyecto.Droid
 {
@@ -26,7 +27,7 @@ namespace FinalProyecto.Droid
             IsPlayServicesAvailable();  
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            UserDialogs.Init(this);
+            UserDialogs.Init(this); 
             CrossMediaManager.Current.Init(this);
             Xam.Forms.VideoPlayer.Android.VideoPlayerRenderer.Init();
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init(enableFastRenderer: true);

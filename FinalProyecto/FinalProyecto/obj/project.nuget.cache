@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "VvgEMneyPXLcpMvEIeIFchYHeMTE7+LDDwGKBoudhCTkzJ9n1NUzcdH5U4lG13YAf77C9HNcVXaCEmHpfaSleQ==",
+  "dgSpecHash": "c/WEU7PPJKzXfz5Q90YnCVDvptZVy71/eLPoJGIvILAPtk6ePxmV/RCmoiiMcZltx7k2yt6SMdNE2F+ka9Jq0w==",
   "success": true,
   "projectFilePath": "C:\\Users\\SelvinM95\\Documents\\GitHub\\ProyectoFinal\\FinalProyecto\\FinalProyecto\\FinalProyecto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SelvinM95\\.nuget\\packages\\acr.userdialogs\\7.1.0.514\\acr.userdialogs.7.1.0.514.nupkg.sha512",
+    "C:\\Users\\SelvinM95\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.0.10\\com.airbnb.xamarin.forms.lottie.4.0.10.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\intelliabb.xamarin.controls\\1.0.148\\intelliabb.xamarin.controls.1.0.148.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\SelvinM95\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

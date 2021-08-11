@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[7.1.0.514, )"
             },
+            "Com.Airbnb.Xamarin.Forms.Lottie": {
+              "target": "Package",
+              "version": "[4.0.10, )"
+            },
             "IntelliAbb.Xamarin.Controls": {
               "target": "Package",
               "version": "[1.0.148, )"
@@ -181,6 +185,10 @@
             "Acr.UserDialogs": {
               "target": "Package",
               "version": "[7.1.0.514, )"
+            },
+            "Com.Airbnb.Xamarin.Forms.Lottie": {
+              "target": "Package",
+              "version": "[4.0.10, )"
             },
             "IntelliAbb.Xamarin.Controls": {
               "target": "Package",

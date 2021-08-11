@@ -10,6 +10,7 @@
       "FinalProyecto/1.0.0": {
         "dependencies": {
           "Acr.UserDialogs": "7.1.0.514",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "4.0.10",
           "IntelliAbb.Xamarin.Controls": "1.0.148",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.1",
@@ -36,6 +37,17 @@
           "lib/netstandard2.0/Acr.UserDialogs.dll": {
             "assemblyVersion": "7.1.0.514",
             "fileVersion": "7.1.0.514"
+          }
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/4.0.10": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2083"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Lottie.Forms.dll": {
+            "assemblyVersion": "4.0.10.0",
+            "fileVersion": "4.0.10.0"
           }
         }
       },
@@ -332,6 +344,13 @@
       "sha512": "sha512-jSjxoOtwS4qHXRpRJxt5anCwRxga+RK22N0w/hR4wLwmxfVBv7eVHX+BsMYFF/Qe6SJGO5dJDcIyh/7+gbEkCA==",
       "path": "acr.userdialogs/7.1.0.514",
       "hashPath": "acr.userdialogs.7.1.0.514.nupkg.sha512"
+    },
+    "Com.Airbnb.Xamarin.Forms.Lottie/4.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8FjZg6fCRcH3s1elgAiMEiX1CF5alaUCsNUG0I16pcycZAXeh2P4ZU+c1PRVnA/GwyBAQLU+yV/jWhW2ORNgkw==",
+      "path": "com.airbnb.xamarin.forms.lottie/4.0.10",
+      "hashPath": "com.airbnb.xamarin.forms.lottie.4.0.10.nupkg.sha512"
     },
     "IntelliAbb.Xamarin.Controls/1.0.148": {
       "type": "package",

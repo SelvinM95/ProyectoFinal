@@ -43,7 +43,7 @@
                         <Label
                         TextColor="White"
                         FontAttributes="Bold"
-                        FontSize="14"
+                        FontSize="13"
                         x:Name="nombre"
                         HorizontalOptions="Center"
                         VerticalOptions="CenterAndExpand" />
@@ -51,7 +51,7 @@
                         <Label
                          x:Name="cuenta"
                          TextColor="White"
-                         FontSize="14" 
+                         FontSize="13" 
                          HorizontalOptions="Center"
                          VerticalOptions="CenterAndExpand" />
 
