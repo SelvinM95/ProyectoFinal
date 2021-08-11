@@ -100,7 +100,9 @@ namespace FinalProyecto.Views
                 if (response.StatusCode == HttpStatusCode.OK)
                 {
                     UserDialogs.Instance.HideLoading();
-                    await DisplayAlert("Datos", "Archivo Subido Correctamente", "OK");
+                    await DisplayAlert("Datos", "Archivo Subido Correctamente", "OK"); 
+                    string url2 = string.Format("http://3.15.208.156/WSXamarin/files/uploadnotification/{0}/{1}", App.Current.Properties["Id"].ToString(), App.Current.Properties["idGroup"].ToString());
+                    await client.GetAsync(url2);
                     recargar();
                 }
             }
