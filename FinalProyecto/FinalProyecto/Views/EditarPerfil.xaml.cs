@@ -34,9 +34,19 @@ namespace FinalProyecto.Views
             correo.Text = App.Current.Properties["Email"].ToString();
         }
 
+        protected override void OnAppearing()
+        {
+            HttpWebRequest myReq = (HttpWebRequest)WebRequest.Create(App.Current.Properties["Path"].ToString());
+            WebResponse myResp = myReq.GetResponse();
+
+            Stream stream = myResp.GetResponseStream(); 
+            image = GetMyImageBytes(stream);
+        }
+
         private async void EditFtos_Tapped(object sender, EventArgs e)
         {
-            
+            image = null; 
+
             if (CrossMedia.Current.IsTakePhotoSupported)
             {
                 var mediaOption = new PickMediaOptions()
@@ -72,6 +82,17 @@ namespace FinalProyecto.Views
             return ImageBytes;
         }
 
+        private byte[] GetMyImageBytes(Stream file)
+        {
+            byte[] ImageBytes;
+            using (var memoryStream = new MemoryStream())
+            {
+                file.CopyTo(memoryStream);
+                ImageBytes = memoryStream.ToArray();
+            }
+            return ImageBytes;
+        }
+
         private async void CambioPass_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new CambioPass());
@@ -80,50 +101,51 @@ namespace FinalProyecto.Views
         private async void guardar_Clicked(object sender, EventArgs e)
         {
             String base64 = Convert.ToBase64String(image); 
-             
-            var user = new User
-            {
-                NameUser = App.Current.Properties["Name"].ToString(),
-                nCountUser = App.Current.Properties["Account"].ToString(),
-                telUser = tel.Text,
-                fotoUser = base64,
-                emailUser = correo.Text,
-                birthdateUser = date.Text,
-                carreraUser = carrera.Text
-            };
+           
+                var user = new User
+                {
+                    NameUser = App.Current.Properties["Name"].ToString(),
+                    nCountUser = App.Current.Properties["Account"].ToString(),
+                    telUser = tel.Text,
+                    fotoUser = base64,
+                    emailUser = correo.Text,
+                    birthdateUser = date.Text,
+                    carreraUser = carrera.Text
+                };
 
-            var request = new HttpRequestMessage();
-            Uri RequestUri = new Uri("http://3.15.208.156/WSXamarin/users/update/" + App.Current.Properties["Id"].ToString());
+                var request = new HttpRequestMessage();
+                Uri RequestUri = new Uri("http://3.15.208.156/WSXamarin/users/update/" + App.Current.Properties["Id"].ToString());
 
-            var client = new HttpClient();
-            var json = JsonConvert.SerializeObject(user);
-            var contentJSON = new StringContent(json, Encoding.UTF8, "application/json");
-            var response = await client.PostAsync(RequestUri, contentJSON);
-            var result = response.Content.ReadAsStringAsync().Result;
+                var client = new HttpClient();
+                var json = JsonConvert.SerializeObject(user);
+                var contentJSON = new StringContent(json, Encoding.UTF8, "application/json");
+                var response = await client.PostAsync(RequestUri, contentJSON);
+                var result = response.Content.ReadAsStringAsync().Result;
 
-            if (response.StatusCode == HttpStatusCode.OK)
-            {
-                var res = JsonConvert.DeserializeObject<User>(result);
+                if (response.StatusCode == HttpStatusCode.OK)
+                {
+                    var res = JsonConvert.DeserializeObject<User>(result);
 
-                App.Current.Properties["Name"] = "";
-                App.Current.Properties["Account"] = "";
-                App.Current.Properties["Telephone"] = "";
-                App.Current.Properties["Carrera"] = "";
-                App.Current.Properties["Email"] = "";
-                App.Current.Properties["Birthday"] = "";
-                App.Current.Properties["Path"] = "";
+                    App.Current.Properties["Name"] = "";
+                    App.Current.Properties["Account"] = "";
+                    App.Current.Properties["Telephone"] = "";
+                    App.Current.Properties["Carrera"] = "";
+                    App.Current.Properties["Email"] = "";
+                    App.Current.Properties["Birthday"] = "";
+                    App.Current.Properties["Path"] = "";
 
-                App.Current.Properties["Name"] = res.NameUser;
-                App.Current.Properties["Account"] = res.nCountUser;
-                App.Current.Properties["Telephone"] = res.telUser;
-                App.Current.Properties["Carrera"] = res.carreraUser;
-                App.Current.Properties["Email"] = res.emailUser;
-                App.Current.Properties["Birthday"] = res.birthdateUser;
-                App.Current.Properties["Path"] = res.fotoUser;
+                    App.Current.Properties["Name"] = res.NameUser;
+                    App.Current.Properties["Account"] = res.nCountUser;
+                    App.Current.Properties["Telephone"] = res.telUser;
+                    App.Current.Properties["Carrera"] = res.carreraUser;
+                    App.Current.Properties["Email"] = res.emailUser;
+                    App.Current.Properties["Birthday"] = res.birthdateUser;
+                    App.Current.Properties["Path"] = res.fotoUser;
 
-                await DisplayAlert("Datos", "Datos Actualizados", "OK");
-                await Navigation.PopAsync();
-            }
+                    await DisplayAlert("Datos", "Datos Actualizados", "OK");
+                    await Navigation.PopAsync();
+                }
+            
         }
     }
 }
