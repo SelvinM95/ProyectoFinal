@@ -84,6 +84,16 @@ namespace FinalProyecto
             }
         }
 
+        protected override bool OnBackButtonPressed()
+        {
+            if (true)
+            {
+                Application.Current.MainPage = new LoginAndRegister(App.Current);
+                return true;
+
+            }
+        }
+
         private byte[] GetImageBytes(MediaFile file)
         {
             byte[] ImageBytes;

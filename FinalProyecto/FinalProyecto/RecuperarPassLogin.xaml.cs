@@ -39,5 +39,16 @@ namespace FinalProyecto
             }
             
         }
+
+        protected override bool OnBackButtonPressed()
+        {
+            if (true)
+            {
+                Application.Current.MainPage = new LoginAndRegister(App.Current);
+                return true;
+
+            }
+        }
+
     }
 }
